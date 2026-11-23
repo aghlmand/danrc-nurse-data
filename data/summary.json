@@ -1,0 +1,111 @@
+{
+ "day": "2026-11-23",
+ "updated": "2026-11-23T20:21:44.428Z",
+ "source": "Bundesagentur für Arbeit – Jobsuche",
+ "counts": {
+  "spec:Pflegefachkraft": 23053,
+  "spec:Gesundheits- und Krankenpfleger": 17091,
+  "spec:Altenpfleger": 17718,
+  "spec:Intensivpflege": 3363,
+  "spec:OP-Pflege": 971,
+  "spec:Kinderkrankenpfleger": 3907,
+  "spec:Pflegehelfer": 3310,
+  "spec:Hebamme": 168,
+  "all": 23053,
+  "city:Berlin": 1243,
+  "city:Hamburg": 774,
+  "city:München": 474,
+  "city:Köln": 638,
+  "city:Frankfurt am Main": 462,
+  "city:Stuttgart": 555,
+  "city:Düsseldorf": 878,
+  "city:Leipzig": 295,
+  "city:Dortmund": 680,
+  "city:Essen": 909,
+  "city:Bremen": 405,
+  "city:Dresden": 463,
+  "city:Hannover": 391,
+  "city:Nürnberg": 396,
+  "anerkennung": 1095
+ },
+ "regions": [
+  {
+   "region": "NORDRHEIN_WESTFALEN",
+   "n": 199
+  },
+  {
+   "region": "BADEN_WUERTTEMBERG",
+   "n": 142
+  },
+  {
+   "region": "BAYERN",
+   "n": 121
+  },
+  {
+   "region": "NIEDERSACHSEN",
+   "n": 117
+  },
+  {
+   "region": "SACHSEN",
+   "n": 98
+  },
+  {
+   "region": "HESSEN",
+   "n": 80
+  },
+  {
+   "region": "BRANDENBURG",
+   "n": 55
+  },
+  {
+   "region": "BERLIN",
+   "n": 53
+  },
+  {
+   "region": "RHEINLAND_PFALZ",
+   "n": 46
+  },
+  {
+   "region": "SCHLESWIG_HOLSTEIN",
+   "n": 40
+  },
+  {
+   "region": "THUERINGEN",
+   "n": 36
+  },
+  {
+   "region": "SACHSEN_ANHALT",
+   "n": 32
+  },
+  {
+   "region": "MECKLENBURG_VORPOMMERN",
+   "n": 26
+  },
+  {
+   "region": "HAMBURG",
+   "n": 19
+  },
+  {
+   "region": "BREMEN",
+   "n": 17
+  },
+  {
+   "region": "SAARLAND",
+   "n": 3
+  },
+  {
+   "region": "ZUERICH",
+   "n": 1
+  }
+ ],
+ "newToday": 1095,
+ "history": [
+  {
+   "day": "2026-11-23",
+   "all": 23053,
+   "anerkennung": 1095,
+   "active": 1095,
+   "new": 1095
+  }
+ ]
+}
