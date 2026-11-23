@@ -1,6 +1,6 @@
 {
  "day": "2026-11-23",
- "updated": "2026-11-23T22:04:36.458Z",
+ "updated": "2026-11-23T22:10:00.703Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "profs": [
   {
@@ -280,7 +280,7 @@
    "was": "Arzt",
    "fa": "پزشک",
    "g": "med",
-   "total": 16738,
+   "total": 16737,
    "cities": {
     "Berlin": 662,
     "Hamburg": 198,
@@ -392,7 +392,7 @@
    "g": "med",
    "total": 7120,
    "cities": {
-    "Berlin": 506,
+    "Berlin": 505,
     "Hamburg": 163,
     "München": 137,
     "Köln": 136,
@@ -545,14 +545,15 @@
     "NIEDERSACHSEN": 2,
     "TIROL": 2,
     "HAMBURG": 3,
-    "HESSEN": 3,
     "NORDRHEIN_WESTFALEN": 4,
     "BERLIN": 2,
     "SCHLESWIG_HOLSTEIN": 1,
+    "HESSEN": 2,
     "STEIERMARK": 2,
     "OBEROESTERREICH": 10,
     "VORARLBERG": 1,
-    "BAYERN": 4
+    "BAYERN": 4,
+    "BRANDENBURG": 1
    }
   },
   {
@@ -677,7 +678,7 @@
    "was": "Zerspanungsmechaniker",
    "fa": "تراشکار و CNC",
    "g": "craft",
-   "total": 12868,
+   "total": 12869,
    "cities": {
     "Berlin": 309,
     "Hamburg": 352,
@@ -1191,7 +1192,7 @@
    "mech": 4972,
    "elec": 674,
    "arch": 4039,
-   "doctor": 16738,
+   "doctor": 16737,
    "dentist": 1316,
    "pharma": 640,
    "physio": 7120,
@@ -1201,7 +1202,7 @@
    "carmech": 14865,
    "mechatronic": 33967,
    "welder": 10493,
-   "cnc": 12868,
+   "cnc": 12869,
    "mason": 4463,
    "carpenter": 9328,
    "driver": 16989,
