@@ -23,7 +23,7 @@ async function ba(params, tries = 3) {
   }
 }
 async function count(was, wo) {
-  const p = { was, size: '1' };
+  const p = { was, size: '1', wo: 'Deutschland' };
   if (wo) Object.assign(p, { wo, umkreis: '25' });
   const j = await ba(p);
   await sleep(300);

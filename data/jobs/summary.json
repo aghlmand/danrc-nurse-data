@@ -1,6 +1,6 @@
 {
  "day": "2026-11-23",
- "updated": "2026-11-23T22:14:46.069Z",
+ "updated": "2026-11-23T22:27:59.980Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "profs": [
   {
@@ -8,7 +8,7 @@
    "was": "Softwareentwickler",
    "fa": "برنامه‌نویس",
    "g": "it",
-   "total": 3217,
+   "total": 2985,
    "cities": {
     "Berlin": 188,
     "Hamburg": 202,
@@ -26,9 +26,18 @@
     "Nürnberg": 112
    },
    "regions": {
-    "RHEINLAND_PFALZ": 1,
-    "BADEN_WUERTTEMBERG": 2,
-    "BAYERN": 2
+    "RHEINLAND_PFALZ": 2,
+    "BADEN_WUERTTEMBERG": 16,
+    "NORDRHEIN_WESTFALEN": 7,
+    "NIEDERSACHSEN": 8,
+    "THUERINGEN": 2,
+    "HESSEN": 7,
+    "BAYERN": 12,
+    "BREMEN": 2,
+    "BERLIN": 1,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "SCHLESWIG_HOLSTEIN": 1,
+    "BRANDENBURG": 1
    }
   },
   {
@@ -36,7 +45,7 @@
    "was": "IT-Administrator",
    "fa": "شبکه و IT",
    "g": "it",
-   "total": 2365,
+   "total": 2360,
    "cities": {
     "Berlin": 158,
     "Hamburg": 96,
@@ -75,7 +84,7 @@
    "was": "Data Analyst",
    "fa": "تحلیلگر داده",
    "g": "it",
-   "total": 333,
+   "total": 327,
    "cities": {
     "Berlin": 38,
     "Hamburg": 34,
@@ -97,7 +106,7 @@
     "BADEN_WUERTTEMBERG": 7,
     "BREMEN": 1,
     "NORDRHEIN_WESTFALEN": 15,
-    "BAYERN": 12,
+    "BAYERN": 13,
     "HESSEN": 3,
     "BERLIN": 4,
     "MECKLENBURG_VORPOMMERN": 3,
@@ -112,10 +121,10 @@
    "was": "Bauingenieur",
    "fa": "مهندس عمران",
    "g": "eng",
-   "total": 3285,
+   "total": 3273,
    "cities": {
     "Berlin": 238,
-    "Hamburg": 153,
+    "Hamburg": 152,
     "München": 141,
     "Köln": 96,
     "Frankfurt am Main": 113,
@@ -151,7 +160,7 @@
    "was": "Ingenieur Maschinenbau",
    "fa": "مهندس مکانیک",
    "g": "eng",
-   "total": 4972,
+   "total": 4924,
    "cities": {
     "Berlin": 179,
     "Hamburg": 291,
@@ -169,14 +178,18 @@
     "Nürnberg": 128
    },
    "regions": {
-    "HESSEN": 2,
-    "BADEN_WUERTTEMBERG": 5,
+    "HESSEN": 5,
+    "BADEN_WUERTTEMBERG": 10,
+    "NIEDERSACHSEN": 12,
+    "NORDRHEIN_WESTFALEN": 9,
     "BERLIN": 2,
-    "NORDRHEIN_WESTFALEN": 7,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN_ANHALT": 2,
-    "SACHSEN": 1,
-    "BAYERN": 2
+    "SACHSEN": 4,
+    "BREMEN": 3,
+    "BAYERN": 5,
+    "HAMBURG": 4,
+    "SACHSEN_ANHALT": 3,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "BRANDENBURG": 1
    }
   },
   {
@@ -184,7 +197,7 @@
    "was": "Elektroingenieur",
    "fa": "مهندس برق",
    "g": "eng",
-   "total": 674,
+   "total": 671,
    "cities": {
     "Berlin": 66,
     "Hamburg": 46,
@@ -207,7 +220,7 @@
     "NORDRHEIN_WESTFALEN": 8,
     "SACHSEN": 9,
     "BAYERN": 5,
-    "SCHLESWIG_HOLSTEIN": 6,
+    "SCHLESWIG_HOLSTEIN": 7,
     "HAMBURG": 4,
     "BADEN_WUERTTEMBERG": 2,
     "NIEDERSACHSEN": 5,
@@ -222,7 +235,7 @@
    "was": "Architekt",
    "fa": "معمار",
    "g": "eng",
-   "total": 4039,
+   "total": 4006,
    "cities": {
     "Berlin": 423,
     "Hamburg": 256,
@@ -240,18 +253,18 @@
     "Nürnberg": 98
    },
    "regions": {
-    "BAYERN": 5,
+    "BAYERN": 6,
     "BREMEN": 3,
-    "HESSEN": 3,
-    "NORDRHEIN_WESTFALEN": 8,
+    "HESSEN": 5,
+    "NORDRHEIN_WESTFALEN": 9,
     "HAMBURG": 2,
     "MECKLENBURG_VORPOMMERN": 4,
-    "BRANDENBURG": 3,
+    "BRANDENBURG": 4,
     "NIEDERSACHSEN": 4,
+    "BERLIN": 5,
     "THUERINGEN": 3,
     "RHEINLAND_PFALZ": 5,
     "SACHSEN": 1,
-    "BERLIN": 3,
     "BADEN_WUERTTEMBERG": 6,
     "SAARLAND": 1,
     "SCHLESWIG_HOLSTEIN": 1
@@ -262,7 +275,7 @@
    "was": "Arzt",
    "fa": "پزشک",
    "g": "med",
-   "total": 16737,
+   "total": 16466,
    "cities": {
     "Berlin": 662,
     "Hamburg": 198,
@@ -280,7 +293,21 @@
     "Nürnberg": 518
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 3
+    "SACHSEN_ANHALT": 5,
+    "BRANDENBURG": 4,
+    "NIEDERSACHSEN": 3,
+    "RHEINLAND_PFALZ": 5,
+    "BADEN_WUERTTEMBERG": 16,
+    "SAARLAND": 1,
+    "BAYERN": 9,
+    "HESSEN": 2,
+    "HAMBURG": 1,
+    "NORDRHEIN_WESTFALEN": 2,
+    "THUERINGEN": 3,
+    "BERLIN": 2,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "SACHSEN": 1,
+    "SCHLESWIG_HOLSTEIN": 3
    }
   },
   {
@@ -288,7 +315,7 @@
    "was": "Zahnarzt",
    "fa": "دندانپزشک",
    "g": "med",
-   "total": 1316,
+   "total": 1312,
    "cities": {
     "Berlin": 76,
     "Hamburg": 37,
@@ -307,7 +334,7 @@
    },
    "regions": {
     "BRANDENBURG": 5,
-    "NORDRHEIN_WESTFALEN": 12,
+    "NORDRHEIN_WESTFALEN": 13,
     "BADEN_WUERTTEMBERG": 11,
     "RHEINLAND_PFALZ": 3,
     "NIEDERSACHSEN": 2,
@@ -327,7 +354,7 @@
    "was": "Apotheker",
    "fa": "داروساز",
    "g": "med",
-   "total": 640,
+   "total": 632,
    "cities": {
     "Berlin": 14,
     "Hamburg": 4,
@@ -347,7 +374,7 @@
    "regions": {
     "NORDRHEIN_WESTFALEN": 13,
     "BADEN_WUERTTEMBERG": 7,
-    "HESSEN": 11,
+    "HESSEN": 12,
     "SACHSEN_ANHALT": 2,
     "MECKLENBURG_VORPOMMERN": 6,
     "BAYERN": 8,
@@ -362,10 +389,10 @@
    "was": "Physiotherapeut",
    "fa": "فیزیوتراپیست",
    "g": "med",
-   "total": 7120,
+   "total": 7016,
    "cities": {
     "Berlin": 505,
-    "Hamburg": 163,
+    "Hamburg": 164,
     "München": 137,
     "Köln": 136,
     "Frankfurt am Main": 127,
@@ -380,19 +407,19 @@
     "Nürnberg": 135
    },
    "regions": {
-    "BERLIN": 2,
-    "BADEN_WUERTTEMBERG": 1,
-    "RHEINLAND_PFALZ": 2,
+    "BERLIN": 3,
+    "BADEN_WUERTTEMBERG": 5,
+    "RHEINLAND_PFALZ": 3,
     "NIEDERSACHSEN": 2,
-    "THUERINGEN": 1,
-    "NORDRHEIN_WESTFALEN": 9,
-    "SACHSEN_ANHALT": 2,
-    "BAYERN": 7,
-    "HESSEN": 6,
-    "BRANDENBURG": 1,
+    "THUERINGEN": 2,
+    "NORDRHEIN_WESTFALEN": 14,
+    "SACHSEN_ANHALT": 4,
+    "BAYERN": 9,
+    "HESSEN": 9,
+    "BRANDENBURG": 3,
     "SCHLESWIG_HOLSTEIN": 1,
     "SACHSEN": 3,
-    "MECKLENBURG_VORPOMMERN": 1
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -400,7 +427,7 @@
    "was": "Medizinische Fachangestellte",
    "fa": "دستیار پزشک (MFA)",
    "g": "med",
-   "total": 7715,
+   "total": 7698,
    "cities": {
     "Berlin": 788,
     "Hamburg": 245,
@@ -419,17 +446,17 @@
    },
    "regions": {
     "NIEDERSACHSEN": 3,
-    "BADEN_WUERTTEMBERG": 4,
+    "BADEN_WUERTTEMBERG": 5,
     "BREMEN": 1,
     "SACHSEN_ANHALT": 4,
-    "BAYERN": 10,
-    "BERLIN": 2,
-    "NORDRHEIN_WESTFALEN": 12,
+    "BAYERN": 12,
+    "BERLIN": 3,
+    "NORDRHEIN_WESTFALEN": 15,
     "SCHLESWIG_HOLSTEIN": 1,
     "HESSEN": 4,
     "RHEINLAND_PFALZ": 3,
     "BRANDENBURG": 4,
-    "SACHSEN": 1,
+    "SACHSEN": 2,
     "MECKLENBURG_VORPOMMERN": 1,
     "THUERINGEN": 1,
     "HAMBURG": 1
@@ -440,7 +467,7 @@
    "was": "Elektriker",
    "fa": "برق‌کار",
    "g": "craft",
-   "total": 15088,
+   "total": 15044,
    "cities": {
     "Berlin": 654,
     "Hamburg": 505,
@@ -478,7 +505,7 @@
    "was": "Anlagenmechaniker",
    "fa": "لوله‌کش و تأسیسات",
    "g": "craft",
-   "total": 18958,
+   "total": 18832,
    "cities": {
     "Berlin": 985,
     "Hamburg": 739,
@@ -496,16 +523,19 @@
     "Nürnberg": 456
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 8,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "THUERINGEN": 4,
-    "SACHSEN": 3,
-    "NIEDERSACHSEN": 2,
-    "HAMBURG": 3,
-    "NORDRHEIN_WESTFALEN": 4,
+    "BADEN_WUERTTEMBERG": 10,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "THUERINGEN": 6,
+    "SACHSEN": 7,
+    "NIEDERSACHSEN": 3,
+    "HAMBURG": 4,
+    "HESSEN": 3,
+    "NORDRHEIN_WESTFALEN": 11,
+    "BAYERN": 9,
     "BERLIN": 2,
     "SCHLESWIG_HOLSTEIN": 1,
-    "BAYERN": 4
+    "BRANDENBURG": 1,
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -513,7 +543,7 @@
    "was": "Kfz-Mechatroniker",
    "fa": "مکانیک خودرو",
    "g": "craft",
-   "total": 14865,
+   "total": 14590,
    "cities": {
     "Berlin": 423,
     "Hamburg": 445,
@@ -552,7 +582,7 @@
    "was": "Mechatroniker",
    "fa": "مکاترونیک",
    "g": "craft",
-   "total": 33966,
+   "total": 33749,
    "cities": {
     "Berlin": 1225,
     "Hamburg": 1190,
@@ -575,10 +605,10 @@
     "RHEINLAND_PFALZ": 1,
     "MECKLENBURG_VORPOMMERN": 2,
     "BRANDENBURG": 1,
-    "BADEN_WUERTTEMBERG": 7,
+    "BADEN_WUERTTEMBERG": 9,
     "HAMBURG": 2,
     "NIEDERSACHSEN": 7,
-    "NORDRHEIN_WESTFALEN": 15,
+    "NORDRHEIN_WESTFALEN": 17,
     "HESSEN": 5,
     "BAYERN": 3,
     "SACHSEN": 3,
@@ -591,7 +621,7 @@
    "was": "Schweißer",
    "fa": "جوشکار",
    "g": "craft",
-   "total": 10493,
+   "total": 10263,
    "cities": {
     "Berlin": 184,
     "Hamburg": 200,
@@ -609,16 +639,17 @@
     "Nürnberg": 125
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 13,
-    "NORDRHEIN_WESTFALEN": 14,
+    "BADEN_WUERTTEMBERG": 14,
+    "NORDRHEIN_WESTFALEN": 18,
     "MECKLENBURG_VORPOMMERN": 1,
-    "NIEDERSACHSEN": 4,
+    "NIEDERSACHSEN": 6,
     "BAYERN": 9,
     "SACHSEN": 3,
     "BREMEN": 1,
     "THUERINGEN": 3,
     "SCHLESWIG_HOLSTEIN": 3,
-    "BERLIN": 1
+    "BERLIN": 1,
+    "HAMBURG": 1
    }
   },
   {
@@ -626,7 +657,7 @@
    "was": "Zerspanungsmechaniker",
    "fa": "تراشکار و CNC",
    "g": "craft",
-   "total": 12869,
+   "total": 12729,
    "cities": {
     "Berlin": 309,
     "Hamburg": 352,
@@ -644,10 +675,10 @@
     "Nürnberg": 214
    },
    "regions": {
-    "BAYERN": 10,
+    "BAYERN": 11,
     "NORDRHEIN_WESTFALEN": 14,
     "BREMEN": 3,
-    "BADEN_WUERTTEMBERG": 9,
+    "BADEN_WUERTTEMBERG": 10,
     "NIEDERSACHSEN": 4,
     "THUERINGEN": 2,
     "HESSEN": 5,
@@ -664,7 +695,7 @@
    "was": "Maurer",
    "fa": "بنّا",
    "g": "craft",
-   "total": 4463,
+   "total": 4225,
    "cities": {
     "Berlin": 197,
     "Hamburg": 73,
@@ -682,9 +713,16 @@
     "Nürnberg": 78
    },
    "regions": {
-    "NIEDERSACHSEN": 1,
-    "BAYERN": 1,
-    "SACHSEN": 1
+    "NIEDERSACHSEN": 10,
+    "BAYERN": 16,
+    "SACHSEN": 7,
+    "BADEN_WUERTTEMBERG": 7,
+    "NORDRHEIN_WESTFALEN": 11,
+    "BRANDENBURG": 1,
+    "SCHLESWIG_HOLSTEIN": 1,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "THUERINGEN": 3,
+    "RHEINLAND_PFALZ": 2
    }
   },
   {
@@ -692,7 +730,7 @@
    "was": "Tischler",
    "fa": "نجار",
    "g": "craft",
-   "total": 9328,
+   "total": 8986,
    "cities": {
     "Berlin": 328,
     "Hamburg": 269,
@@ -710,13 +748,19 @@
     "Nürnberg": 149
    },
    "regions": {
-    "NIEDERSACHSEN": 6,
-    "NORDRHEIN_WESTFALEN": 6,
-    "SACHSEN": 2,
+    "NIEDERSACHSEN": 13,
+    "NORDRHEIN_WESTFALEN": 16,
+    "SACHSEN": 6,
     "RHEINLAND_PFALZ": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "BAYERN": 6,
     "HAMBURG": 2,
-    "BADEN_WUERTTEMBERG": 1
+    "BADEN_WUERTTEMBERG": 6,
+    "HESSEN": 4,
+    "SACHSEN_ANHALT": 1,
+    "THUERINGEN": 1,
+    "BREMEN": 1,
+    "BERLIN": 1
    }
   },
   {
@@ -724,7 +768,7 @@
    "was": "Berufskraftfahrer",
    "fa": "راننده‌ی کامیون",
    "g": "trans",
-   "total": 16989,
+   "total": 16374,
    "cities": {
     "Berlin": 844,
     "Hamburg": 449,
@@ -742,16 +786,18 @@
     "Nürnberg": 221
    },
    "regions": {
-    "SACHSEN": 4,
-    "NORDRHEIN_WESTFALEN": 5,
-    "RHEINLAND_PFALZ": 1,
-    "BAYERN": 2,
-    "HESSEN": 1,
-    "BADEN_WUERTTEMBERG": 4,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "NIEDERSACHSEN": 4,
-    "SACHSEN_ANHALT": 1,
-    "BRANDENBURG": 1
+    "SACHSEN": 7,
+    "NORDRHEIN_WESTFALEN": 10,
+    "RHEINLAND_PFALZ": 2,
+    "BAYERN": 5,
+    "HESSEN": 2,
+    "BADEN_WUERTTEMBERG": 16,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "NIEDERSACHSEN": 8,
+    "SACHSEN_ANHALT": 2,
+    "BRANDENBURG": 2,
+    "BREMEN": 1,
+    "HAMBURG": 1
    }
   },
   {
@@ -759,7 +805,7 @@
    "was": "Busfahrer",
    "fa": "راننده‌ی اتوبوس",
    "g": "trans",
-   "total": 1144,
+   "total": 1066,
    "cities": {
     "Berlin": 92,
     "Hamburg": 21,
@@ -777,8 +823,18 @@
     "Nürnberg": 14
    },
    "regions": {
-    "BAYERN": 4,
-    "NORDRHEIN_WESTFALEN": 2
+    "THUERINGEN": 2,
+    "BAYERN": 13,
+    "BADEN_WUERTTEMBERG": 15,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "NORDRHEIN_WESTFALEN": 9,
+    "SACHSEN_ANHALT": 1,
+    "NIEDERSACHSEN": 5,
+    "BERLIN": 1,
+    "BRANDENBURG": 4,
+    "RHEINLAND_PFALZ": 1,
+    "SAARLAND": 1,
+    "SACHSEN": 1
    }
   },
   {
@@ -786,7 +842,7 @@
    "was": "Fachkraft für Lagerlogistik",
    "fa": "انبار و لجستیک",
    "g": "trans",
-   "total": 14713,
+   "total": 14604,
    "cities": {
     "Berlin": 402,
     "Hamburg": 580,
@@ -822,7 +878,7 @@
    "was": "Koch",
    "fa": "آشپز",
    "g": "hosp",
-   "total": 9042,
+   "total": 8040,
    "cities": {
     "Berlin": 446,
     "Hamburg": 220,
@@ -841,18 +897,21 @@
    },
    "regions": {
     "THUERINGEN": 1,
-    "SACHSEN": 3,
+    "SACHSEN": 4,
     "HESSEN": 3,
-    "NORDRHEIN_WESTFALEN": 6,
-    "BAYERN": 9,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "NIEDERSACHSEN": 2,
-    "BRANDENBURG": 1,
-    "RHEINLAND_PFALZ": 2,
-    "BADEN_WUERTTEMBERG": 3,
+    "NORDRHEIN_WESTFALEN": 7,
+    "BAYERN": 14,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "NIEDERSACHSEN": 4,
+    "BRANDENBURG": 2,
+    "RHEINLAND_PFALZ": 3,
+    "BADEN_WUERTTEMBERG": 6,
     "BREMEN": 1,
-    "BERLIN": 1
+    "BERLIN": 4,
+    "HAMBURG": 2,
+    "SACHSEN_ANHALT": 1,
+    "SAARLAND": 1
    }
   },
   {
@@ -860,7 +919,7 @@
    "was": "Hotelfachmann",
    "fa": "هتلداری",
    "g": "hosp",
-   "total": 2061,
+   "total": 2058,
    "cities": {
     "Berlin": 61,
     "Hamburg": 70,
@@ -898,7 +957,7 @@
    "was": "Bäcker",
    "fa": "نانوا",
    "g": "hosp",
-   "total": 1867,
+   "total": 1739,
    "cities": {
     "Berlin": 57,
     "Hamburg": 44,
@@ -916,10 +975,20 @@
     "Nürnberg": 35
    },
    "regions": {
-    "NIEDERSACHSEN": 1,
+    "NIEDERSACHSEN": 6,
+    "NORDRHEIN_WESTFALEN": 14,
+    "BAYERN": 8,
     "BERLIN": 1,
-    "BAYERN": 1,
-    "BADEN_WUERTTEMBERG": 1
+    "BADEN_WUERTTEMBERG": 10,
+    "HESSEN": 5,
+    "RHEINLAND_PFALZ": 2,
+    "SAARLAND": 1,
+    "SACHSEN": 3,
+    "BREMEN": 2,
+    "BRANDENBURG": 4,
+    "THUERINGEN": 1,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -927,7 +996,7 @@
    "was": "Erzieher",
    "fa": "مربی مهدکودک",
    "g": "office",
-   "total": 13351,
+   "total": 13342,
    "cities": {
     "Berlin": 893,
     "Hamburg": 447,
@@ -962,7 +1031,7 @@
    "was": "Buchhalter",
    "fa": "حسابدار",
    "g": "office",
-   "total": 7367,
+   "total": 7065,
    "cities": {
     "Berlin": 464,
     "Hamburg": 384,
@@ -976,22 +1045,22 @@
     "Essen": 275,
     "Bremen": 104,
     "Dresden": 118,
-    "Hannover": 89,
+    "Hannover": 88,
     "Nürnberg": 215
    },
    "regions": {
     "BERLIN": 3,
     "SCHLESWIG_HOLSTEIN": 4,
-    "BAYERN": 2,
-    "NORDRHEIN_WESTFALEN": 6,
-    "BADEN_WUERTTEMBERG": 6,
-    "HAMBURG": 2,
-    "SACHSEN": 3,
+    "BAYERN": 7,
+    "NORDRHEIN_WESTFALEN": 14,
+    "BADEN_WUERTTEMBERG": 10,
+    "HAMBURG": 4,
+    "SACHSEN": 4,
     "BRANDENBURG": 1,
-    "HESSEN": 1,
+    "HESSEN": 2,
+    "NIEDERSACHSEN": 7,
     "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 2,
-    "NIEDERSACHSEN": 2
+    "RHEINLAND_PFALZ": 3
    }
   },
   {
@@ -999,7 +1068,7 @@
    "was": "Kaufmann Büromanagement",
    "fa": "کارمند اداری",
    "g": "office",
-   "total": 7575,
+   "total": 7555,
    "cities": {
     "Berlin": 433,
     "Hamburg": 268,
@@ -1035,7 +1104,7 @@
    "was": "Verkäufer",
    "fa": "فروشنده",
    "g": "office",
-   "total": 53557,
+   "total": 51162,
    "cities": {
     "Berlin": 2390,
     "Hamburg": 1324,
@@ -1054,14 +1123,15 @@
    },
    "regions": {
     "NORDRHEIN_WESTFALEN": 9,
-    "BAYERN": 7,
-    "HESSEN": 4,
+    "BAYERN": 8,
+    "HESSEN": 5,
     "NIEDERSACHSEN": 4,
     "HAMBURG": 2,
     "SACHSEN_ANHALT": 1,
-    "BADEN_WUERTTEMBERG": 10,
+    "BADEN_WUERTTEMBERG": 18,
     "BRANDENBURG": 3,
-    "RHEINLAND_PFALZ": 5,
+    "RHEINLAND_PFALZ": 8,
+    "BERLIN": 1,
     "THUERINGEN": 1
    }
   }
@@ -1069,36 +1139,36 @@
  "history": [
   {
    "day": "2026-11-23",
-   "it": 3217,
-   "itadmin": 2365,
-   "data": 333,
-   "civil": 3285,
-   "mech": 4972,
-   "elec": 674,
-   "arch": 4039,
-   "doctor": 16737,
-   "dentist": 1316,
-   "pharma": 640,
-   "physio": 7120,
-   "mfa": 7715,
-   "electrician": 15088,
-   "plumber": 18958,
-   "carmech": 14865,
-   "mechatronic": 33966,
-   "welder": 10493,
-   "cnc": 12869,
-   "mason": 4463,
-   "carpenter": 9328,
-   "driver": 16989,
-   "bus": 1144,
-   "logistics": 14713,
-   "cook": 9042,
-   "hotel": 2061,
-   "baker": 1867,
-   "educator": 13351,
-   "accountant": 7367,
-   "office": 7575,
-   "sales": 53557
+   "it": 2985,
+   "itadmin": 2360,
+   "data": 327,
+   "civil": 3273,
+   "mech": 4924,
+   "elec": 671,
+   "arch": 4006,
+   "doctor": 16466,
+   "dentist": 1312,
+   "pharma": 632,
+   "physio": 7016,
+   "mfa": 7698,
+   "electrician": 15044,
+   "plumber": 18832,
+   "carmech": 14590,
+   "mechatronic": 33749,
+   "welder": 10263,
+   "cnc": 12729,
+   "mason": 4225,
+   "carpenter": 8986,
+   "driver": 16374,
+   "bus": 1066,
+   "logistics": 14604,
+   "cook": 8040,
+   "hotel": 2058,
+   "baker": 1739,
+   "educator": 13342,
+   "accountant": 7065,
+   "office": 7555,
+   "sales": 51162
   }
  ]
 }
