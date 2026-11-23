@@ -1,9 +1,9 @@
 {
  "day": "2026-11-23",
- "updated": "2026-11-23T20:21:44.428Z",
+ "updated": "2026-11-23T20:27:49.110Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "counts": {
-  "spec:Pflegefachkraft": 23053,
+  "spec:Pflegefachkraft": 23054,
   "spec:Gesundheits- und Krankenpfleger": 17091,
   "spec:Altenpfleger": 17718,
   "spec:Intensivpflege": 3363,
@@ -11,7 +11,7 @@
   "spec:Kinderkrankenpfleger": 3907,
   "spec:Pflegehelfer": 3310,
   "spec:Hebamme": 168,
-  "all": 23053,
+  "all": 23054,
   "city:Berlin": 1243,
   "city:Hamburg": 774,
   "city:München": 474,
@@ -102,7 +102,7 @@
  "history": [
   {
    "day": "2026-11-23",
-   "all": 23053,
+   "all": 23054,
    "anerkennung": 1095,
    "active": 1095,
    "new": 1095
