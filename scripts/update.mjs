@@ -65,6 +65,7 @@ for (const a of ads) {
   if (!ref || seen.has(ref)) continue;
   seen.add(ref);
   const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+  if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
   const row = {
     ref,
     title: a.stellenangebotsTitel || '',

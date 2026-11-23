@@ -76,6 +76,7 @@ for (const p of PROFS) {
     if (!ref || seen.has(ref)) continue;
     seen.add(ref);
     const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+    if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
     rows.push({
       ref, title: a.stellenangebotsTitel || '', employer: a.firma || '', city: adr.ort || '', plz: adr.plz || '',
       region: adr.region || '', url: a.externeURL || DETAIL + encodeURIComponent(ref),

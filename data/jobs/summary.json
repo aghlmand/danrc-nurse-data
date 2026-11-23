@@ -1,6 +1,6 @@
 {
  "day": "2026-11-23",
- "updated": "2026-11-23T22:10:00.703Z",
+ "updated": "2026-11-23T22:14:46.069Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "profs": [
   {
@@ -26,14 +26,9 @@
     "Nürnberg": 112
    },
    "regions": {
-    "STEIERMARK": 14,
-    "OBEROESTERREICH": 13,
-    "WIEN": 18,
     "RHEINLAND_PFALZ": 1,
     "BADEN_WUERTTEMBERG": 2,
-    "SALZBURG": 1,
-    "BAYERN": 2,
-    "TIROL": 1
+    "BAYERN": 2
    }
   },
   {
@@ -108,7 +103,6 @@
     "MECKLENBURG_VORPOMMERN": 3,
     "HAMBURG": 5,
     "RHEINLAND_PFALZ": 3,
-    "OBEROESTERREICH": 1,
     "NIEDERSACHSEN": 1,
     "BRANDENBURG": 1
    }
@@ -175,17 +169,9 @@
     "Nürnberg": 128
    },
    "regions": {
-    "TIROL": 5,
-    "SALZBURG": 5,
-    "OBEROESTERREICH": 10,
     "HESSEN": 2,
     "BADEN_WUERTTEMBERG": 5,
-    "WIEN": 1,
-    "NIEDEROESTERREICH": 2,
     "BERLIN": 2,
-    "STEIERMARK": 7,
-    "VORARLBERG": 1,
-    "KAERNTEN": 1,
     "NORDRHEIN_WESTFALEN": 7,
     "NIEDERSACHSEN": 6,
     "SACHSEN_ANHALT": 2,
@@ -222,7 +208,6 @@
     "SACHSEN": 9,
     "BAYERN": 5,
     "SCHLESWIG_HOLSTEIN": 6,
-    "SONSTIGES": 1,
     "HAMBURG": 4,
     "BADEN_WUERTTEMBERG": 2,
     "NIEDERSACHSEN": 5,
@@ -256,14 +241,11 @@
    },
    "regions": {
     "BAYERN": 5,
-    "OBEROESTERREICH": 4,
     "BREMEN": 3,
     "HESSEN": 3,
     "NORDRHEIN_WESTFALEN": 8,
-    "SONSTIGES": 2,
     "HAMBURG": 2,
     "MECKLENBURG_VORPOMMERN": 4,
-    "WIEN": 1,
     "BRANDENBURG": 3,
     "NIEDERSACHSEN": 4,
     "THUERINGEN": 3,
@@ -298,15 +280,7 @@
     "Nürnberg": 518
    },
    "regions": {
-    "WIEN": 21,
-    "TIROL": 2,
-    "STEIERMARK": 11,
-    "KAERNTEN": 1,
-    "OBEROESTERREICH": 8,
-    "NIEDEROESTERREICH": 5,
-    "BADEN_WUERTTEMBERG": 3,
-    "VORARLBERG": 5,
-    "SALZBURG": 1
+    "BADEN_WUERTTEMBERG": 3
    }
   },
   {
@@ -338,7 +312,6 @@
     "RHEINLAND_PFALZ": 3,
     "NIEDERSACHSEN": 2,
     "HAMBURG": 4,
-    "NIEDEROESTERREICH": 1,
     "SCHLESWIG_HOLSTEIN": 1,
     "SACHSEN_ANHALT": 1,
     "BAYERN": 5,
@@ -374,7 +347,6 @@
    "regions": {
     "NORDRHEIN_WESTFALEN": 13,
     "BADEN_WUERTTEMBERG": 7,
-    "BURGENLAND": 1,
     "HESSEN": 11,
     "SACHSEN_ANHALT": 2,
     "MECKLENBURG_VORPOMMERN": 6,
@@ -409,24 +381,16 @@
    },
    "regions": {
     "BERLIN": 2,
-    "TIROL": 5,
-    "OBEROESTERREICH": 2,
     "BADEN_WUERTTEMBERG": 1,
     "RHEINLAND_PFALZ": 2,
     "NIEDERSACHSEN": 2,
     "THUERINGEN": 1,
-    "OSTSCHWEIZ_BODENSEE_BIS_GRAUBUENDEN": 1,
     "NORDRHEIN_WESTFALEN": 9,
     "SACHSEN_ANHALT": 2,
     "BAYERN": 7,
     "HESSEN": 6,
-    "STEIERMARK": 3,
-    "KAERNTEN": 2,
-    "NIEDEROESTERREICH": 4,
-    "SALZBURG": 2,
     "BRANDENBURG": 1,
     "SCHLESWIG_HOLSTEIN": 1,
-    "WIEN": 3,
     "SACHSEN": 3,
     "MECKLENBURG_VORPOMMERN": 1
    }
@@ -465,12 +429,8 @@
     "HESSEN": 4,
     "RHEINLAND_PFALZ": 3,
     "BRANDENBURG": 4,
-    "OBEROESTERREICH": 2,
-    "BURGENLAND": 1,
-    "NIEDEROESTERREICH": 2,
     "SACHSEN": 1,
     "MECKLENBURG_VORPOMMERN": 1,
-    "WIEN": 2,
     "THUERINGEN": 1,
     "HAMBURG": 1
    }
@@ -537,23 +497,15 @@
    },
    "regions": {
     "BADEN_WUERTTEMBERG": 8,
-    "WIEN": 1,
-    "NIEDEROESTERREICH": 7,
     "MECKLENBURG_VORPOMMERN": 1,
     "THUERINGEN": 4,
     "SACHSEN": 3,
     "NIEDERSACHSEN": 2,
-    "TIROL": 2,
     "HAMBURG": 3,
     "NORDRHEIN_WESTFALEN": 4,
     "BERLIN": 2,
     "SCHLESWIG_HOLSTEIN": 1,
-    "HESSEN": 2,
-    "STEIERMARK": 2,
-    "OBEROESTERREICH": 10,
-    "VORARLBERG": 1,
-    "BAYERN": 4,
-    "BRANDENBURG": 1
+    "BAYERN": 4
    }
   },
   {
@@ -600,7 +552,7 @@
    "was": "Mechatroniker",
    "fa": "مکاترونیک",
    "g": "craft",
-   "total": 33967,
+   "total": 33966,
    "cities": {
     "Berlin": 1225,
     "Hamburg": 1190,
@@ -618,7 +570,6 @@
     "Nürnberg": 786
    },
    "regions": {
-    "OBEROESTERREICH": 4,
     "BERLIN": 3,
     "THUERINGEN": 5,
     "RHEINLAND_PFALZ": 1,
@@ -660,7 +611,6 @@
    "regions": {
     "BADEN_WUERTTEMBERG": 13,
     "NORDRHEIN_WESTFALEN": 14,
-    "STEIERMARK": 5,
     "MECKLENBURG_VORPOMMERN": 1,
     "NIEDERSACHSEN": 4,
     "BAYERN": 9,
@@ -668,8 +618,6 @@
     "BREMEN": 1,
     "THUERINGEN": 3,
     "SCHLESWIG_HOLSTEIN": 3,
-    "WIEN": 1,
-    "OBEROESTERREICH": 1,
     "BERLIN": 1
    }
   },
@@ -697,7 +645,6 @@
    },
    "regions": {
     "BAYERN": 10,
-    "STEIERMARK": 1,
     "NORDRHEIN_WESTFALEN": 14,
     "BREMEN": 3,
     "BADEN_WUERTTEMBERG": 9,
@@ -707,7 +654,6 @@
     "SACHSEN": 3,
     "SACHSEN_ANHALT": 2,
     "RHEINLAND_PFALZ": 2,
-    "OBEROESTERREICH": 1,
     "MECKLENBURG_VORPOMMERN": 2,
     "SCHLESWIG_HOLSTEIN": 1,
     "BERLIN": 1
@@ -738,15 +684,7 @@
    "regions": {
     "NIEDERSACHSEN": 1,
     "BAYERN": 1,
-    "SACHSEN": 1,
-    "WIEN": 2,
-    "KAERNTEN": 8,
-    "NIEDEROESTERREICH": 13,
-    "TIROL": 4,
-    "OBEROESTERREICH": 8,
-    "SALZBURG": 4,
-    "VORARLBERG": 2,
-    "STEIERMARK": 3
+    "SACHSEN": 1
    }
   },
   {
@@ -772,19 +710,11 @@
     "Nürnberg": 149
    },
    "regions": {
-    "NIEDEROESTERREICH": 11,
-    "OBEROESTERREICH": 10,
     "NIEDERSACHSEN": 6,
     "NORDRHEIN_WESTFALEN": 6,
     "SACHSEN": 2,
     "RHEINLAND_PFALZ": 1,
     "SCHLESWIG_HOLSTEIN": 1,
-    "TIROL": 6,
-    "STEIERMARK": 4,
-    "SALZBURG": 2,
-    "BURGENLAND": 1,
-    "KAERNTEN": 5,
-    "WIEN": 2,
     "HAMBURG": 2,
     "BADEN_WUERTTEMBERG": 1
    }
@@ -813,19 +743,11 @@
    },
    "regions": {
     "SACHSEN": 4,
-    "STEIERMARK": 2,
-    "TIROL": 3,
-    "OBEROESTERREICH": 10,
-    "SALZBURG": 3,
-    "NIEDEROESTERREICH": 8,
     "NORDRHEIN_WESTFALEN": 5,
     "RHEINLAND_PFALZ": 1,
     "BAYERN": 2,
     "HESSEN": 1,
-    "KAERNTEN": 3,
     "BADEN_WUERTTEMBERG": 4,
-    "WIEN": 1,
-    "VORARLBERG": 2,
     "SCHLESWIG_HOLSTEIN": 1,
     "NIEDERSACHSEN": 4,
     "SACHSEN_ANHALT": 1,
@@ -855,16 +777,8 @@
     "Nürnberg": 14
    },
    "regions": {
-    "OBEROESTERREICH": 12,
-    "KAERNTEN": 3,
-    "STEIERMARK": 10,
-    "SALZBURG": 5,
-    "NIEDEROESTERREICH": 6,
-    "TIROL": 6,
-    "BURGENLAND": 2,
     "BAYERN": 4,
-    "NORDRHEIN_WESTFALEN": 2,
-    "VORARLBERG": 2
+    "NORDRHEIN_WESTFALEN": 2
    }
   },
   {
@@ -931,14 +845,6 @@
     "HESSEN": 3,
     "NORDRHEIN_WESTFALEN": 6,
     "BAYERN": 9,
-    "WIEN": 4,
-    "OBEROESTERREICH": 2,
-    "TIROL": 5,
-    "SALZBURG": 4,
-    "STEIERMARK": 3,
-    "KAERNTEN": 3,
-    "NIEDEROESTERREICH": 1,
-    "BURGENLAND": 1,
     "MECKLENBURG_VORPOMMERN": 1,
     "SCHLESWIG_HOLSTEIN": 2,
     "NIEDERSACHSEN": 2,
@@ -1010,19 +916,10 @@
     "Nürnberg": 35
    },
    "regions": {
-    "OBEROESTERREICH": 18,
-    "SALZBURG": 8,
-    "WIEN": 2,
     "NIEDERSACHSEN": 1,
-    "KAERNTEN": 3,
-    "NIEDEROESTERREICH": 8,
-    "TIROL": 3,
-    "STEIERMARK": 10,
     "BERLIN": 1,
     "BAYERN": 1,
-    "BADEN_WUERTTEMBERG": 1,
-    "BURGENLAND": 3,
-    "VORARLBERG": 1
+    "BADEN_WUERTTEMBERG": 1
    }
   },
   {
@@ -1065,7 +962,7 @@
    "was": "Buchhalter",
    "fa": "حسابدار",
    "g": "office",
-   "total": 7366,
+   "total": 7367,
    "cities": {
     "Berlin": 464,
     "Hamburg": 384,
@@ -1079,14 +976,10 @@
     "Essen": 275,
     "Bremen": 104,
     "Dresden": 118,
-    "Hannover": 88,
+    "Hannover": 89,
     "Nürnberg": 215
    },
    "regions": {
-    "WIEN": 11,
-    "OBEROESTERREICH": 6,
-    "NIEDEROESTERREICH": 3,
-    "STEIERMARK": 2,
     "BERLIN": 3,
     "SCHLESWIG_HOLSTEIN": 4,
     "BAYERN": 2,
@@ -1097,7 +990,6 @@
     "BRANDENBURG": 1,
     "HESSEN": 1,
     "SACHSEN_ANHALT": 1,
-    "SALZBURG": 1,
     "RHEINLAND_PFALZ": 2,
     "NIEDERSACHSEN": 2
    }
@@ -1143,7 +1035,7 @@
    "was": "Verkäufer",
    "fa": "فروشنده",
    "g": "office",
-   "total": 53556,
+   "total": 53557,
    "cities": {
     "Berlin": 2390,
     "Hamburg": 1324,
@@ -1161,14 +1053,6 @@
     "Nürnberg": 896
    },
    "regions": {
-    "OBEROESTERREICH": 3,
-    "STEIERMARK": 1,
-    "TIROL": 1,
-    "VORARLBERG": 1,
-    "NIEDEROESTERREICH": 3,
-    "BURGENLAND": 1,
-    "SALZBURG": 2,
-    "WIEN": 2,
     "NORDRHEIN_WESTFALEN": 9,
     "BAYERN": 7,
     "HESSEN": 4,
@@ -1200,7 +1084,7 @@
    "electrician": 15088,
    "plumber": 18958,
    "carmech": 14865,
-   "mechatronic": 33967,
+   "mechatronic": 33966,
    "welder": 10493,
    "cnc": 12869,
    "mason": 4463,
@@ -1212,9 +1096,9 @@
    "hotel": 2061,
    "baker": 1867,
    "educator": 13351,
-   "accountant": 7366,
+   "accountant": 7367,
    "office": 7575,
-   "sales": 53556
+   "sales": 53557
   }
  ]
 }
