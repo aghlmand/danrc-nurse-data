@@ -47,7 +47,7 @@ for (const c of CITIES) counts['city:' + c] = await count('Pflegefachkraft', c);
 const ads = [];
 let total = 0;
 for (let page = 1; page <= 40; page++) {
-  const j = await ba({ was: ADS_QUERY, size: '100', page: String(page) });
+  const j = await ba({ was: ADS_QUERY, wo: 'Deutschland', size: '100', page: String(page) });
   total = j.maxErgebnisse || total;
   const list = j.ergebnisliste || [];
   ads.push(...list);

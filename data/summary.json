@@ -1,6 +1,6 @@
 {
  "day": "2026-11-23",
- "updated": "2026-11-23T22:10:00.657Z",
+ "updated": "2026-11-23T22:26:59.066Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "counts": {
   "spec:Pflegefachkraft": 23053,
@@ -26,7 +26,7 @@
   "city:Dresden": 463,
   "city:Hannover": 391,
   "city:Nürnberg": 396,
-  "anerkennung": 1095
+  "anerkennung": 1093
  },
  "regions": [
   {
@@ -92,20 +92,16 @@
   {
    "region": "SAARLAND",
    "n": 3
-  },
-  {
-   "region": "ZUERICH",
-   "n": 1
   }
  ],
- "newToday": 1095,
+ "newToday": 1093,
  "history": [
   {
    "day": "2026-11-23",
    "all": 23053,
-   "anerkennung": 1095,
-   "active": 1095,
-   "new": 1095
+   "anerkennung": 1093,
+   "active": 1093,
+   "new": 1093
   }
  ]
 }

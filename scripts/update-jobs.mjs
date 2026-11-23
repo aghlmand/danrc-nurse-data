@@ -60,7 +60,7 @@ try { history = JSON.parse(await readFile(new URL('history.json', DIR), 'utf8'))
 const histRow = { day };
 
 for (const p of PROFS) {
-  const first = await ba({ was: p.was, size: String(PER_PROF), page: '1' });
+  const first = await ba({ was: p.was, wo: 'Deutschland', size: String(PER_PROF), page: '1' });
   await sleep(300);
   const total = first.maxErgebnisse || 0;
   const cities = {};
