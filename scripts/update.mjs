@@ -67,7 +67,7 @@ for (const a of ads) {
   const ref = a.referenznummer;
   if (!ref || seen.has(ref)) continue;
   seen.add(ref);
-  const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+  const loc = (a.stellenlokationen || [])[0] || {}, adr = loc.adresse || {};
   if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
   const row = {
     ref,
@@ -76,6 +76,7 @@ for (const a of ads) {
     city: adr.ort || '',
     plz: adr.plz || '',
     region: adr.region || '',
+    lat: loc.breite != null ? +(+loc.breite).toFixed(3) : null, lon: loc.laenge != null ? +(+loc.laenge).toFixed(3) : null,
     url: a.externeURL || DETAIL + encodeURIComponent(ref),
     fulltime: !!a.arbeitszeitVollzeit,
     permanent: a.vertragsdauer === 'UNBEFRISTET',

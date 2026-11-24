@@ -7,7 +7,7 @@ const HEADERS = { 'X-API-Key': 'jobboerse-jobsuche', 'User-Agent': 'Mozilla/5.0 
 const DETAIL = 'https://www.arbeitsagentur.de/jobsuche/jobdetail/';
 const CITIES = ['Berlin', 'Hamburg', 'München', 'Köln', 'Frankfurt am Main', 'Stuttgart', 'Düsseldorf', 'Leipzig', 'Dortmund', 'Essen', 'Bremen', 'Dresden', 'Hannover', 'Nürnberg'];
 const BERUFE = JSON.parse(await readFile(new URL('./ausbildung-berufe.json', import.meta.url), 'utf8'));
-const PER = 60;
+const PER = 200;                 // newest ads stored per trade (2 pages of 100)
 const PAUSE = 1000;              // ~1 request per second, one at a time
 const DIR = new URL('../data/ausbildung/', import.meta.url);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -55,9 +55,11 @@ let failed = 0;
 // 2) per trade: newest ads; city counts for 1/7 of the trades each day (each trade weekly) or when missing
 for (const [i, p] of BERUFE.entries()) {
   try {
-    const first = await ba({ beruf: p.beruf, wo: 'Deutschland', size: String(PER), page: '1' });
+    const first = await ba({ beruf: p.beruf, wo: 'Deutschland', size: '100', page: '1' });
     await sleep(PAUSE);
     const total = first.maxErgebnisse || 0;
+    let list = first.ergebnisliste || [];
+    if (total > 100 && PER > 100) { const p2 = await ba({ beruf: p.beruf, wo: 'Deutschland', size: '100', page: '2' }); list = list.concat(p2.ergebnisliste || []); await sleep(PAUSE); }
     let cities = (prev[p.key] && prev[p.key].cities) || null;
     // CITIES=skip: quick run without city counts; CITIES=1: refresh all; default: missing + 1/7 rotation
     if (process.env.CITIES !== 'skip' && (!cities || !Object.keys(cities).length || i % 7 === dow || process.env.CITIES === '1')) {
@@ -69,15 +71,15 @@ for (const [i, p] of BERUFE.entries()) {
       }
     }
     const rows = [], seen = new Set();
-    for (const a of first.ergebnisliste || []) {
+    for (const a of list) {
       const ref = a.referenznummer;
       if (!ref || seen.has(ref)) continue;
       seen.add(ref);
-      const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+      const loc = (a.stellenlokationen || [])[0] || {}, adr = loc.adresse || {};
       if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
       rows.push({
         ref, title: a.stellenangebotsTitel || '', employer: a.firma || '', city: adr.ort || '', plz: adr.plz || '',
-        region: adr.region || '', url: a.externeURL || DETAIL + encodeURIComponent(ref),
+        region: adr.region || '', lat: loc.breite != null ? +(+loc.breite).toFixed(3) : null, lon: loc.laenge != null ? +(+loc.laenge).toFixed(3) : null, url: a.externeURL || DETAIL + encodeURIComponent(ref),
         start: (a.eintrittszeitraum || {}).von || '',
         published: (a.veroeffentlichungszeitraum || {}).von || a.datumErsteVeroeffentlichung || '',
         changed: (a.aenderungsdatum || '').slice(0, 10),

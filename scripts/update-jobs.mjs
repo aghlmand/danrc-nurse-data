@@ -100,7 +100,7 @@ export const PROFS = [
   { key: 'buyer', was: 'Einkäufer', fa: 'خرید و تدارکات', g: 'office' },
   { key: 'marketing', was: 'Online Marketing', fa: 'بازاریابی آنلاین', g: 'office' },
 ];
-const PER_PROF = 60;
+const PER_PROF = 200;            // newest ads stored per job (2 pages of 100)
 const DIR = new URL('../data/jobs/', import.meta.url);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -127,17 +127,19 @@ let history = [];
 try { history = JSON.parse(await readFile(new URL('history.json', DIR), 'utf8')); } catch {}
 let prev = {};
 try { for (const p of JSON.parse(await readFile(new URL('summary.json', DIR), 'utf8')).profs) prev[p.key] = p; } catch {}
-const cityDay = new Date(day + 'T12:00:00Z').getUTCDay() === CITY_DAY || process.env.CITIES === '1';
+const dow = new Date(day + 'T12:00:00Z').getUTCDay(); // city counts: 1/7 of the jobs each day, so each job weekly
 const histRow = { day };
 let failed = 0;
 
-for (const p of PROFS) {
+for (const [i, p] of PROFS.entries()) {
   try {
-    const first = await ba({ was: p.was, wo: 'Deutschland', size: String(PER_PROF), page: '1' });
+    const first = await ba({ was: p.was, wo: 'Deutschland', size: '100', page: '1' });
     await sleep(PAUSE);
     const total = first.maxErgebnisse || 0;
+    let list = first.ergebnisliste || [];
+    if (total > 100 && PER_PROF > 100) { const p2 = await ba({ was: p.was, wo: 'Deutschland', size: '100', page: '2' }); list = list.concat(p2.ergebnisliste || []); await sleep(PAUSE); }
     let cities = prev[p.key] && prev[p.key].cities;
-    if (cityDay || !cities) {
+    if (!cities || !Object.keys(cities).length || i % 7 === dow || process.env.CITIES === '1') {
       cities = {};
       for (const c of CITIES) {
         const j = await ba({ was: p.was, wo: c, umkreis: '25', size: '1' });
@@ -147,15 +149,15 @@ for (const p of PROFS) {
     }
     const rows = [];
     const seen = new Set();
-    for (const a of first.ergebnisliste || []) {
+    for (const a of list) {
       const ref = a.referenznummer;
       if (!ref || seen.has(ref)) continue;
       seen.add(ref);
-      const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+      const loc = (a.stellenlokationen || [])[0] || {}, adr = loc.adresse || {};
       if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
       rows.push({
         ref, title: a.stellenangebotsTitel || '', employer: a.firma || '', city: adr.ort || '', plz: adr.plz || '',
-        region: adr.region || '', url: a.externeURL || DETAIL + encodeURIComponent(ref),
+        region: adr.region || '', lat: loc.breite != null ? +(+loc.breite).toFixed(3) : null, lon: loc.laenge != null ? +(+loc.laenge).toFixed(3) : null, url: a.externeURL || DETAIL + encodeURIComponent(ref),
         fulltime: !!a.arbeitszeitVollzeit, permanent: a.vertragsdauer === 'UNBEFRISTET',
         published: (a.veroeffentlichungszeitraum || {}).von || a.datumErsteVeroeffentlichung || '',
         changed: (a.aenderungsdatum || '').slice(0, 10),
@@ -167,7 +169,7 @@ for (const p of PROFS) {
     await writeFile(new URL(p.key + '.json', DIR), JSON.stringify({ day, key: p.key, was: p.was, total, rows }) + '\n');
     summary.profs.push({ key: p.key, was: p.was, fa: p.fa, g: p.g, total, cities, regions });
     histRow[p.key] = total;
-    console.log(p.key, total, rows.length, cityDay ? 'cities' : '');
+    console.log(p.key, total, rows.length);
   } catch (e) {
     // keep yesterday's data for this job so the page never goes empty
     failed++;

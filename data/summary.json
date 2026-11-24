@@ -1,37 +1,37 @@
 {
- "day": "2026-11-23",
- "updated": "2026-11-23T22:27:59.910Z",
+ "day": "2026-11-24",
+ "updated": "2026-11-24T06:49:07.908Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "counts": {
-  "spec:Pflegefachkraft": 23045,
-  "spec:Gesundheits- und Krankenpfleger": 16448,
-  "spec:Altenpfleger": 17617,
-  "spec:Intensivpflege": 3351,
-  "spec:OP-Pflege": 962,
-  "spec:Kinderkrankenpfleger": 3903,
-  "spec:Pflegehelfer": 3310,
-  "spec:Hebamme": 163,
-  "all": 23045,
-  "city:Berlin": 1243,
-  "city:Hamburg": 774,
-  "city:München": 474,
-  "city:Köln": 638,
-  "city:Frankfurt am Main": 462,
-  "city:Stuttgart": 555,
-  "city:Düsseldorf": 877,
-  "city:Leipzig": 295,
-  "city:Dortmund": 680,
-  "city:Essen": 909,
-  "city:Bremen": 405,
+  "spec:Pflegefachkraft": 23040,
+  "spec:Gesundheits- und Krankenpfleger": 16409,
+  "spec:Altenpfleger": 17585,
+  "spec:Intensivpflege": 3342,
+  "spec:OP-Pflege": 961,
+  "spec:Kinderkrankenpfleger": 3902,
+  "spec:Pflegehelfer": 3304,
+  "spec:Hebamme": 162,
+  "all": 23040,
+  "city:Berlin": 1240,
+  "city:Hamburg": 772,
+  "city:München": 471,
+  "city:Köln": 637,
+  "city:Frankfurt am Main": 460,
+  "city:Stuttgart": 553,
+  "city:Düsseldorf": 878,
+  "city:Leipzig": 293,
+  "city:Dortmund": 679,
+  "city:Essen": 912,
+  "city:Bremen": 404,
   "city:Dresden": 463,
   "city:Hannover": 391,
-  "city:Nürnberg": 396,
-  "anerkennung": 1093
+  "city:Nürnberg": 395,
+  "anerkennung": 1095
  },
  "regions": [
   {
    "region": "NORDRHEIN_WESTFALEN",
-   "n": 199
+   "n": 198
   },
   {
    "region": "BADEN_WUERTTEMBERG",
@@ -39,11 +39,11 @@
   },
   {
    "region": "BAYERN",
-   "n": 121
+   "n": 120
   },
   {
    "region": "NIEDERSACHSEN",
-   "n": 117
+   "n": 116
   },
   {
    "region": "SACHSEN",
@@ -51,15 +51,15 @@
   },
   {
    "region": "HESSEN",
-   "n": 80
-  },
-  {
-   "region": "BRANDENBURG",
-   "n": 55
+   "n": 82
   },
   {
    "region": "BERLIN",
-   "n": 53
+   "n": 54
+  },
+  {
+   "region": "BRANDENBURG",
+   "n": 54
   },
   {
    "region": "RHEINLAND_PFALZ",
@@ -71,11 +71,11 @@
   },
   {
    "region": "THUERINGEN",
-   "n": 36
+   "n": 37
   },
   {
    "region": "SACHSEN_ANHALT",
-   "n": 32
+   "n": 33
   },
   {
    "region": "MECKLENBURG_VORPOMMERN",
@@ -94,7 +94,7 @@
    "n": 3
   }
  ],
- "newToday": 1093,
+ "newToday": 5,
  "history": [
   {
    "day": "2026-11-23",
@@ -102,6 +102,13 @@
    "anerkennung": 1093,
    "active": 1093,
    "new": 1093
+  },
+  {
+   "day": "2026-11-24",
+   "all": 23040,
+   "anerkennung": 1095,
+   "active": 1094,
+   "new": 5
   }
  ]
 }
