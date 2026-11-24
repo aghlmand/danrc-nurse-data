@@ -11,22 +11,25 @@ const ADS_QUERY = 'Pflegefachkraft Anerkennung';
 const DIR = new URL('../data/', import.meta.url);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function ba(params, tries = 3) {
+async function ba(params, tries = 4) {
   const u = BA + '?' + new URLSearchParams({ angebotsart: '1', ...params });
   for (let i = 1; i <= tries; i++) {
+    let wait = 3000 * i;
     try {
       const r = await fetch(u, { headers: HEADERS });
       if (r.ok) return await r.json();
+      if (r.status === 429 || r.status === 503) wait = Math.max(60000, (+r.headers.get('retry-after') || 0) * 1000);
       if (i === tries) throw new Error('BA HTTP ' + r.status);
     } catch (e) { if (i === tries) throw e; }
-    await sleep(2000 * i);
+    console.log('retry in', wait / 1000, 's');
+    await sleep(wait);
   }
 }
 async function count(was, wo) {
   const p = { was, size: '1', wo: 'Deutschland' };
   if (wo) Object.assign(p, { wo, umkreis: '25' });
   const j = await ba(p);
-  await sleep(300);
+  await sleep(1000);
   return j.maxErgebnisse || 0;
 }
 async function readJson(name, fallback) {
@@ -51,7 +54,7 @@ for (let page = 1; page <= 40; page++) {
   total = j.maxErgebnisse || total;
   const list = j.ergebnisliste || [];
   ads.push(...list);
-  await sleep(300);
+  await sleep(1000);
   if (list.length < 100 || ads.length >= total) break;
 }
 counts.anerkennung = total;

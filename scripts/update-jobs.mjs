@@ -104,15 +104,20 @@ const PER_PROF = 60;
 const DIR = new URL('../data/jobs/', import.meta.url);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function ba(params, tries = 3) {
+const PAUSE = 1000;          // ~1 request per second, one at a time
+const CITY_DAY = 1;          // city counts refreshed weekly (Monday, UTC) or when missing
+async function ba(params, tries = 4) {
   const u = BA + '?' + new URLSearchParams({ angebotsart: '1', ...params });
   for (let i = 1; i <= tries; i++) {
+    let wait = 3000 * i;
     try {
       const r = await fetch(u, { headers: HEADERS });
       if (r.ok) return await r.json();
+      if (r.status === 429 || r.status === 503) wait = Math.max(60000, (+r.headers.get('retry-after') || 0) * 1000);
       if (i === tries) throw new Error('BA HTTP ' + r.status);
     } catch (e) { if (i === tries) throw e; }
-    await sleep(2000 * i);
+    console.log('retry in', wait / 1000, 's');
+    await sleep(wait);
   }
 }
 const day = new Date().toISOString().slice(0, 10);
@@ -120,42 +125,57 @@ await mkdir(DIR, { recursive: true });
 const summary = { day, updated: new Date().toISOString(), source: 'Bundesagentur für Arbeit – Jobsuche', profs: [] };
 let history = [];
 try { history = JSON.parse(await readFile(new URL('history.json', DIR), 'utf8')); } catch {}
+let prev = {};
+try { for (const p of JSON.parse(await readFile(new URL('summary.json', DIR), 'utf8')).profs) prev[p.key] = p; } catch {}
+const cityDay = new Date().getUTCDay() === CITY_DAY || process.env.CITIES === '1';
 const histRow = { day };
+let failed = 0;
 
 for (const p of PROFS) {
-  const first = await ba({ was: p.was, wo: 'Deutschland', size: String(PER_PROF), page: '1' });
-  await sleep(300);
-  const total = first.maxErgebnisse || 0;
-  const cities = {};
-  for (const c of CITIES) {
-    const j = await ba({ was: p.was, wo: c, umkreis: '25', size: '1' });
-    cities[c] = j.maxErgebnisse || 0;
-    await sleep(250);
+  try {
+    const first = await ba({ was: p.was, wo: 'Deutschland', size: String(PER_PROF), page: '1' });
+    await sleep(PAUSE);
+    const total = first.maxErgebnisse || 0;
+    let cities = prev[p.key] && prev[p.key].cities;
+    if (cityDay || !cities) {
+      cities = {};
+      for (const c of CITIES) {
+        const j = await ba({ was: p.was, wo: c, umkreis: '25', size: '1' });
+        cities[c] = j.maxErgebnisse || 0;
+        await sleep(PAUSE);
+      }
+    }
+    const rows = [];
+    const seen = new Set();
+    for (const a of first.ergebnisliste || []) {
+      const ref = a.referenznummer;
+      if (!ref || seen.has(ref)) continue;
+      seen.add(ref);
+      const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
+      if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
+      rows.push({
+        ref, title: a.stellenangebotsTitel || '', employer: a.firma || '', city: adr.ort || '', plz: adr.plz || '',
+        region: adr.region || '', url: a.externeURL || DETAIL + encodeURIComponent(ref),
+        fulltime: !!a.arbeitszeitVollzeit, permanent: a.vertragsdauer === 'UNBEFRISTET',
+        published: (a.veroeffentlichungszeitraum || {}).von || a.datumErsteVeroeffentlichung || '',
+        changed: (a.aenderungsdatum || '').slice(0, 10),
+      });
+    }
+    rows.sort((x, y) => (y.changed || '').localeCompare(x.changed || ''));
+    const regions = {};
+    for (const r of rows) if (r.region) regions[r.region] = (regions[r.region] || 0) + 1;
+    await writeFile(new URL(p.key + '.json', DIR), JSON.stringify({ day, key: p.key, was: p.was, total, rows }) + '\n');
+    summary.profs.push({ key: p.key, was: p.was, fa: p.fa, g: p.g, total, cities, regions });
+    histRow[p.key] = total;
+    console.log(p.key, total, rows.length, cityDay ? 'cities' : '');
+  } catch (e) {
+    // keep yesterday's data for this job so the page never goes empty
+    failed++;
+    console.log('FAILED', p.key, e.message);
+    if (prev[p.key]) { summary.profs.push({ ...prev[p.key], fa: p.fa, g: p.g, stale: true }); histRow[p.key] = prev[p.key].total; }
   }
-  const rows = [];
-  const seen = new Set();
-  for (const a of first.ergebnisliste || []) {
-    const ref = a.referenznummer;
-    if (!ref || seen.has(ref)) continue;
-    seen.add(ref);
-    const adr = ((a.stellenlokationen || [])[0] || {}).adresse || {};
-    if (adr.land && adr.land !== 'DEUTSCHLAND') continue;
-    rows.push({
-      ref, title: a.stellenangebotsTitel || '', employer: a.firma || '', city: adr.ort || '', plz: adr.plz || '',
-      region: adr.region || '', url: a.externeURL || DETAIL + encodeURIComponent(ref),
-      fulltime: !!a.arbeitszeitVollzeit, permanent: a.vertragsdauer === 'UNBEFRISTET',
-      published: (a.veroeffentlichungszeitraum || {}).von || a.datumErsteVeroeffentlichung || '',
-      changed: (a.aenderungsdatum || '').slice(0, 10),
-    });
-  }
-  rows.sort((x, y) => (y.changed || '').localeCompare(x.changed || ''));
-  const regions = {};
-  for (const r of rows) if (r.region) regions[r.region] = (regions[r.region] || 0) + 1;
-  await writeFile(new URL(p.key + '.json', DIR), JSON.stringify({ day, key: p.key, was: p.was, total, rows }) + '\n');
-  summary.profs.push({ key: p.key, was: p.was, fa: p.fa, g: p.g, total, cities, regions });
-  histRow[p.key] = total;
-  console.log(p.key, total, rows.length);
 }
+if (failed > PROFS.length / 2) { console.log('too many failures (' + failed + '), keeping previous summary'); process.exit(0); }
 history = history.filter(h => h.day !== day);
 history.push(histRow);
 await writeFile(new URL('history.json', DIR), JSON.stringify(history.slice(-730), null, 0) + '\n');
