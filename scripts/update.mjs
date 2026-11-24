@@ -37,7 +37,7 @@ async function readJson(name, fallback) {
 }
 const write = (name, obj) => writeFile(new URL(name, DIR), JSON.stringify(obj, null, name === 'jobs.json' || name === 'db.json' ? 0 : 1) + '\n');
 
-const day = new Date().toISOString().slice(0, 10);
+const day = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Tehran' }); // Tehran calendar day (run starts 03:00 Tehran)
 await mkdir(DIR, { recursive: true });
 
 // 1) counts

@@ -2,7 +2,7 @@ name: Update nurse job data
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # every day 02:30 UTC (06:00 Tehran)
+    - cron: '30 23 * * *'  # every day 23:30 UTC = 03:00 Tehran (UTC+3:30)
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,6 +26,9 @@ jobs:
       - name: Jobs data
         if: always()
         run: node scripts/update-jobs.mjs
+      - name: Ausbildung data
+        if: always()
+        run: node scripts/update-ausbildung.mjs
       # always commit what was written (failed jobs keep yesterday's data); a red step above still e-mails the owner
       - name: Commit data
         if: always()

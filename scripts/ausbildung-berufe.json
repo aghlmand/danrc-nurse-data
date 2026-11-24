@@ -1,0 +1,1202 @@
+[
+{
+"key": "kaufmann-einzelhandel",
+"beruf": "Kaufmann/-frau - Einzelhandel",
+"fa": "بازرگانی خرده‌فروشی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "verkaeufer",
+"beruf": "Verkäufer/in",
+"fa": "فروشندگی",
+"g": "sales",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fachkraft-lagerlogistik",
+"beruf": "Fachkraft - Lagerlogistik",
+"fa": "انبار و لجستیک",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachwirt-handel",
+"beruf": "Fachwirt/in - Handel (doppelt qualifizierende Ausbildung)",
+"fa": "مدیریت بازرگانی (با دیپلم کامل)",
+"g": "sales",
+"d": 3,
+"t": "dq"
+},
+{
+"key": "kaufmann-bueromanagement",
+"beruf": "Kaufmann/-frau - Büromanagement",
+"fa": "کارمند اداری",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "industriekaufmann",
+"beruf": "Industriekaufmann/-frau",
+"fa": "بازرگانی صنعتی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pflegefachmann",
+"beruf": "Pflegefachmann/-frau (Ausbildung)",
+"fa": "پرستاری",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "industriemechaniker",
+"beruf": "Industriemechaniker/in",
+"fa": "مکانیک صنعتی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "kaufmann-gross-und-aussenhandelsmanageme",
+"beruf": "Kaufmann/-frau - Groß- und Außenhandelsmanagement (Großhandel)",
+"fa": "بازرگانی عمده‌فروشی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "elektroniker-betriebstechnik",
+"beruf": "Elektroniker/in - Betriebstechnik",
+"fa": "برق صنعتی",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "mechatroniker",
+"beruf": "Mechatroniker/in",
+"fa": "مکاترونیک",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "anlagenmechaniker-sanitaer-heizungs-und",
+"beruf": "Anlagenmechaniker/in - Sanitär-, Heizungs- und Klimatechnik",
+"fa": "تأسیسات ساختمان (آب، گرمایش، تهویه)",
+"g": "build",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "bankkaufmann",
+"beruf": "Bankkaufmann/-frau",
+"fa": "بانکداری",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "elektroniker-energie-und-gebaeudetechnik",
+"beruf": "Elektroniker/in - Energie- und Gebäudetechnik",
+"fa": "برق ساختمان",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "zahnmedizinischer-fachangestellter",
+"beruf": "Zahnmedizinische/r Fachangestellte/r",
+"fa": "دستیار دندانپزشک",
+"g": "health",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kraftfahrzeugmechatroniker-personenkraft",
+"beruf": "Kraftfahrzeugmechatroniker/in - Personenkraftwagentechnik",
+"fa": "مکانیک خودروی سواری",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "fachlagerist",
+"beruf": "Fachlagerist/in",
+"fa": "انباردار",
+"g": "trans",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "zerspanungsmechaniker",
+"beruf": "Zerspanungsmechaniker/in",
+"fa": "تراشکاری و CNC",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "fachinformatiker-systemintegration",
+"beruf": "Fachinformatiker/in - Systemintegration",
+"fa": "فناوری اطلاعات: شبکه و سیستم",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "fachverkaeufer-lebensmittelhandwerk",
+"beruf": "Fachverkäufer/in - Lebensmittelhandwerk (Fleischerei)",
+"fa": "فروشنده‌ی قصابی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medizinischer-fachangestellter",
+"beruf": "Medizinische/r Fachangestellte/r",
+"fa": "دستیار پزشک",
+"g": "health",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kaufmann-versicherungen-und-finanzanlage",
+"beruf": "Kaufmann/-frau - Versicherungen und Finanzanlagen",
+"fa": "بیمه و سرمایه‌گذاری",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kochkoechin",
+"beruf": "Koch/Köchin",
+"fa": "آشپزی",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "drogist",
+"beruf": "Drogist/in",
+"fa": "فروشنده‌ی داروگستر (دراگ‌استور)",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "metallbauer-konstruktionstechnik",
+"beruf": "Metallbauer/in - Konstruktionstechnik",
+"fa": "فلزکاری و سازه‌ی فلزی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "steuerfachangestellter",
+"beruf": "Steuerfachangestellte/r",
+"fa": "کارشناس مالیاتی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maurer",
+"beruf": "Maurer/in",
+"fa": "بنّایی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kaufmann-spedition-und-logistikdienstlei",
+"beruf": "Kaufmann/-frau - Spedition und Logistikdienstleistung",
+"fa": "بازرگانی حمل‌ونقل",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "augenoptiker",
+"beruf": "Augenoptiker/in",
+"fa": "عینک‌سازی (اپتیک)",
+"g": "health",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "berufskraftfahrer",
+"beruf": "Berufskraftfahrer/in",
+"fa": "رانندگی کامیون و اتوبوس",
+"g": "trans",
+"d": 3,
+"t": "drive"
+},
+{
+"key": "fleischer",
+"beruf": "Fleischer/in",
+"fa": "قصابی",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maler-und-lackierer-gestaltung-und-insta",
+"beruf": "Maler/in und Lackierer/in - Gestaltung und Instandhaltung",
+"fa": "نقاشی ساختمان",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "dachdecker",
+"beruf": "Dachdecker/in",
+"fa": "سقف‌سازی و عایق‌کاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kraftfahrzeugmechatroniker-nutzfahrzeugt",
+"beruf": "Kraftfahrzeugmechatroniker/in - Nutzfahrzeugtechnik",
+"fa": "مکانیک خودروی سنگین",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "automobilkaufmann",
+"beruf": "Automobilkaufmann/-frau",
+"fa": "فروش خودرو",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maschinen-und-anlagenfuehrer",
+"beruf": "Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)",
+"fa": "اپراتور ماشین‌آلات",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fachmann-systemgastronomie",
+"beruf": "Fachmann/-frau - Systemgastronomie",
+"fa": "مدیریت رستوران‌های زنجیره‌ای",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachmann-restaurants-und-veranstaltungsg",
+"beruf": "Fachmann/-frau - Restaurants und Veranstaltungsgastronomie",
+"fa": "خدمات رستوران و مراسم",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tischler",
+"beruf": "Tischler/in",
+"fa": "نجاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachverkaeufer-lebensmittelhandwerk-2",
+"beruf": "Fachverkäufer/in - Lebensmittelhandwerk (Bäckerei)",
+"fa": "فروشنده‌ی نانوایی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hoerakustiker",
+"beruf": "Hörakustiker/in",
+"fa": "سمعک‌سازی (شنوایی)",
+"g": "health",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hotelfachmann",
+"beruf": "Hotelfachmann/-frau",
+"fa": "هتلداری",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "konstruktionsmechaniker",
+"beruf": "Konstruktionsmechaniker/in",
+"fa": "مکانیک سازه و جوشکاری",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "zimmerer",
+"beruf": "Zimmerer/Zimmerin",
+"fa": "نجار سازه‌ی چوبی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachinformatiker-anwendungsentwicklung",
+"beruf": "Fachinformatiker/in - Anwendungsentwicklung",
+"fa": "فناوری اطلاعات: برنامه‌نویسی",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "strassenbauer",
+"beruf": "Straßenbauer/in",
+"fa": "راهسازی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "werkzeugmechaniker",
+"beruf": "Werkzeugmechaniker/in",
+"fa": "قالب‌سازی و ابزارسازی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "maschinen-und-anlagenfuehrer-metall-kuns",
+"beruf": "Maschinen- und Anlagenführer/in - Metall-, Kunststofftechnik",
+"fa": "اپراتور ماشین‌آلات فلز و پلاستیک",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "land-und-baumaschinenmechatroniker",
+"beruf": "Land- und Baumaschinenmechatroniker/in",
+"fa": "مکانیک ماشین‌آلات کشاورزی و راهسازی",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "gaertner-garten-und-landschaftsbau",
+"beruf": "Gärtner/in - Garten- und Landschaftsbau",
+"fa": "باغبانی و فضای سبز",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "baecker",
+"beruf": "Bäcker/in",
+"fa": "نانوایی و شیرینی‌پزی",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "beton-und-stahlbetonbauer",
+"beruf": "Beton- und Stahlbetonbauer/in",
+"fa": "بتن‌کاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "friseur",
+"beruf": "Friseur/in",
+"fa": "آرایشگری",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "technischer-produktdesigner-maschinen-un",
+"beruf": "Technische/r Produktdesigner/in - Maschinen- und Anlagenkonstruktion",
+"fa": "طراح فنی ماشین‌آلات (نقشه‌کشی)",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-automatisierungstechnik",
+"beruf": "Elektroniker/in - Automatisierungstechnik",
+"fa": "برق و اتوماسیون صنعتی",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "kunststoff-und-kautschuktechnologe-formt",
+"beruf": "Kunststoff- und Kautschuktechnologe/-technologin - Formteile",
+"fa": "فناوری پلاستیک و لاستیک",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "feinwerkmechaniker",
+"beruf": "Feinwerkmechaniker/in",
+"fa": "مکانیک دقیق",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "kaufmann-gesundheitswesen",
+"beruf": "Kaufmann/-frau - Gesundheitswesen",
+"fa": "بازرگانی حوزه‌ی سلامت",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "mechatroniker-kaeltetechnik",
+"beruf": "Mechatroniker/in - Kältetechnik",
+"fa": "تبرید و تهویه",
+"g": "build",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-geraete-und-systeme",
+"beruf": "Elektroniker/in - Geräte und Systeme",
+"fa": "الکترونیک دستگاه‌ها",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "baugeraetefuehrer",
+"beruf": "Baugeräteführer/in",
+"fa": "راننده‌ی ماشین‌آلات ساختمانی",
+"g": "build",
+"d": 3,
+"t": "drive"
+},
+{
+"key": "fahrzeuglackierer",
+"beruf": "Fahrzeuglackierer/in",
+"fa": "نقاشی خودرو",
+"g": "elec",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-lebensmitteltechnik",
+"beruf": "Fachkraft - Lebensmitteltechnik",
+"fa": "صنایع غذایی",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "erzieher",
+"beruf": "Erzieher/in",
+"fa": "مربی مهدکودک",
+"g": "health",
+"d": 3,
+"t": "school"
+},
+{
+"key": "fachkraft-gastronomie",
+"beruf": "Fachkraft - Gastronomie",
+"fa": "خدمات رستوران (دوساله)",
+"g": "food",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "kraftfahrzeugmechatroniker-system-und-ho",
+"beruf": "Kraftfahrzeugmechatroniker/in - System- und Hochvolttechnik",
+"fa": "مکانیک خودروی برقی",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "sport-und-fitnesskaufmann",
+"beruf": "Sport- und Fitnesskaufmann/-frau",
+"fa": "بازرگانی ورزش و باشگاه",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pflegeassistent",
+"beruf": "Pflegeassistent/in",
+"fa": "کمک‌پرستار",
+"g": "health",
+"d": 2,
+"t": "help"
+},
+{
+"key": "verwaltungsfachangestellter-kommunalverw",
+"beruf": "Verwaltungsfachangestellte/r - Kommunalverwaltung",
+"fa": "کارمند شهرداری و اداره‌ی محلی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "altenpflegehelfer",
+"beruf": "Altenpflegehelfer/in",
+"fa": "کمک‌پرستار سالمندان",
+"g": "health",
+"d": 1,
+"t": "help"
+},
+{
+"key": "kaufmann-it-system-management",
+"beruf": "Kaufmann/-frau - IT-System-Management",
+"fa": "بازرگانی فناوری اطلاعات",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "kaufmann-gross-und-aussenhandelsmanageme-2",
+"beruf": "Kaufmann/-frau - Groß- und Außenhandelsmanagement (Außenhandel)",
+"fa": "بازرگانی خارجی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "anlagenmechaniker",
+"beruf": "Anlagenmechaniker/in",
+"fa": "مکانیک تأسیسات صنعتی",
+"g": "build",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "industrieelektriker-betriebstechnik",
+"beruf": "Industrieelektriker/in - Betriebstechnik",
+"fa": "برق‌کار صنعتی (دوساله)",
+"g": "elec",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "kaufmann-e-commerce",
+"beruf": "Kaufmann/-frau - E-Commerce",
+"fa": "تجارت الکترونیک",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "it-system-elektroniker",
+"beruf": "IT-System-Elektroniker/in",
+"fa": "الکترونیک سیستم‌های IT",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "immobilienkaufmann",
+"beruf": "Immobilienkaufmann/-frau",
+"fa": "بازرگانی املاک",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "rechtsanwaltsfachangestellter",
+"beruf": "Rechtsanwaltsfachangestellte/r",
+"fa": "دستیار دفتر وکالت",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "technischer-systemplaner-versorgungs-und",
+"beruf": "Technische/r Systemplaner/in - Versorgungs- und Ausrüstungstechnik",
+"fa": "نقشه‌کش تأسیسات",
+"g": "build",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "kaufmann-digitalisierungsmanagement",
+"beruf": "Kaufmann/-frau - Digitalisierungsmanagement",
+"fa": "مدیریت دیجیتال‌سازی",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "landwirt",
+"beruf": "Landwirt/in",
+"fa": "کشاورزی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-kurier-express-und-postdienstl",
+"beruf": "Fachkraft - Kurier-, Express- und Postdienstleistungen",
+"fa": "پست و پیک",
+"g": "trans",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "klempner",
+"beruf": "Klempner/in",
+"fa": "لوله‌کشی و ورق‌کاری",
+"g": "build",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "tiefbaufacharbeiter",
+"beruf": "Tiefbaufacharbeiter/in (ohne Angabe des Schwerpunkts)",
+"fa": "عملیات عمرانی زیرزمینی",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "chemielaborant",
+"beruf": "Chemielaborant/in",
+"fa": "آزمایشگاه شیمی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "sozialversicherungsfachangestellter-allg",
+"beruf": "Sozialversicherungsfachangestellte/r - allgemeine Krankenversicherung",
+"fa": "کارمند بیمه‌ی درمانی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medientechnologe-druck",
+"beruf": "Medientechnologe/-technologin Druck",
+"fa": "فناوری چاپ",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "karosserie-und-fahrzeugbaumechaniker-kar",
+"beruf": "Karosserie- und Fahrzeugbaumechaniker/in - Karosserieinstandhaltungstechnik",
+"fa": "صافکاری خودرو",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "konditor",
+"beruf": "Konditor/in",
+"fa": "شیرینی‌پزی",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "buchhaendler",
+"beruf": "Buchhändler/in",
+"fa": "کتاب‌فروشی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "chemikant",
+"beruf": "Chemikant/in",
+"fa": "اپراتور صنایع شیمیایی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "tourismuskaufmann",
+"beruf": "Tourismuskaufmann/-frau (Privat- und Geschäftsreisen)",
+"fa": "گردشگری و آژانس مسافرتی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "informationselektroniker",
+"beruf": "Informationselektroniker/in",
+"fa": "الکترونیک اطلاعات و ارتباطات",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "fliesen-platten-und-mosaikleger",
+"beruf": "Fliesen-, Platten- und Mosaikleger/in",
+"fa": "کاشی‌کاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "geruestbauer",
+"beruf": "Gerüstbauer/in",
+"fa": "داربست‌بندی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "heilerziehungspfleger",
+"beruf": "Heilerziehungspfleger/in",
+"fa": "مراقبت و آموزش افراد دارای معلولیت",
+"g": "health",
+"d": 3,
+"t": "school"
+},
+{
+"key": "fachangestellter-baederbetriebe",
+"beruf": "Fachangestellte/r - Bäderbetriebe",
+"fa": "نجات‌غریق و استخر",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pflegefachassistent-pflegefachassistenzp",
+"beruf": "Pflegefachassistent/in / Pflegefachassistenzperson",
+"fa": "دستیار پرستار",
+"g": "health",
+"d": 1.5,
+"t": "help"
+},
+{
+"key": "operationstechnischer-assistent",
+"beruf": "Operationstechnische/r Assistent/in",
+"fa": "تکنسین اتاق عمل",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "vermessungstechniker-vermessung",
+"beruf": "Vermessungstechniker/in - Vermessung",
+"fa": "نقشه‌برداری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gleisbauer",
+"beruf": "Gleisbauer/in",
+"fa": "ریل‌گذاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-metalltechnik-konstruktionstec",
+"beruf": "Fachkraft - Metalltechnik - Konstruktionstechnik",
+"fa": "فلزکاری (دوساله)",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "technischer-systemplaner-elektrotechnisc",
+"beruf": "Technische/r Systemplaner/in - Elektrotechnische Systeme",
+"fa": "نقشه‌کش برق",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "karosserie-und-fahrzeugbaumechaniker-kar-2",
+"beruf": "Karosserie- und Fahrzeugbaumechaniker/in - Karosserie- und Fahrzeugbautechnik",
+"fa": "بدنه‌سازی خودرو",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "technischer-systemplaner-stahl-und-metal",
+"beruf": "Technische/r Systemplaner/in - Stahl- und Metallbautechnik",
+"fa": "نقشه‌کش سازه‌ی فلزی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "stuckateur",
+"beruf": "Stuckateur/in",
+"fa": "گچ‌کاری و نما",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "technischer-produktdesigner-produktgesta",
+"beruf": "Technische/r Produktdesigner/in - Produktgestaltung und -konstruktion",
+"fa": "طراح فنی محصول",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "rechtsanwalts-und-notarfachangestellter",
+"beruf": "Rechtsanwalts- und Notarfachangestellte/r",
+"fa": "دستیار دفتر وکالت و اسناد رسمی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tiefbaufacharbeiter-strassenbauarbeiten",
+"beruf": "Tiefbaufacharbeiter/in - Straßenbauarbeiten",
+"fa": "کارگر فنی راهسازی",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "verfahrensmechaniker-beschichtungstechni",
+"beruf": "Verfahrensmechaniker/in - Beschichtungstechnik",
+"fa": "پوشش‌دهی صنعتی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-kueche",
+"beruf": "Fachkraft - Küche",
+"fa": "آشپزی (دوساله)",
+"g": "food",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "eisenbahner-zugverkehrssteuerung",
+"beruf": "Eisenbahner/in - Zugverkehrssteuerung",
+"fa": "کنترل حرکت قطار",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gebaeudereiniger",
+"beruf": "Gebäudereiniger/in",
+"fa": "نظافت و نگهداری ساختمان",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "parkettleger",
+"beruf": "Parkettleger/in",
+"fa": "پارکت‌کاری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "betriebswirt-allgemeine-betriebswirtscha",
+"beruf": "Betriebswirt/in (doppelt qualifizierende Ausbildung) - allgemeine Betriebswirtschaft",
+"fa": "مدیریت بازرگانی (با دیپلم کامل)",
+"g": "office",
+"d": 3,
+"t": "dq"
+},
+{
+"key": "fachkraft-moebel-kuechen-und-umzugsservi",
+"beruf": "Fachkraft - Möbel-, Küchen- und Umzugsservice",
+"fa": "نصب مبلمان، کابینت و اسباب‌کشی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "leitungsbauer-infrastrukturtechnik",
+"beruf": "Leitungsbauer/in - Infrastrukturtechnik",
+"fa": "لوله‌گذاری و کابل‌کشی شهری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "veranstaltungskaufmann",
+"beruf": "Veranstaltungskaufmann/-frau",
+"fa": "برگزاری رویداد",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-metalltechnik-montagetechnik",
+"beruf": "Fachkraft - Metalltechnik - Montagetechnik",
+"fa": "مونتاژ صنعتی",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fachkraft-veranstaltungstechnik",
+"beruf": "Fachkraft - Veranstaltungstechnik",
+"fa": "فنی صدا و نور رویداد",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "packmitteltechnologe",
+"beruf": "Packmitteltechnologe/-technologin",
+"fa": "فناوری بسته‌بندی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "anaesthesietechnischer-assistent",
+"beruf": "Anästhesietechnische/r Assistent/in",
+"fa": "تکنسین بیهوشی",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "bodenleger",
+"beruf": "Bodenleger/in",
+"fa": "کف‌پوش",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maschinen-und-anlagenfuehrer-lebensmitte",
+"beruf": "Maschinen- und Anlagenführer/in - Lebensmitteltechnik",
+"fa": "اپراتور ماشین‌آلات صنایع غذایی",
+"g": "food",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fachwirt-vertrieb-im-einzelhandel",
+"beruf": "Fachwirt/in - Vertrieb im Einzelhandel (doppelt qualifizierende Ausbildung)",
+"fa": "مدیریت فروش (با دیپلم کامل)",
+"g": "sales",
+"d": 3,
+"t": "dq"
+},
+{
+"key": "kaufmann-marketingkommunikation",
+"beruf": "Kaufmann/-frau - Marketingkommunikation",
+"fa": "بازاریابی و تبلیغات",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kaufmann-dialogmarketing",
+"beruf": "Kaufmann/-frau - Dialogmarketing",
+"fa": "مرکز تماس و بازاریابی تلفنی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-metalltechnik-zerspanungstechn",
+"beruf": "Fachkraft - Metalltechnik - Zerspanungstechnik",
+"fa": "تراشکاری (دوساله)",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "zahntechniker",
+"beruf": "Zahntechniker/in",
+"fa": "دندان‌سازی",
+"g": "health",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "maschinen-und-anlagenfuehrer-druckweiter",
+"beruf": "Maschinen- und Anlagenführer/in - Druckweiter- und Papierverarbeitung",
+"fa": "اپراتور ماشین‌آلات چاپ و کاغذ",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "holzbearbeitungsmechaniker",
+"beruf": "Holzbearbeitungsmechaniker/in",
+"fa": "مکانیک صنایع چوب",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gesundheits-und-krankenpflegehelfer",
+"beruf": "Gesundheits- und Krankenpflegehelfer/in",
+"fa": "کمک‌بهیار",
+"g": "health",
+"d": 1,
+"t": "help"
+},
+{
+"key": "oberflaechenbeschichter",
+"beruf": "Oberflächenbeschichter/in",
+"fa": "آبکاری و پوشش فلزات",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "florist",
+"beruf": "Florist/in",
+"fa": "گل‌آرایی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "raumausstatter",
+"beruf": "Raumausstatter/in",
+"fa": "دکوراسیون داخلی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "eisenbahner-betriebsdienst-lokfuehrer-un",
+"beruf": "Eisenbahner/in - Betriebsdienst - Lokführer/in und Transport",
+"fa": "راننده‌ی قطار",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachinformatiker-daten-und-prozessanalys",
+"beruf": "Fachinformatiker/in - Daten- und Prozessanalyse",
+"fa": "فناوری اطلاعات: تحلیل داده",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "umwelttechnologe-abwasserbewirtschaftung",
+"beruf": "Umwelttechnologe/-technologin - Abwasserbewirtschaftung",
+"fa": "فناوری محیط زیست: فاضلاب",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tiermedizinischer-fachangestellter",
+"beruf": "Tiermedizinische/r Fachangestellte/r",
+"fa": "دستیار دامپزشک",
+"g": "health",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kunststoff-und-kautschuktechnologe-halbz",
+"beruf": "Kunststoff- und Kautschuktechnologe/-technologin - Halbzeuge",
+"fa": "فناوری پلاستیک: مواد نیمه‌ساخته",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hauswirtschafter",
+"beruf": "Hauswirtschafter/in",
+"fa": "خانه‌داری و خدمات رفاهی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachangestellter-arbeitsmarktdienstleist",
+"beruf": "Fachangestellte/r - Arbeitsmarktdienstleistungen",
+"fa": "کارمند اداره‌ی کار",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "orthopaedieschuhmacher",
+"beruf": "Orthopädieschuhmacher/in",
+"fa": "کفش طبی",
+"g": "health",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "notarfachangestellter",
+"beruf": "Notarfachangestellte/r",
+"fa": "دستیار دفتر اسناد رسمی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "personaldienstleistungskaufmann",
+"beruf": "Personaldienstleistungskaufmann/-frau",
+"fa": "منابع انسانی و کاریابی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "steinmetz-und-steinbildhauer-steinmetzar",
+"beruf": "Steinmetz/in und Steinbildhauer/in - Steinmetzarbeiten",
+"fa": "سنگ‌تراشی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "zweiradmechatroniker-fahrradtechnik",
+"beruf": "Zweiradmechatroniker/in - Fahrradtechnik",
+"fa": "مکانیک دوچرخه",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "kunststoff-und-kautschuktechnologe-baute",
+"beruf": "Kunststoff- und Kautschuktechnologe/-technologin - Bauteile",
+"fa": "فناوری پلاستیک: قطعات",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medizinischer-technologe-radiologie",
+"beruf": "Medizinische/r Technologe/Technologin - Radiologie",
+"fa": "تکنسین رادیولوژی",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "giessereimechaniker",
+"beruf": "Gießereimechaniker/in",
+"fa": "ریخته‌گری",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+}
+]

@@ -120,14 +120,14 @@ async function ba(params, tries = 4) {
     await sleep(wait);
   }
 }
-const day = new Date().toISOString().slice(0, 10);
+const day = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Tehran' }); // Tehran calendar day (run starts 03:00 Tehran)
 await mkdir(DIR, { recursive: true });
 const summary = { day, updated: new Date().toISOString(), source: 'Bundesagentur für Arbeit – Jobsuche', profs: [] };
 let history = [];
 try { history = JSON.parse(await readFile(new URL('history.json', DIR), 'utf8')); } catch {}
 let prev = {};
 try { for (const p of JSON.parse(await readFile(new URL('summary.json', DIR), 'utf8')).profs) prev[p.key] = p; } catch {}
-const cityDay = new Date().getUTCDay() === CITY_DAY || process.env.CITIES === '1';
+const cityDay = new Date(day + 'T12:00:00Z').getUTCDay() === CITY_DAY || process.env.CITIES === '1';
 const histRow = { day };
 let failed = 0;
 
