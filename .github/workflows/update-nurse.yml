@@ -1,0 +1,37 @@
+name: Update nurse data (/nurse)
+
+on:
+  schedule:
+    - cron: '30 22 * * *'  # 22:30 UTC = 02:00 Tehran
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Nurse data
+        run: node scripts/update.mjs
+      - name: Daily statistics
+        if: always()
+        run: node scripts/stats.mjs nurse
+      # always commit what was written (failed items keep yesterday's data); a red step above still e-mails the owner
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "danrc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "nurse data: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 15; done

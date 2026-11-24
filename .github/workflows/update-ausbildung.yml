@@ -1,8 +1,8 @@
-name: Update nurse job data
+name: Update Ausbildung data (/ausbildung)
 
 on:
   schedule:
-    - cron: '30 23 * * *'  # every day 23:30 UTC = 03:00 Tehran (UTC+3:30)
+    - cron: '30 2 * * *'  # 02:30 UTC = 06:00 Tehran
   workflow_dispatch:
 
 permissions:
@@ -15,26 +15,23 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Nurse data
-        run: node scripts/update.mjs
-      - name: Jobs data
-        if: always()
-        run: node scripts/update-jobs.mjs
       - name: Ausbildung data
-        if: always()
         run: node scripts/update-ausbildung.mjs
-      # always commit what was written (failed jobs keep yesterday's data); a red step above still e-mails the owner
+      - name: Daily statistics
+        if: always()
+        run: node scripts/stats.mjs ausbildung
+      # always commit what was written (failed items keep yesterday's data); a red step above still e-mails the owner
       - name: Commit data
         if: always()
         run: |
           git config user.name "danrc-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "data: $(date -u +%F)"
-          git push
+          git diff --cached --quiet || git commit -m "ausbildung data: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 15; done
