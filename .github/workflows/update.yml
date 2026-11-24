@@ -21,9 +21,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/update.mjs
-      - run: node scripts/update-jobs.mjs
+      - name: Nurse data
+        run: node scripts/update.mjs
+      - name: Jobs data
+        if: always()
+        run: node scripts/update-jobs.mjs
+      # always commit what was written (failed jobs keep yesterday's data); a red step above still e-mails the owner
       - name: Commit data
+        if: always()
         run: |
           git config user.name "danrc-bot"
           git config user.email "actions@users.noreply.github.com"

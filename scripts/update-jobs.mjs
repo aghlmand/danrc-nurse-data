@@ -175,10 +175,11 @@ for (const p of PROFS) {
     if (prev[p.key]) { summary.profs.push({ ...prev[p.key], fa: p.fa, g: p.g, stale: true }); histRow[p.key] = prev[p.key].total; }
   }
 }
-if (failed > PROFS.length / 2) { console.log('too many failures (' + failed + '), keeping previous summary'); process.exit(0); }
+if (failed > PROFS.length / 2) { console.log('too many failures (' + failed + '), keeping previous summary'); process.exit(1); }
 history = history.filter(h => h.day !== day);
 history.push(histRow);
 await writeFile(new URL('history.json', DIR), JSON.stringify(history.slice(-730), null, 0) + '\n');
 summary.history = history.slice(-180);
 await writeFile(new URL('summary.json', DIR), JSON.stringify(summary, null, 1) + '\n');
-console.log('ok jobs', day);
+console.log('ok jobs', day, failed ? '(' + failed + ' failed)' : '');
+if (failed) process.exitCode = 1; // makes the GitHub run red so the owner gets an e-mail
