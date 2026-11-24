@@ -23,6 +23,9 @@ jobs:
           node-version: 20
       - name: Ausbildung data
         run: node scripts/update-ausbildung.mjs
+      - name: Salary sample (stated salaries in new ads)
+        if: always()
+        run: node scripts/salary.mjs ausbildung
       - name: Daily statistics
         if: always()
         run: node scripts/stats.mjs ausbildung

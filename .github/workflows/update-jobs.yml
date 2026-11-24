@@ -23,6 +23,9 @@ jobs:
           node-version: 20
       - name: Jobs data
         run: node scripts/update-jobs.mjs
+      - name: Salary sample (stated salaries in new ads)
+        if: always()
+        run: node scripts/salary.mjs jobs
       - name: Daily statistics
         if: always()
         run: node scripts/stats.mjs jobs
