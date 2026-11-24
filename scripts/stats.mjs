@@ -42,7 +42,9 @@ if (kind === 'nurse') {
     for (const r of f.rows) if (!seen.has(r.ref)) { seen.add(r.ref); rows.push(r); }
   }
   const h = await rd(dir + 'history.json', []);
-  history = h.map(x => ({ day: x.day, v: kind === 'ausbildung' ? x.total : Object.entries(x).filter(([k]) => k !== 'day').reduce((a, [, v]) => a + (+v || 0), 0) }));
+  // trend only over days that contain every current job/trade, so adding jobs never looks like growth
+  const keys = items.map(i => i.key);
+  history = h.filter(x => keys.every(k => x[k] != null)).map(x => ({ day: x.day, v: keys.reduce((a, k) => a + (+x[k] || 0), 0) }));
   // growth per item vs. ~7 days earlier (only when that history exists)
   const last = h[h.length - 1], base = h.slice().reverse().find(x => last && (dnum(last.day) - dnum(x.day)) / 864e5 >= 7);
   if (last && base) {
