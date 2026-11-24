@@ -1,22 +1,22 @@
 {
  "day": "2026-11-24",
- "updated": "2026-11-24T05:52:07.953Z",
+ "updated": "2026-11-24T06:57:42.829Z",
  "source": "Bundesagentur für Arbeit – Jobsuche (Ausbildung)",
- "total": 200456,
+ "total": 200950,
  "start": {
-  "10_01_01-now": 23044,
-  "26_11_01-26_12_01": 14542,
-  "26_12_01-27_01_01": 253,
+  "10_01_01-now": 23051,
+  "26_11_01-26_12_01": 14674,
+  "26_12_01-27_01_01": 276,
   "27_01_01-27_02_01": 199,
-  "27_02_01-27_03_01": 1010,
-  "27_03_01-27_04_01": 395,
+  "27_02_01-27_03_01": 1018,
+  "27_03_01-27_04_01": 396,
   "27_04_01-27_05_01": 1130,
   "27_05_01-27_06_01": 64,
-  "27_06_01-27_07_01": 57,
-  "27_07_01-27_08_01": 617,
-  "27_08_01-27_09_01": 101759,
-  "27_09_01-27_10_01": 67466,
-  "27_10_01-27_11_01": 3699,
+  "27_06_01-27_07_01": 58,
+  "27_07_01-27_08_01": 621,
+  "27_08_01-27_09_01": 102022,
+  "27_09_01-27_10_01": 67649,
+  "27_10_01-27_11_01": 3703,
   "27_11_01-27_12_01": 33,
   "27_12_01-28_01_01": 6,
   "28_01_01-28_02_01": 4,
@@ -30,18 +30,18 @@
   "28_10_01-28_11_01": 8
  },
  "school": {
-  "0": 47126,
-  "1": 47410,
-  "2": 115629,
-  "3": 183445,
-  "4": 194939,
-  "5": 197366,
-  "6": 200456,
-  "11": 47476,
-  "12": 131665
+  "0": 47607,
+  "1": 47889,
+  "2": 116117,
+  "3": 183943,
+  "4": 195434,
+  "5": 197861,
+  "6": 200950,
+  "11": 47955,
+  "12": 132145
  },
- "paid": 24149,
- "external": 20094,
+ "paid": 24159,
+ "external": 20568,
  "profs": [
   {
    "key": "kaufmann-einzelhandel",
@@ -50,7 +50,7 @@
    "g": "sales",
    "d": 3,
    "t": "dual",
-   "total": 27824,
+   "total": 27846,
    "cities": {
     "Berlin": 1020,
     "Hamburg": 689,
@@ -68,16 +68,22 @@
     "Nürnberg": 487
    },
    "regions": {
-    "HESSEN": 4,
-    "NORDRHEIN_WESTFALEN": 36,
-    "BAYERN": 3,
-    "BADEN_WUERTTEMBERG": 6,
-    "NIEDERSACHSEN": 2,
+    "BAYERN": 17,
+    "RHEINLAND_PFALZ": 5,
+    "HESSEN": 11,
+    "BRANDENBURG": 5,
+    "NORDRHEIN_WESTFALEN": 52,
+    "BERLIN": 5,
+    "NIEDERSACHSEN": 15,
+    "SCHLESWIG_HOLSTEIN": 32,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "BADEN_WUERTTEMBERG": 28,
+    "SACHSEN": 12,
+    "THUERINGEN": 6,
+    "SACHSEN_ANHALT": 2,
     "BREMEN": 1,
-    "SACHSEN": 4,
-    "RHEINLAND_PFALZ": 2,
-    "BRANDENBURG": 1,
-    "SAARLAND": 1
+    "SAARLAND": 1,
+    "HAMBURG": 1
    }
   },
   {
@@ -87,7 +93,7 @@
    "g": "sales",
    "d": 2,
    "t": "dual",
-   "total": 20328,
+   "total": 20335,
    "cities": {
     "Berlin": 582,
     "Hamburg": 425,
@@ -105,17 +111,21 @@
     "Nürnberg": 382
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 1,
-    "SACHSEN_ANHALT": 1,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BERLIN": 1,
-    "HESSEN": 1,
-    "NIEDERSACHSEN": 3,
-    "NORDRHEIN_WESTFALEN": 43,
+    "RHEINLAND_PFALZ": 1,
+    "HAMBURG": 2,
+    "BRANDENBURG": 5,
+    "BAYERN": 11,
+    "SCHLESWIG_HOLSTEIN": 19,
+    "NIEDERSACHSEN": 26,
+    "NORDRHEIN_WESTFALEN": 101,
+    "BADEN_WUERTTEMBERG": 15,
+    "THUERINGEN": 1,
+    "HESSEN": 3,
+    "SACHSEN": 4,
+    "BERLIN": 5,
+    "SACHSEN_ANHALT": 2,
     "SAARLAND": 1,
-    "BAYERN": 2,
-    "HAMBURG": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "MECKLENBURG_VORPOMMERN": 4
    }
   },
   {
@@ -125,36 +135,40 @@
    "g": "trans",
    "d": 3,
    "t": "dual",
-   "total": 5905,
+   "total": 5937,
    "cities": {
-    "Berlin": 96,
-    "Hamburg": 146,
+    "Berlin": 97,
+    "Hamburg": 147,
     "München": 78,
-    "Köln": 108,
+    "Köln": 109,
     "Frankfurt am Main": 96,
-    "Stuttgart": 124,
-    "Düsseldorf": 146,
+    "Stuttgart": 125,
+    "Düsseldorf": 147,
     "Leipzig": 48,
-    "Dortmund": 151,
+    "Dortmund": 152,
     "Essen": 146,
-    "Bremen": 78,
+    "Bremen": 79,
     "Dresden": 40,
     "Hannover": 73,
     "Nürnberg": 68
    },
    "regions": {
-    "SACHSEN": 3,
-    "BAYERN": 10,
-    "HESSEN": 2,
-    "NORDRHEIN_WESTFALEN": 11,
-    "BADEN_WUERTTEMBERG": 11,
-    "BRANDENBURG": 7,
-    "SACHSEN_ANHALT": 1,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "HAMBURG": 1,
-    "NIEDERSACHSEN": 9,
-    "BERLIN": 1,
-    "SAARLAND": 1
+    "NIEDERSACHSEN": 21,
+    "SCHLESWIG_HOLSTEIN": 17,
+    "BAYERN": 30,
+    "BRANDENBURG": 16,
+    "BADEN_WUERTTEMBERG": 23,
+    "NORDRHEIN_WESTFALEN": 42,
+    "HAMBURG": 8,
+    "BREMEN": 3,
+    "THUERINGEN": 8,
+    "SACHSEN": 7,
+    "HESSEN": 6,
+    "SACHSEN_ANHALT": 8,
+    "BERLIN": 2,
+    "SAARLAND": 2,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "RHEINLAND_PFALZ": 4
    }
   },
   {
@@ -164,7 +178,7 @@
    "g": "sales",
    "d": 3,
    "t": "dq",
-   "total": 5852,
+   "total": 5865,
    "cities": {
     "Berlin": 175,
     "Hamburg": 121,
@@ -182,18 +196,21 @@
     "Nürnberg": 71
    },
    "regions": {
-    "HAMBURG": 3,
-    "BAYERN": 5,
-    "SCHLESWIG_HOLSTEIN": 24,
-    "MECKLENBURG_VORPOMMERN": 6,
-    "NIEDERSACHSEN": 9,
-    "NORDRHEIN_WESTFALEN": 4,
-    "BADEN_WUERTTEMBERG": 3,
-    "HESSEN": 2,
-    "RHEINLAND_PFALZ": 1,
-    "SAARLAND": 1,
-    "BERLIN": 1,
-    "SACHSEN": 1
+    "BERLIN": 17,
+    "HESSEN": 15,
+    "SCHLESWIG_HOLSTEIN": 33,
+    "NIEDERSACHSEN": 15,
+    "BADEN_WUERTTEMBERG": 24,
+    "NORDRHEIN_WESTFALEN": 17,
+    "BAYERN": 32,
+    "BRANDENBURG": 10,
+    "HAMBURG": 4,
+    "MECKLENBURG_VORPOMMERN": 12,
+    "SACHSEN": 10,
+    "RHEINLAND_PFALZ": 7,
+    "SACHSEN_ANHALT": 1,
+    "SAARLAND": 2,
+    "BREMEN": 1
    }
   },
   {
@@ -203,7 +220,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 5062,
+   "total": 5075,
    "cities": {
     "Berlin": 92,
     "Hamburg": 123,
@@ -221,18 +238,22 @@
     "Nürnberg": 70
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 15,
-    "BAYERN": 11,
-    "NIEDERSACHSEN": 5,
-    "BRANDENBURG": 4,
-    "HESSEN": 5,
-    "SACHSEN": 2,
-    "HAMBURG": 1,
-    "RHEINLAND_PFALZ": 5,
-    "BADEN_WUERTTEMBERG": 8,
-    "SAARLAND": 2,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "SCHLESWIG_HOLSTEIN": 4,
+    "NORDRHEIN_WESTFALEN": 41,
+    "BAYERN": 35,
+    "NIEDERSACHSEN": 23,
+    "BADEN_WUERTTEMBERG": 27,
+    "HAMBURG": 7,
+    "HESSEN": 12,
+    "SACHSEN": 6,
+    "BREMEN": 3,
+    "THUERINGEN": 5,
+    "SACHSEN_ANHALT": 3,
+    "RHEINLAND_PFALZ": 15,
+    "BRANDENBURG": 8,
+    "SAARLAND": 4,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "BERLIN": 3
    }
   },
   {
@@ -242,7 +263,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 4873,
+   "total": 4888,
    "cities": {
     "Berlin": 36,
     "Hamburg": 73,
@@ -260,17 +281,21 @@
     "Nürnberg": 52
    },
    "regions": {
-    "SACHSEN": 2,
-    "THUERINGEN": 1,
-    "NORDRHEIN_WESTFALEN": 18,
-    "NIEDERSACHSEN": 4,
-    "BAYERN": 8,
-    "HESSEN": 3,
-    "BADEN_WUERTTEMBERG": 15,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BRANDENBURG": 3,
-    "HAMBURG": 1
+    "NORDRHEIN_WESTFALEN": 62,
+    "SAARLAND": 3,
+    "BREMEN": 2,
+    "SACHSEN_ANHALT": 1,
+    "BAYERN": 27,
+    "BADEN_WUERTTEMBERG": 42,
+    "NIEDERSACHSEN": 24,
+    "HESSEN": 9,
+    "RHEINLAND_PFALZ": 7,
+    "SACHSEN": 4,
+    "THUERINGEN": 2,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BRANDENBURG": 6,
+    "HAMBURG": 2
    }
   },
   {
@@ -280,7 +305,7 @@
    "g": "health",
    "d": 3,
    "t": "care",
-   "total": 3800,
+   "total": 3819,
    "cities": {
     "Berlin": 95,
     "Hamburg": 52,
@@ -298,21 +323,22 @@
     "Nürnberg": 38
    },
    "regions": {
-    "RHEINLAND_PFALZ": 2,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "BAYERN": 3,
-    "SACHSEN": 8,
-    "HESSEN": 3,
-    "NORDRHEIN_WESTFALEN": 21,
-    "BRANDENBURG": 2,
-    "HAMBURG": 2,
-    "BERLIN": 3,
-    "NIEDERSACHSEN": 3,
-    "BADEN_WUERTTEMBERG": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SACHSEN_ANHALT": 2,
-    "THUERINGEN": 4,
-    "SAARLAND": 1
+    "BAYERN": 13,
+    "SACHSEN": 39,
+    "NIEDERSACHSEN": 19,
+    "SACHSEN_ANHALT": 11,
+    "BRANDENBURG": 7,
+    "BREMEN": 2,
+    "RHEINLAND_PFALZ": 6,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "BADEN_WUERTTEMBERG": 9,
+    "NORDRHEIN_WESTFALEN": 43,
+    "HESSEN": 11,
+    "HAMBURG": 7,
+    "BERLIN": 7,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "THUERINGEN": 12,
+    "SAARLAND": 2
    }
   },
   {
@@ -322,7 +348,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 3535,
+   "total": 3549,
    "cities": {
     "Berlin": 44,
     "Hamburg": 48,
@@ -340,19 +366,21 @@
     "Nürnberg": 29
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 15,
-    "SACHSEN_ANHALT": 4,
-    "BAYERN": 11,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "NIEDERSACHSEN": 5,
-    "BRANDENBURG": 3,
-    "THUERINGEN": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "RHEINLAND_PFALZ": 3,
-    "BADEN_WUERTTEMBERG": 8,
-    "HESSEN": 4,
-    "HAMBURG": 1,
-    "SAARLAND": 1
+    "BAYERN": 31,
+    "BADEN_WUERTTEMBERG": 41,
+    "NORDRHEIN_WESTFALEN": 45,
+    "SAARLAND": 3,
+    "NIEDERSACHSEN": 20,
+    "HESSEN": 12,
+    "THUERINGEN": 9,
+    "SACHSEN_ANHALT": 9,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "BRANDENBURG": 8,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "RHEINLAND_PFALZ": 8,
+    "HAMBURG": 2,
+    "BREMEN": 3,
+    "SACHSEN": 3
    }
   },
   {
@@ -362,7 +390,7 @@
    "g": "sales",
    "d": 3,
    "t": "dual",
-   "total": 3335,
+   "total": 3342,
    "cities": {
     "Berlin": 58,
     "Hamburg": 70,
@@ -380,19 +408,21 @@
     "Nürnberg": 55
    },
    "regions": {
-    "HESSEN": 4,
-    "BADEN_WUERTTEMBERG": 10,
-    "BRANDENBURG": 11,
-    "NORDRHEIN_WESTFALEN": 7,
-    "SACHSEN": 2,
-    "NIEDERSACHSEN": 4,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BAYERN": 7,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "RHEINLAND_PFALZ": 1,
-    "BERLIN": 4,
-    "THUERINGEN": 1,
-    "HAMBURG": 3
+    "BRANDENBURG": 16,
+    "HAMBURG": 7,
+    "SACHSEN": 11,
+    "BERLIN": 8,
+    "BADEN_WUERTTEMBERG": 31,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "HESSEN": 16,
+    "NORDRHEIN_WESTFALEN": 34,
+    "NIEDERSACHSEN": 12,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BAYERN": 38,
+    "RHEINLAND_PFALZ": 6,
+    "THUERINGEN": 2,
+    "BREMEN": 3,
+    "SAARLAND": 1
    }
   },
   {
@@ -402,10 +432,10 @@
    "g": "elec",
    "d": 3.5,
    "t": "dual",
-   "total": 2943,
+   "total": 2946,
    "cities": {
     "Berlin": 59,
-    "Hamburg": 38,
+    "Hamburg": 37,
     "München": 31,
     "Köln": 53,
     "Frankfurt am Main": 48,
@@ -417,24 +447,25 @@
     "Bremen": 33,
     "Dresden": 20,
     "Hannover": 24,
-    "Nürnberg": 42
+    "Nürnberg": 43
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 7,
-    "NORDRHEIN_WESTFALEN": 16,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "SACHSEN_ANHALT": 2,
-    "BERLIN": 1,
-    "BAYERN": 10,
-    "NIEDERSACHSEN": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "HESSEN": 5,
-    "BRANDENBURG": 2,
-    "RHEINLAND_PFALZ": 4,
-    "SACHSEN": 3,
-    "THUERINGEN": 2,
-    "BREMEN": 1,
-    "HAMBURG": 1
+    "SCHLESWIG_HOLSTEIN": 11,
+    "BAYERN": 31,
+    "NORDRHEIN_WESTFALEN": 46,
+    "BRANDENBURG": 12,
+    "BADEN_WUERTTEMBERG": 18,
+    "SACHSEN_ANHALT": 13,
+    "BERLIN": 3,
+    "NIEDERSACHSEN": 17,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "HESSEN": 11,
+    "RHEINLAND_PFALZ": 10,
+    "SACHSEN": 9,
+    "THUERINGEN": 10,
+    "BREMEN": 3,
+    "HAMBURG": 2,
+    "SAARLAND": 1
    }
   },
   {
@@ -444,7 +475,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 2811,
+   "total": 2838,
    "cities": {
     "Berlin": 60,
     "Hamburg": 45,
@@ -462,19 +493,22 @@
     "Nürnberg": 45
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 11,
-    "BADEN_WUERTTEMBERG": 10,
-    "HESSEN": 3,
-    "SACHSEN_ANHALT": 2,
-    "NIEDERSACHSEN": 10,
-    "SAARLAND": 1,
-    "SACHSEN": 4,
-    "BAYERN": 6,
-    "RHEINLAND_PFALZ": 4,
-    "THUERINGEN": 3,
-    "BRANDENBURG": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BERLIN": 1
+    "BAYERN": 30,
+    "NORDRHEIN_WESTFALEN": 42,
+    "BRANDENBURG": 8,
+    "BADEN_WUERTTEMBERG": 35,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "NIEDERSACHSEN": 23,
+    "HESSEN": 9,
+    "SAARLAND": 3,
+    "SACHSEN": 11,
+    "SACHSEN_ANHALT": 7,
+    "RHEINLAND_PFALZ": 8,
+    "THUERINGEN": 9,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "BERLIN": 3,
+    "HAMBURG": 3,
+    "BREMEN": 2
    }
   },
   {
@@ -484,7 +518,7 @@
    "g": "build",
    "d": 3.5,
    "t": "dual",
-   "total": 2745,
+   "total": 2747,
    "cities": {
     "Berlin": 26,
     "Hamburg": 48,
@@ -502,20 +536,22 @@
     "Nürnberg": 45
    },
    "regions": {
-    "NIEDERSACHSEN": 8,
-    "SACHSEN_ANHALT": 2,
-    "RHEINLAND_PFALZ": 2,
-    "NORDRHEIN_WESTFALEN": 14,
+    "SCHLESWIG_HOLSTEIN": 15,
+    "NIEDERSACHSEN": 26,
+    "SACHSEN_ANHALT": 7,
+    "RHEINLAND_PFALZ": 10,
+    "NORDRHEIN_WESTFALEN": 35,
     "SACHSEN": 4,
-    "BADEN_WUERTTEMBERG": 5,
-    "HESSEN": 5,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BAYERN": 7,
-    "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BERLIN": 1,
-    "HAMBURG": 2,
-    "BRANDENBURG": 1
+    "BADEN_WUERTTEMBERG": 19,
+    "HESSEN": 16,
+    "BAYERN": 38,
+    "THUERINGEN": 4,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "BERLIN": 2,
+    "HAMBURG": 4,
+    "SAARLAND": 5,
+    "BRANDENBURG": 6,
+    "BREMEN": 2
    }
   },
   {
@@ -525,7 +561,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 2658,
+   "total": 2682,
    "cities": {
     "Berlin": 39,
     "Hamburg": 53,
@@ -543,18 +579,21 @@
     "Nürnberg": 52
    },
    "regions": {
-    "BRANDENBURG": 4,
-    "BAYERN": 11,
-    "BADEN_WUERTTEMBERG": 17,
-    "SACHSEN_ANHALT": 3,
-    "RHEINLAND_PFALZ": 1,
-    "NIEDERSACHSEN": 3,
-    "SACHSEN": 2,
-    "HESSEN": 4,
-    "NORDRHEIN_WESTFALEN": 8,
-    "SAARLAND": 1,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "THUERINGEN": 1
+    "SACHSEN": 3,
+    "BRANDENBURG": 12,
+    "MECKLENBURG_VORPOMMERN": 13,
+    "BADEN_WUERTTEMBERG": 42,
+    "NORDRHEIN_WESTFALEN": 39,
+    "NIEDERSACHSEN": 13,
+    "BAYERN": 32,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "RHEINLAND_PFALZ": 4,
+    "SACHSEN_ANHALT": 4,
+    "HESSEN": 15,
+    "SAARLAND": 4,
+    "THUERINGEN": 3,
+    "HAMBURG": 4,
+    "BERLIN": 1
    }
   },
   {
@@ -582,20 +621,22 @@
     "Nürnberg": 30
    },
    "regions": {
-    "BAYERN": 7,
-    "NORDRHEIN_WESTFALEN": 11,
-    "SACHSEN": 2,
-    "SACHSEN_ANHALT": 2,
-    "RHEINLAND_PFALZ": 4,
-    "SAARLAND": 2,
-    "NIEDERSACHSEN": 9,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BADEN_WUERTTEMBERG": 6,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "THUERINGEN": 3,
-    "HAMBURG": 2,
-    "HESSEN": 3,
-    "BRANDENBURG": 2
+    "SCHLESWIG_HOLSTEIN": 17,
+    "BERLIN": 2,
+    "BAYERN": 32,
+    "NORDRHEIN_WESTFALEN": 36,
+    "SACHSEN": 7,
+    "SACHSEN_ANHALT": 6,
+    "RHEINLAND_PFALZ": 8,
+    "SAARLAND": 6,
+    "NIEDERSACHSEN": 29,
+    "BADEN_WUERTTEMBERG": 19,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "THUERINGEN": 7,
+    "HAMBURG": 4,
+    "HESSEN": 11,
+    "BRANDENBURG": 5,
+    "BREMEN": 2
    }
   },
   {
@@ -605,7 +646,7 @@
    "g": "health",
    "d": 3,
    "t": "dual",
-   "total": 2618,
+   "total": 2614,
    "cities": {
     "Berlin": 33,
     "Hamburg": 35,
@@ -623,18 +664,21 @@
     "Nürnberg": 33
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 12,
-    "BAYERN": 15,
-    "HESSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "BERLIN": 2,
-    "NIEDERSACHSEN": 7,
-    "SAARLAND": 1,
-    "BADEN_WUERTTEMBERG": 7,
-    "SACHSEN": 4,
-    "BREMEN": 1,
-    "HAMBURG": 3,
-    "RHEINLAND_PFALZ": 2
+    "BADEN_WUERTTEMBERG": 32,
+    "NORDRHEIN_WESTFALEN": 57,
+    "BAYERN": 34,
+    "HESSEN": 9,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "BERLIN": 4,
+    "NIEDERSACHSEN": 22,
+    "SAARLAND": 4,
+    "SACHSEN": 7,
+    "BREMEN": 3,
+    "HAMBURG": 8,
+    "RHEINLAND_PFALZ": 5,
+    "BRANDENBURG": 4,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "THUERINGEN": 1
    }
   },
   {
@@ -644,7 +688,7 @@
    "g": "elec",
    "d": 3.5,
    "t": "dual",
-   "total": 2471,
+   "total": 2467,
    "cities": {
     "Berlin": 16,
     "Hamburg": 39,
@@ -662,18 +706,22 @@
     "Nürnberg": 15
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 12,
-    "SACHSEN_ANHALT": 1,
-    "BAYERN": 14,
-    "SACHSEN": 5,
-    "THUERINGEN": 2,
-    "BRANDENBURG": 1,
-    "RHEINLAND_PFALZ": 2,
-    "HESSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 12,
-    "NIEDERSACHSEN": 5,
-    "SAARLAND": 1
+    "BADEN_WUERTTEMBERG": 28,
+    "BAYERN": 31,
+    "SACHSEN_ANHALT": 6,
+    "SACHSEN": 10,
+    "THUERINGEN": 10,
+    "BRANDENBURG": 4,
+    "RHEINLAND_PFALZ": 10,
+    "HESSEN": 5,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "NORDRHEIN_WESTFALEN": 47,
+    "NIEDERSACHSEN": 30,
+    "SAARLAND": 2,
+    "HAMBURG": 4,
+    "BREMEN": 1,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "BERLIN": 1
    }
   },
   {
@@ -683,39 +731,40 @@
    "g": "trans",
    "d": 2,
    "t": "dual",
-   "total": 2424,
+   "total": 2438,
    "cities": {
-    "Berlin": 48,
+    "Berlin": 51,
     "Hamburg": 63,
     "München": 25,
     "Köln": 44,
     "Frankfurt am Main": 28,
     "Stuttgart": 47,
-    "Düsseldorf": 62,
+    "Düsseldorf": 63,
     "Leipzig": 24,
     "Dortmund": 73,
-    "Essen": 74,
+    "Essen": 75,
     "Bremen": 34,
-    "Dresden": 19,
+    "Dresden": 21,
     "Hannover": 30,
     "Nürnberg": 33
    },
    "regions": {
-    "BERLIN": 1,
-    "BADEN_WUERTTEMBERG": 7,
-    "BRANDENBURG": 5,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "NORDRHEIN_WESTFALEN": 10,
-    "BAYERN": 10,
-    "SACHSEN_ANHALT": 2,
-    "NIEDERSACHSEN": 6,
-    "HESSEN": 7,
-    "THUERINGEN": 3,
+    "BRANDENBURG": 10,
+    "BERLIN": 2,
+    "SACHSEN": 9,
+    "NORDRHEIN_WESTFALEN": 35,
+    "BAYERN": 35,
+    "NIEDERSACHSEN": 29,
+    "SACHSEN_ANHALT": 10,
+    "BADEN_WUERTTEMBERG": 25,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "HESSEN": 12,
+    "THUERINGEN": 7,
     "MECKLENBURG_VORPOMMERN": 3,
-    "SACHSEN": 1,
-    "RHEINLAND_PFALZ": 1,
-    "HAMBURG": 1,
-    "SAARLAND": 1
+    "RHEINLAND_PFALZ": 5,
+    "HAMBURG": 6,
+    "SAARLAND": 2,
+    "BREMEN": 1
    }
   },
   {
@@ -725,7 +774,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 2126,
+   "total": 2137,
    "cities": {
     "Berlin": 20,
     "Hamburg": 23,
@@ -743,19 +792,22 @@
     "Nürnberg": 15
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 19,
-    "SACHSEN": 2,
-    "BADEN_WUERTTEMBERG": 13,
-    "THUERINGEN": 2,
-    "RHEINLAND_PFALZ": 3,
-    "BAYERN": 8,
-    "BRANDENBURG": 1,
-    "HESSEN": 3,
-    "NIEDERSACHSEN": 3,
-    "BREMEN": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "BERLIN": 1
+    "NIEDERSACHSEN": 18,
+    "NORDRHEIN_WESTFALEN": 50,
+    "BERLIN": 4,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "BAYERN": 25,
+    "BADEN_WUERTTEMBERG": 30,
+    "SACHSEN": 14,
+    "THUERINGEN": 11,
+    "RHEINLAND_PFALZ": 14,
+    "BRANDENBURG": 3,
+    "HESSEN": 10,
+    "BREMEN": 3,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "SACHSEN_ANHALT": 2,
+    "SAARLAND": 5,
+    "HAMBURG": 1
    }
   },
   {
@@ -765,7 +817,7 @@
    "g": "it",
    "d": 3,
    "t": "it",
-   "total": 2104,
+   "total": 2116,
    "cities": {
     "Berlin": 23,
     "Hamburg": 38,
@@ -783,17 +835,21 @@
     "Nürnberg": 38
    },
    "regions": {
-    "NIEDERSACHSEN": 7,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "NORDRHEIN_WESTFALEN": 19,
-    "BAYERN": 10,
-    "BREMEN": 1,
-    "BADEN_WUERTTEMBERG": 10,
-    "RHEINLAND_PFALZ": 1,
-    "HESSEN": 5,
-    "SACHSEN": 2,
-    "HAMBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "BAYERN": 31,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "THUERINGEN": 1,
+    "HESSEN": 16,
+    "NORDRHEIN_WESTFALEN": 60,
+    "BADEN_WUERTTEMBERG": 38,
+    "NIEDERSACHSEN": 22,
+    "BREMEN": 3,
+    "RHEINLAND_PFALZ": 7,
+    "SACHSEN": 4,
+    "HAMBURG": 4,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BRANDENBURG": 3,
+    "SAARLAND": 1,
+    "BERLIN": 2
    }
   },
   {
@@ -803,7 +859,7 @@
    "g": "sales",
    "d": 3,
    "t": "dual",
-   "total": 2067,
+   "total": 2068,
    "cities": {
     "Berlin": 48,
     "Hamburg": 52,
@@ -821,15 +877,22 @@
     "Nürnberg": 20
    },
    "regions": {
-    "BRANDENBURG": 4,
-    "BADEN_WUERTTEMBERG": 1,
-    "BAYERN": 3,
-    "NIEDERSACHSEN": 10,
-    "NORDRHEIN_WESTFALEN": 2,
-    "SCHLESWIG_HOLSTEIN": 32,
-    "HAMBURG": 3,
-    "THUERINGEN": 2,
-    "MECKLENBURG_VORPOMMERN": 3
+    "RHEINLAND_PFALZ": 7,
+    "SCHLESWIG_HOLSTEIN": 40,
+    "NIEDERSACHSEN": 22,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "BRANDENBURG": 6,
+    "BADEN_WUERTTEMBERG": 30,
+    "BAYERN": 20,
+    "NORDRHEIN_WESTFALEN": 25,
+    "HAMBURG": 5,
+    "THUERINGEN": 5,
+    "BERLIN": 5,
+    "SACHSEN_ANHALT": 3,
+    "SAARLAND": 6,
+    "SACHSEN": 8,
+    "HESSEN": 13,
+    "BREMEN": 1
    }
   },
   {
@@ -839,7 +902,7 @@
    "g": "health",
    "d": 3,
    "t": "dual",
-   "total": 2048,
+   "total": 2051,
    "cities": {
     "Berlin": 36,
     "Hamburg": 38,
@@ -857,19 +920,22 @@
     "Nürnberg": 31
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 21,
-    "BERLIN": 2,
+    "BERLIN": 5,
+    "NIEDERSACHSEN": 26,
+    "NORDRHEIN_WESTFALEN": 66,
     "THUERINGEN": 2,
-    "NIEDERSACHSEN": 9,
-    "BAYERN": 5,
-    "HESSEN": 2,
-    "SACHSEN_ANHALT": 2,
-    "BADEN_WUERTTEMBERG": 8,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "BREMEN": 1,
-    "HAMBURG": 2,
-    "SACHSEN": 2
+    "BAYERN": 24,
+    "HESSEN": 10,
+    "SACHSEN_ANHALT": 5,
+    "BADEN_WUERTTEMBERG": 31,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "BREMEN": 2,
+    "HAMBURG": 4,
+    "SACHSEN": 5,
+    "BRANDENBURG": 1,
+    "RHEINLAND_PFALZ": 5,
+    "SAARLAND": 3
    }
   },
   {
@@ -879,7 +945,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 1828,
+   "total": 1833,
    "cities": {
     "Berlin": 32,
     "Hamburg": 47,
@@ -897,20 +963,22 @@
     "Nürnberg": 33
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 20,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "NORDRHEIN_WESTFALEN": 41,
+    "HAMBURG": 5,
+    "NIEDERSACHSEN": 23,
     "SAARLAND": 1,
-    "BADEN_WUERTTEMBERG": 11,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "SACHSEN": 1,
-    "NIEDERSACHSEN": 4,
-    "BAYERN": 7,
-    "BREMEN": 1,
-    "BERLIN": 1,
-    "HESSEN": 5,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "RHEINLAND_PFALZ": 1,
-    "THUERINGEN": 2,
-    "HAMBURG": 1
+    "BADEN_WUERTTEMBERG": 19,
+    "SACHSEN": 2,
+    "BAYERN": 33,
+    "BREMEN": 3,
+    "BERLIN": 9,
+    "HESSEN": 23,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "RHEINLAND_PFALZ": 9,
+    "THUERINGEN": 5,
+    "BRANDENBURG": 9,
+    "SACHSEN_ANHALT": 3
    }
   },
   {
@@ -920,7 +988,7 @@
    "g": "food",
    "d": 3,
    "t": "dual",
-   "total": 1810,
+   "total": 1812,
    "cities": {
     "Berlin": 36,
     "Hamburg": 11,
@@ -938,20 +1006,22 @@
     "Nürnberg": 18
    },
    "regions": {
-    "BAYERN": 10,
-    "HESSEN": 6,
-    "RHEINLAND_PFALZ": 2,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BADEN_WUERTTEMBERG": 8,
-    "THUERINGEN": 1,
-    "NIEDERSACHSEN": 5,
-    "NORDRHEIN_WESTFALEN": 10,
-    "SACHSEN_ANHALT": 2,
-    "BRANDENBURG": 3,
-    "SACHSEN": 3,
-    "HAMBURG": 1,
-    "SAARLAND": 1
+    "HESSEN": 20,
+    "BAYERN": 31,
+    "BERLIN": 11,
+    "NORDRHEIN_WESTFALEN": 34,
+    "BRANDENBURG": 7,
+    "BREMEN": 1,
+    "BADEN_WUERTTEMBERG": 32,
+    "RHEINLAND_PFALZ": 4,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "THUERINGEN": 5,
+    "NIEDERSACHSEN": 18,
+    "SACHSEN_ANHALT": 8,
+    "SACHSEN": 5,
+    "HAMBURG": 3,
+    "SAARLAND": 2
    }
   },
   {
@@ -961,9 +1031,9 @@
    "g": "sales",
    "d": 3,
    "t": "dual",
-   "total": 1805,
+   "total": 1814,
    "cities": {
-    "Berlin": 67,
+    "Berlin": 76,
     "Hamburg": 36,
     "München": 94,
     "Köln": 79,
@@ -979,16 +1049,20 @@
     "Nürnberg": 21
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 8,
-    "BAYERN": 10,
+    "BERLIN": 12,
+    "BADEN_WUERTTEMBERG": 31,
+    "BAYERN": 44,
+    "RHEINLAND_PFALZ": 28,
+    "NORDRHEIN_WESTFALEN": 38,
     "BRANDENBURG": 2,
-    "NORDRHEIN_WESTFALEN": 11,
-    "HESSEN": 5,
-    "RHEINLAND_PFALZ": 14,
-    "SACHSEN_ANHALT": 2,
-    "BERLIN": 2,
-    "SACHSEN": 3,
-    "HAMBURG": 1
+    "SCHLESWIG_HOLSTEIN": 5,
+    "NIEDERSACHSEN": 4,
+    "HESSEN": 12,
+    "HAMBURG": 5,
+    "SACHSEN_ANHALT": 4,
+    "SAARLAND": 2,
+    "SACHSEN": 7,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -998,7 +1072,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 1782,
+   "total": 1783,
    "cities": {
     "Berlin": 14,
     "Hamburg": 19,
@@ -1016,19 +1090,22 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NIEDERSACHSEN": 9,
-    "BAYERN": 14,
-    "SAARLAND": 2,
-    "NORDRHEIN_WESTFALEN": 14,
-    "BADEN_WUERTTEMBERG": 8,
-    "SACHSEN_ANHALT": 1,
-    "BREMEN": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "HESSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BRANDENBURG": 1,
-    "SACHSEN": 3,
-    "THUERINGEN": 1
+    "BAYERN": 32,
+    "NIEDERSACHSEN": 31,
+    "SAARLAND": 7,
+    "NORDRHEIN_WESTFALEN": 39,
+    "BADEN_WUERTTEMBERG": 23,
+    "HESSEN": 8,
+    "SACHSEN_ANHALT": 8,
+    "BREMEN": 5,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "RHEINLAND_PFALZ": 6,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "BRANDENBURG": 9,
+    "SACHSEN": 6,
+    "THUERINGEN": 7,
+    "HAMBURG": 1,
+    "BERLIN": 1
    }
   },
   {
@@ -1038,7 +1115,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 1709,
+   "total": 1720,
    "cities": {
     "Berlin": 24,
     "Hamburg": 17,
@@ -1056,19 +1133,22 @@
     "Nürnberg": 29
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 15,
-    "SAARLAND": 2,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "BAYERN": 15,
-    "BADEN_WUERTTEMBERG": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BREMEN": 2,
-    "SACHSEN": 5,
-    "NIEDERSACHSEN": 6,
-    "THUERINGEN": 1,
+    "BAYERN": 33,
+    "NORDRHEIN_WESTFALEN": 50,
+    "BADEN_WUERTTEMBERG": 24,
+    "THUERINGEN": 4,
+    "HESSEN": 10,
+    "SAARLAND": 4,
+    "SCHLESWIG_HOLSTEIN": 14,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BREMEN": 4,
+    "SACHSEN": 9,
+    "RHEINLAND_PFALZ": 5,
+    "BRANDENBURG": 8,
+    "NIEDERSACHSEN": 23,
     "HAMBURG": 2,
     "BERLIN": 2,
-    "BRANDENBURG": 1
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -1096,19 +1176,23 @@
     "Nürnberg": 17
    },
    "regions": {
-    "BAYERN": 19,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "HESSEN": 2,
-    "SACHSEN_ANHALT": 2,
-    "NIEDERSACHSEN": 5,
-    "BADEN_WUERTTEMBERG": 9,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BRANDENBURG": 2,
-    "THUERINGEN": 2,
-    "RHEINLAND_PFALZ": 3,
-    "NORDRHEIN_WESTFALEN": 6,
-    "SACHSEN": 2,
-    "SAARLAND": 2
+    "BAYERN": 59,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "HESSEN": 6,
+    "BADEN_WUERTTEMBERG": 28,
+    "SAARLAND": 6,
+    "SACHSEN_ANHALT": 3,
+    "NIEDERSACHSEN": 17,
+    "BRANDENBURG": 9,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "THUERINGEN": 8,
+    "NORDRHEIN_WESTFALEN": 29,
+    "RHEINLAND_PFALZ": 9,
+    "HAMBURG": 1,
+    "SACHSEN": 10,
+    "BERLIN": 1,
+    "BREMEN": 1,
+    "SONSTIGES": 1
    }
   },
   {
@@ -1118,7 +1202,7 @@
    "g": "trans",
    "d": 3,
    "t": "dual",
-   "total": 1478,
+   "total": 1484,
    "cities": {
     "Berlin": 29,
     "Hamburg": 101,
@@ -1136,21 +1220,22 @@
     "Nürnberg": 27
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 14,
-    "HAMBURG": 4,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN": 2,
-    "BRANDENBURG": 5,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "NORDRHEIN_WESTFALEN": 52,
+    "BRANDENBURG": 9,
+    "HAMBURG": 17,
+    "BREMEN": 8,
+    "HESSEN": 11,
+    "NIEDERSACHSEN": 16,
+    "SACHSEN": 8,
     "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BAYERN": 7,
-    "HESSEN": 3,
+    "BAYERN": 25,
     "SAARLAND": 1,
-    "BREMEN": 3,
-    "BADEN_WUERTTEMBERG": 6,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "RHEINLAND_PFALZ": 3,
-    "SACHSEN_ANHALT": 1
+    "BADEN_WUERTTEMBERG": 29,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "RHEINLAND_PFALZ": 5,
+    "SACHSEN_ANHALT": 5,
+    "BERLIN": 1
    }
   },
   {
@@ -1178,19 +1263,21 @@
     "Nürnberg": 32
    },
    "regions": {
-    "BAYERN": 18,
-    "BADEN_WUERTTEMBERG": 8,
+    "BAYERN": 32,
+    "BADEN_WUERTTEMBERG": 14,
     "BREMEN": 1,
-    "NORDRHEIN_WESTFALEN": 13,
-    "THUERINGEN": 1,
-    "HESSEN": 2,
-    "HAMBURG": 1,
-    "RHEINLAND_PFALZ": 4,
-    "SACHSEN": 4,
-    "SACHSEN_ANHALT": 1,
-    "NIEDERSACHSEN": 5,
+    "NORDRHEIN_WESTFALEN": 86,
+    "THUERINGEN": 2,
+    "HESSEN": 19,
+    "HAMBURG": 2,
+    "RHEINLAND_PFALZ": 17,
+    "SACHSEN": 5,
+    "SACHSEN_ANHALT": 2,
+    "NIEDERSACHSEN": 14,
     "BRANDENBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "SCHLESWIG_HOLSTEIN": 2,
+    "SAARLAND": 2,
+    "MECKLENBURG_VORPOMMERN": 1
    }
   },
   {
@@ -1200,7 +1287,7 @@
    "g": "trans",
    "d": 3,
    "t": "drive",
-   "total": 1408,
+   "total": 1412,
    "cities": {
     "Berlin": 35,
     "Hamburg": 37,
@@ -1218,21 +1305,22 @@
     "Nürnberg": 13
    },
    "regions": {
-    "THUERINGEN": 2,
-    "BRANDENBURG": 4,
-    "SACHSEN": 1,
-    "BAYERN": 4,
-    "SAARLAND": 1,
-    "HAMBURG": 2,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 15,
-    "MECKLENBURG_VORPOMMERN": 11,
-    "NIEDERSACHSEN": 7,
-    "HESSEN": 3,
-    "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 1,
-    "BREMEN": 1,
-    "BADEN_WUERTTEMBERG": 3
+    "SACHSEN": 10,
+    "BADEN_WUERTTEMBERG": 25,
+    "NORDRHEIN_WESTFALEN": 47,
+    "SCHLESWIG_HOLSTEIN": 13,
+    "SAARLAND": 4,
+    "THUERINGEN": 5,
+    "BRANDENBURG": 11,
+    "BAYERN": 11,
+    "NIEDERSACHSEN": 28,
+    "RHEINLAND_PFALZ": 4,
+    "HAMBURG": 8,
+    "MECKLENBURG_VORPOMMERN": 12,
+    "HESSEN": 6,
+    "SACHSEN_ANHALT": 4,
+    "BREMEN": 4,
+    "BERLIN": 7
    }
   },
   {
@@ -1260,15 +1348,20 @@
     "Nürnberg": 16
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 3,
-    "BAYERN": 2,
-    "RHEINLAND_PFALZ": 1,
-    "NIEDERSACHSEN": 8,
-    "NORDRHEIN_WESTFALEN": 17,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "SCHLESWIG_HOLSTEIN": 22,
-    "HAMBURG": 2,
-    "BRANDENBURG": 2
+    "NIEDERSACHSEN": 14,
+    "SCHLESWIG_HOLSTEIN": 41,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "BADEN_WUERTTEMBERG": 40,
+    "BAYERN": 14,
+    "RHEINLAND_PFALZ": 4,
+    "NORDRHEIN_WESTFALEN": 44,
+    "HAMBURG": 4,
+    "BRANDENBURG": 4,
+    "BERLIN": 10,
+    "SACHSEN_ANHALT": 1,
+    "HESSEN": 6,
+    "SACHSEN": 6,
+    "THUERINGEN": 3
    }
   },
   {
@@ -1278,7 +1371,7 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 1328,
+   "total": 1329,
    "cities": {
     "Berlin": 20,
     "Hamburg": 27,
@@ -1296,19 +1389,22 @@
     "Nürnberg": 17
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 4,
-    "HAMBURG": 3,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BRANDENBURG": 1,
-    "RHEINLAND_PFALZ": 9,
-    "HESSEN": 5,
-    "NORDRHEIN_WESTFALEN": 11,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN_ANHALT": 2,
-    "BAYERN": 7,
-    "BREMEN": 3,
-    "SACHSEN": 2,
-    "THUERINGEN": 2
+    "BADEN_WUERTTEMBERG": 22,
+    "BAYERN": 38,
+    "HAMBURG": 6,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "BRANDENBURG": 2,
+    "RHEINLAND_PFALZ": 15,
+    "HESSEN": 14,
+    "NORDRHEIN_WESTFALEN": 44,
+    "BREMEN": 4,
+    "SAARLAND": 3,
+    "NIEDERSACHSEN": 25,
+    "SACHSEN_ANHALT": 5,
+    "SACHSEN": 5,
+    "THUERINGEN": 4,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "BERLIN": 1
    }
   },
   {
@@ -1336,19 +1432,22 @@
     "Nürnberg": 15
    },
    "regions": {
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BRANDENBURG": 2,
-    "HESSEN": 10,
-    "NORDRHEIN_WESTFALEN": 15,
-    "RHEINLAND_PFALZ": 5,
-    "BAYERN": 5,
-    "THUERINGEN": 1,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "NIEDERSACHSEN": 9,
-    "SACHSEN": 2,
-    "SACHSEN_ANHALT": 1,
-    "SAARLAND": 1,
-    "BADEN_WUERTTEMBERG": 2
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BRANDENBURG": 7,
+    "HESSEN": 18,
+    "NORDRHEIN_WESTFALEN": 61,
+    "RHEINLAND_PFALZ": 14,
+    "BAYERN": 19,
+    "SACHSEN": 6,
+    "THUERINGEN": 6,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "NIEDERSACHSEN": 26,
+    "SACHSEN_ANHALT": 2,
+    "BERLIN": 4,
+    "BADEN_WUERTTEMBERG": 14,
+    "SAARLAND": 4,
+    "BREMEN": 3,
+    "HAMBURG": 1
    }
   },
   {
@@ -1376,19 +1475,22 @@
     "Nürnberg": 8
    },
    "regions": {
-    "BAYERN": 7,
-    "SACHSEN": 1,
-    "NIEDERSACHSEN": 15,
+    "BAYERN": 26,
+    "SACHSEN": 5,
+    "NIEDERSACHSEN": 31,
     "SAARLAND": 3,
-    "THUERINGEN": 3,
-    "BRANDENBURG": 3,
-    "NORDRHEIN_WESTFALEN": 11,
-    "HESSEN": 2,
-    "RHEINLAND_PFALZ": 4,
-    "SACHSEN_ANHALT": 4,
-    "BADEN_WUERTTEMBERG": 5,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "THUERINGEN": 15,
+    "BRANDENBURG": 8,
+    "RHEINLAND_PFALZ": 14,
+    "MECKLENBURG_VORPOMMERN": 8,
+    "NORDRHEIN_WESTFALEN": 32,
+    "HESSEN": 10,
+    "SACHSEN_ANHALT": 8,
+    "BADEN_WUERTTEMBERG": 14,
+    "SCHLESWIG_HOLSTEIN": 15,
+    "HAMBURG": 3,
+    "BREMEN": 5,
+    "BERLIN": 2
    }
   },
   {
@@ -1416,18 +1518,21 @@
     "Nürnberg": 16
    },
    "regions": {
-    "SACHSEN_ANHALT": 1,
-    "BAYERN": 6,
-    "RHEINLAND_PFALZ": 6,
-    "BADEN_WUERTTEMBERG": 12,
-    "THUERINGEN": 2,
-    "SACHSEN": 5,
-    "NIEDERSACHSEN": 3,
-    "SCHLESWIG_HOLSTEIN": 1,
+    "SACHSEN_ANHALT": 2,
+    "BAYERN": 31,
+    "RHEINLAND_PFALZ": 13,
+    "BADEN_WUERTTEMBERG": 25,
+    "THUERINGEN": 12,
+    "SACHSEN": 7,
+    "NIEDERSACHSEN": 30,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "NORDRHEIN_WESTFALEN": 52,
     "SAARLAND": 3,
-    "NORDRHEIN_WESTFALEN": 18,
-    "HESSEN": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "HESSEN": 3,
+    "BRANDENBURG": 2,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BERLIN": 3,
+    "HAMBURG": 4
    }
   },
   {
@@ -1455,18 +1560,21 @@
     "Nürnberg": 4
    },
    "regions": {
-    "BAYERN": 10,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN_ANHALT": 3,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "SACHSEN": 4,
-    "HESSEN": 6,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BADEN_WUERTTEMBERG": 8,
-    "RHEINLAND_PFALZ": 2,
-    "THUERINGEN": 3,
-    "BRANDENBURG": 1,
-    "HAMBURG": 1
+    "BAYERN": 23,
+    "NIEDERSACHSEN": 29,
+    "SACHSEN_ANHALT": 11,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "SACHSEN": 12,
+    "HESSEN": 11,
+    "NORDRHEIN_WESTFALEN": 38,
+    "BADEN_WUERTTEMBERG": 23,
+    "RHEINLAND_PFALZ": 11,
+    "THUERINGEN": 16,
+    "BRANDENBURG": 5,
+    "HAMBURG": 2,
+    "BERLIN": 5,
+    "SAARLAND": 4,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -1476,7 +1584,7 @@
    "g": "food",
    "d": 3,
    "t": "dual",
-   "total": 1198,
+   "total": 1199,
    "cities": {
     "Berlin": 33,
     "Hamburg": 21,
@@ -1494,13 +1602,20 @@
     "Nürnberg": 22
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 6,
-    "SCHLESWIG_HOLSTEIN": 14,
-    "BAYERN": 11,
-    "HESSEN": 3,
-    "RHEINLAND_PFALZ": 2,
-    "NIEDERSACHSEN": 18,
-    "NORDRHEIN_WESTFALEN": 6
+    "NIEDERSACHSEN": 33,
+    "BADEN_WUERTTEMBERG": 18,
+    "SCHLESWIG_HOLSTEIN": 18,
+    "BAYERN": 32,
+    "HESSEN": 31,
+    "RHEINLAND_PFALZ": 13,
+    "NORDRHEIN_WESTFALEN": 30,
+    "THUERINGEN": 3,
+    "BRANDENBURG": 4,
+    "SACHSEN_ANHALT": 6,
+    "BERLIN": 7,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "SACHSEN": 1,
+    "SAARLAND": 1
    }
   },
   {
@@ -1528,20 +1643,21 @@
     "Nürnberg": 11
    },
    "regions": {
-    "BAYERN": 11,
-    "NORDRHEIN_WESTFALEN": 10,
-    "NIEDERSACHSEN": 8,
-    "RHEINLAND_PFALZ": 2,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BADEN_WUERTTEMBERG": 9,
-    "THUERINGEN": 1,
-    "HESSEN": 6,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "SACHSEN_ANHALT": 1,
-    "BRANDENBURG": 3,
-    "SACHSEN": 3,
-    "BERLIN": 1,
-    "SAARLAND": 1
+    "BAYERN": 31,
+    "BRANDENBURG": 4,
+    "NORDRHEIN_WESTFALEN": 29,
+    "NIEDERSACHSEN": 22,
+    "RHEINLAND_PFALZ": 7,
+    "MECKLENBURG_VORPOMMERN": 12,
+    "BADEN_WUERTTEMBERG": 32,
+    "THUERINGEN": 9,
+    "HESSEN": 24,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "SACHSEN_ANHALT": 7,
+    "SACHSEN": 6,
+    "BERLIN": 8,
+    "SAARLAND": 1,
+    "SONSTIGES": 2
    }
   },
   {
@@ -1551,7 +1667,7 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 1174,
+   "total": 1177,
    "cities": {
     "Berlin": 6,
     "Hamburg": 5,
@@ -1569,17 +1685,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 17,
-    "BRANDENBURG": 4,
-    "HESSEN": 6,
-    "BAYERN": 8,
-    "BADEN_WUERTTEMBERG": 7,
-    "THUERINGEN": 1,
-    "NIEDERSACHSEN": 11,
+    "NORDRHEIN_WESTFALEN": 46,
+    "HAMBURG": 1,
+    "BADEN_WUERTTEMBERG": 26,
+    "BRANDENBURG": 7,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "HESSEN": 17,
+    "BAYERN": 31,
+    "NIEDERSACHSEN": 29,
+    "THUERINGEN": 5,
     "BERLIN": 1,
-    "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 1
+    "SACHSEN_ANHALT": 7,
+    "RHEINLAND_PFALZ": 9,
+    "SAARLAND": 4,
+    "SACHSEN": 5,
+    "BREMEN": 1,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -1589,7 +1710,7 @@
    "g": "sales",
    "d": 3,
    "t": "dual",
-   "total": 1168,
+   "total": 1169,
    "cities": {
     "Berlin": 39,
     "Hamburg": 8,
@@ -1607,16 +1728,20 @@
     "Nürnberg": 16
    },
    "regions": {
-    "NIEDERSACHSEN": 8,
-    "BAYERN": 8,
-    "BERLIN": 1,
-    "SAARLAND": 1,
-    "NORDRHEIN_WESTFALEN": 19,
-    "BREMEN": 3,
+    "NIEDERSACHSEN": 29,
+    "BAYERN": 14,
+    "BERLIN": 26,
+    "BREMEN": 5,
+    "SAARLAND": 4,
+    "NORDRHEIN_WESTFALEN": 31,
+    "SACHSEN": 12,
     "RHEINLAND_PFALZ": 3,
-    "BADEN_WUERTTEMBERG": 15,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "SACHSEN": 1
+    "BADEN_WUERTTEMBERG": 23,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "SACHSEN_ANHALT": 31,
+    "BRANDENBURG": 18,
+    "THUERINGEN": 1,
+    "HAMBURG": 1
    }
   },
   {
@@ -1626,7 +1751,7 @@
    "g": "health",
    "d": 3,
    "t": "dual",
-   "total": 1143,
+   "total": 1146,
    "cities": {
     "Berlin": 42,
     "Hamburg": 43,
@@ -1644,21 +1769,22 @@
     "Nürnberg": 22
    },
    "regions": {
-    "BAYERN": 9,
-    "BERLIN": 3,
-    "SACHSEN_ANHALT": 5,
-    "SACHSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BADEN_WUERTTEMBERG": 8,
-    "HAMBURG": 3,
-    "THUERINGEN": 1,
-    "RHEINLAND_PFALZ": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SAARLAND": 2,
-    "HESSEN": 2,
-    "NORDRHEIN_WESTFALEN": 13,
-    "NIEDERSACHSEN": 2,
-    "BREMEN": 1
+    "BAYERN": 27,
+    "THUERINGEN": 16,
+    "BERLIN": 6,
+    "SACHSEN_ANHALT": 9,
+    "SACHSEN": 16,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "BADEN_WUERTTEMBERG": 31,
+    "HAMBURG": 4,
+    "RHEINLAND_PFALZ": 8,
+    "MECKLENBURG_VORPOMMERN": 13,
+    "SAARLAND": 4,
+    "HESSEN": 8,
+    "NORDRHEIN_WESTFALEN": 31,
+    "NIEDERSACHSEN": 13,
+    "BREMEN": 2,
+    "BRANDENBURG": 3
    }
   },
   {
@@ -1686,20 +1812,22 @@
     "Nürnberg": 6
    },
    "regions": {
-    "RHEINLAND_PFALZ": 2,
-    "SACHSEN": 3,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BADEN_WUERTTEMBERG": 14,
-    "THUERINGEN": 1,
-    "BAYERN": 8,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 8,
-    "NIEDERSACHSEN": 6,
-    "HESSEN": 6,
-    "BRANDENBURG": 3,
-    "SACHSEN_ANHALT": 1,
-    "BERLIN": 1,
-    "BREMEN": 1
+    "BAYERN": 41,
+    "BRANDENBURG": 7,
+    "BREMEN": 2,
+    "RHEINLAND_PFALZ": 6,
+    "SACHSEN": 8,
+    "MECKLENBURG_VORPOMMERN": 10,
+    "BADEN_WUERTTEMBERG": 44,
+    "THUERINGEN": 5,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "NORDRHEIN_WESTFALEN": 19,
+    "NIEDERSACHSEN": 16,
+    "HESSEN": 19,
+    "SACHSEN_ANHALT": 6,
+    "BERLIN": 4,
+    "HAMBURG": 1,
+    "SAARLAND": 1
    }
   },
   {
@@ -1727,21 +1855,21 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 11,
-    "SACHSEN_ANHALT": 4,
-    "BADEN_WUERTTEMBERG": 7,
-    "BAYERN": 7,
-    "NIEDERSACHSEN": 4,
-    "RHEINLAND_PFALZ": 5,
-    "SACHSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "MECKLENBURG_VORPOMMERN": 6,
-    "THUERINGEN": 3,
-    "BRANDENBURG": 1,
-    "BREMEN": 6,
-    "HESSEN": 1,
-    "HAMBURG": 1,
-    "BERLIN": 1
+    "NORDRHEIN_WESTFALEN": 30,
+    "SACHSEN_ANHALT": 16,
+    "BADEN_WUERTTEMBERG": 29,
+    "BAYERN": 24,
+    "NIEDERSACHSEN": 16,
+    "RHEINLAND_PFALZ": 13,
+    "SACHSEN": 18,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "MECKLENBURG_VORPOMMERN": 12,
+    "THUERINGEN": 11,
+    "BRANDENBURG": 4,
+    "BREMEN": 7,
+    "HESSEN": 8,
+    "HAMBURG": 2,
+    "BERLIN": 5
    }
   },
   {
@@ -1751,7 +1879,7 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 1059,
+   "total": 1056,
    "cities": {
     "Berlin": 4,
     "Hamburg": 6,
@@ -1769,17 +1897,20 @@
     "Nürnberg": 3
    },
    "regions": {
+    "BADEN_WUERTTEMBERG": 52,
     "SACHSEN_ANHALT": 3,
-    "BAYERN": 16,
-    "BRANDENBURG": 1,
-    "NIEDERSACHSEN": 8,
-    "BADEN_WUERTTEMBERG": 11,
-    "NORDRHEIN_WESTFALEN": 7,
-    "RHEINLAND_PFALZ": 6,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "HESSEN": 3,
-    "THUERINGEN": 2,
-    "SAARLAND": 1
+    "BAYERN": 62,
+    "BRANDENBURG": 3,
+    "NIEDERSACHSEN": 19,
+    "NORDRHEIN_WESTFALEN": 16,
+    "RHEINLAND_PFALZ": 13,
+    "SACHSEN": 2,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "THUERINGEN": 7,
+    "HESSEN": 6,
+    "HAMBURG": 1,
+    "SAARLAND": 3,
+    "MECKLENBURG_VORPOMMERN": 3
    }
   },
   {
@@ -1789,7 +1920,7 @@
    "g": "it",
    "d": 3,
    "t": "it",
-   "total": 994,
+   "total": 995,
    "cities": {
     "Berlin": 11,
     "Hamburg": 23,
@@ -1797,7 +1928,7 @@
     "Köln": 26,
     "Frankfurt am Main": 14,
     "Stuttgart": 21,
-    "Düsseldorf": 31,
+    "Düsseldorf": 32,
     "Leipzig": 4,
     "Dortmund": 29,
     "Essen": 32,
@@ -1807,15 +1938,21 @@
     "Nürnberg": 28
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 7,
-    "NORDRHEIN_WESTFALEN": 17,
-    "BAYERN": 13,
-    "HESSEN": 5,
-    "BREMEN": 1,
-    "NIEDERSACHSEN": 11,
-    "RHEINLAND_PFALZ": 3,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HAMBURG": 2
+    "NORDRHEIN_WESTFALEN": 63,
+    "BADEN_WUERTTEMBERG": 27,
+    "BAYERN": 32,
+    "HESSEN": 10,
+    "BREMEN": 4,
+    "NIEDERSACHSEN": 34,
+    "RHEINLAND_PFALZ": 6,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "HAMBURG": 6,
+    "SAARLAND": 2,
+    "BERLIN": 3,
+    "SACHSEN_ANHALT": 1,
+    "BRANDENBURG": 4,
+    "THUERINGEN": 2,
+    "SACHSEN": 3
    }
   },
   {
@@ -1825,7 +1962,7 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 945,
+   "total": 946,
    "cities": {
     "Berlin": 8,
     "Hamburg": 13,
@@ -1843,18 +1980,21 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NIEDERSACHSEN": 4,
-    "MECKLENBURG_VORPOMMERN": 4,
-    "NORDRHEIN_WESTFALEN": 17,
-    "BADEN_WUERTTEMBERG": 5,
-    "BAYERN": 8,
-    "SCHLESWIG_HOLSTEIN": 6,
-    "RHEINLAND_PFALZ": 3,
-    "HESSEN": 4,
-    "BRANDENBURG": 1,
-    "SACHSEN_ANHALT": 3,
-    "BREMEN": 3,
-    "THUERINGEN": 1,
+    "NORDRHEIN_WESTFALEN": 45,
+    "NIEDERSACHSEN": 17,
+    "BADEN_WUERTTEMBERG": 25,
+    "SAARLAND": 4,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "BAYERN": 33,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "RHEINLAND_PFALZ": 10,
+    "THUERINGEN": 4,
+    "HESSEN": 7,
+    "BRANDENBURG": 6,
+    "SACHSEN_ANHALT": 8,
+    "BREMEN": 6,
+    "HAMBURG": 1,
+    "SACHSEN": 13,
     "BERLIN": 1
    }
   },
@@ -1865,7 +2005,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 935,
+   "total": 934,
    "cities": {
     "Berlin": 8,
     "Hamburg": 4,
@@ -1883,15 +2023,20 @@
     "Nürnberg": 16
    },
    "regions": {
-    "NIEDERSACHSEN": 3,
-    "HESSEN": 2,
-    "NORDRHEIN_WESTFALEN": 19,
-    "THUERINGEN": 4,
-    "BADEN_WUERTTEMBERG": 14,
-    "SACHSEN": 5,
-    "BAYERN": 10,
-    "SACHSEN_ANHALT": 2,
-    "SCHLESWIG_HOLSTEIN": 1
+    "NIEDERSACHSEN": 8,
+    "HESSEN": 9,
+    "NORDRHEIN_WESTFALEN": 52,
+    "THUERINGEN": 14,
+    "BADEN_WUERTTEMBERG": 42,
+    "SACHSEN": 21,
+    "BAYERN": 30,
+    "SAARLAND": 1,
+    "SACHSEN_ANHALT": 4,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "RHEINLAND_PFALZ": 7,
+    "BERLIN": 2,
+    "BRANDENBURG": 5,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -1919,16 +2064,21 @@
     "Nürnberg": 10
    },
    "regions": {
-    "BAYERN": 13,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN": 5,
-    "SACHSEN_ANHALT": 2,
-    "BADEN_WUERTTEMBERG": 11,
-    "NORDRHEIN_WESTFALEN": 17,
-    "BRANDENBURG": 3,
-    "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "HESSEN": 1
+    "SACHSEN": 13,
+    "BAYERN": 31,
+    "NIEDERSACHSEN": 20,
+    "SACHSEN_ANHALT": 7,
+    "BADEN_WUERTTEMBERG": 26,
+    "NORDRHEIN_WESTFALEN": 61,
+    "RHEINLAND_PFALZ": 5,
+    "HAMBURG": 1,
+    "BRANDENBURG": 7,
+    "HESSEN": 8,
+    "THUERINGEN": 12,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BREMEN": 2,
+    "SAARLAND": 1,
+    "SCHLESWIG_HOLSTEIN": 3
    }
   },
   {
@@ -1938,7 +2088,7 @@
    "g": "elec",
    "d": 3.5,
    "t": "dual",
-   "total": 847,
+   "total": 848,
    "cities": {
     "Berlin": 7,
     "Hamburg": 18,
@@ -1956,18 +2106,20 @@
     "Nürnberg": 7
    },
    "regions": {
-    "BAYERN": 10,
-    "NIEDERSACHSEN": 11,
-    "BRANDENBURG": 4,
-    "BADEN_WUERTTEMBERG": 16,
-    "NORDRHEIN_WESTFALEN": 7,
-    "RHEINLAND_PFALZ": 2,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "THUERINGEN": 2,
-    "HESSEN": 2,
-    "SACHSEN_ANHALT": 2,
-    "HAMBURG": 1
+    "BAYERN": 27,
+    "NIEDERSACHSEN": 44,
+    "BRANDENBURG": 11,
+    "BADEN_WUERTTEMBERG": 25,
+    "HESSEN": 6,
+    "NORDRHEIN_WESTFALEN": 31,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "SACHSEN": 6,
+    "RHEINLAND_PFALZ": 7,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "THUERINGEN": 11,
+    "SACHSEN_ANHALT": 9,
+    "SAARLAND": 2,
+    "HAMBURG": 3
    }
   },
   {
@@ -1995,16 +2147,23 @@
     "Nürnberg": 9
    },
    "regions": {
-    "SAARLAND": 4,
-    "BAYERN": 10,
-    "NORDRHEIN_WESTFALEN": 15,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NIEDERSACHSEN": 9,
-    "BADEN_WUERTTEMBERG": 13,
-    "HESSEN": 2,
-    "BRANDENBURG": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BERLIN": 1
+    "NORDRHEIN_WESTFALEN": 44,
+    "SAARLAND": 5,
+    "BADEN_WUERTTEMBERG": 37,
+    "BAYERN": 36,
+    "SACHSEN_ANHALT": 6,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "NIEDERSACHSEN": 29,
+    "HESSEN": 5,
+    "SACHSEN": 3,
+    "BRANDENBURG": 6,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BERLIN": 3,
+    "HAMBURG": 4,
+    "BREMEN": 1,
+    "RHEINLAND_PFALZ": 5,
+    "THUERINGEN": 4,
+    "SONSTIGES": 1
    }
   },
   {
@@ -2032,19 +2191,21 @@
     "Nürnberg": 7
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 19,
-    "NIEDERSACHSEN": 7,
-    "BADEN_WUERTTEMBERG": 11,
-    "BAYERN": 8,
-    "SAARLAND": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
+    "NORDRHEIN_WESTFALEN": 43,
+    "NIEDERSACHSEN": 27,
+    "BADEN_WUERTTEMBERG": 33,
+    "BAYERN": 37,
+    "SAARLAND": 4,
+    "MECKLENBURG_VORPOMMERN": 2,
     "BREMEN": 1,
-    "RHEINLAND_PFALZ": 2,
-    "SACHSEN": 2,
-    "THUERINGEN": 2,
-    "BRANDENBURG": 2,
+    "SACHSEN": 10,
+    "RHEINLAND_PFALZ": 11,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "THUERINGEN": 5,
+    "HESSEN": 16,
+    "BRANDENBURG": 4,
     "HAMBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -2072,21 +2233,21 @@
     "Nürnberg": 13
    },
    "regions": {
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BAYERN": 13,
-    "SCHLESWIG_HOLSTEIN": 4,
-    "HESSEN": 1,
-    "NIEDERSACHSEN": 2,
-    "BRANDENBURG": 5,
-    "BADEN_WUERTTEMBERG": 8,
-    "SACHSEN": 5,
-    "BERLIN": 1,
-    "THUERINGEN": 3,
-    "NORDRHEIN_WESTFALEN": 9,
-    "SACHSEN_ANHALT": 3,
-    "RHEINLAND_PFALZ": 1,
-    "SAARLAND": 1,
-    "HAMBURG": 1
+    "MECKLENBURG_VORPOMMERN": 6,
+    "BAYERN": 33,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "HESSEN": 8,
+    "SAARLAND": 4,
+    "BADEN_WUERTTEMBERG": 38,
+    "SACHSEN": 16,
+    "NORDRHEIN_WESTFALEN": 32,
+    "NIEDERSACHSEN": 12,
+    "BRANDENBURG": 11,
+    "BERLIN": 2,
+    "THUERINGEN": 5,
+    "HAMBURG": 7,
+    "SACHSEN_ANHALT": 10,
+    "RHEINLAND_PFALZ": 4
    }
   },
   {
@@ -2096,7 +2257,7 @@
    "g": "service",
    "d": 3,
    "t": "dual",
-   "total": 692,
+   "total": 693,
    "cities": {
     "Berlin": 9,
     "Hamburg": 13,
@@ -2114,18 +2275,22 @@
     "Nürnberg": 15
    },
    "regions": {
-    "BREMEN": 5,
-    "NORDRHEIN_WESTFALEN": 21,
-    "HESSEN": 3,
-    "BAYERN": 11,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "SACHSEN_ANHALT": 1,
-    "NIEDERSACHSEN": 4,
-    "BADEN_WUERTTEMBERG": 6,
-    "SAARLAND": 1,
-    "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SACHSEN": 1
+    "BAYERN": 38,
+    "BREMEN": 7,
+    "NORDRHEIN_WESTFALEN": 58,
+    "HESSEN": 21,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "NIEDERSACHSEN": 21,
+    "SACHSEN_ANHALT": 2,
+    "HAMBURG": 2,
+    "BADEN_WUERTTEMBERG": 21,
+    "SAARLAND": 3,
+    "BRANDENBURG": 3,
+    "THUERINGEN": 2,
+    "RHEINLAND_PFALZ": 7,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "SACHSEN": 4,
+    "BERLIN": 1
    }
   },
   {
@@ -2153,18 +2318,21 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 13,
-    "NORDRHEIN_WESTFALEN": 16,
-    "BAYERN": 9,
-    "HESSEN": 3,
-    "SAARLAND": 2,
+    "BADEN_WUERTTEMBERG": 38,
+    "NORDRHEIN_WESTFALEN": 49,
+    "BAYERN": 37,
+    "HESSEN": 14,
+    "SAARLAND": 5,
     "BRANDENBURG": 1,
-    "NIEDERSACHSEN": 7,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "NIEDERSACHSEN": 25,
     "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 5,
-    "SACHSEN": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HAMBURG": 1
+    "RHEINLAND_PFALZ": 11,
+    "SACHSEN": 6,
+    "HAMBURG": 2,
+    "THUERINGEN": 2,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -2174,7 +2342,7 @@
    "g": "elec",
    "d": 3.5,
    "t": "dual",
-   "total": 661,
+   "total": 660,
    "cities": {
     "Berlin": 13,
     "Hamburg": 9,
@@ -2192,18 +2360,22 @@
     "Nürnberg": 7
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 10,
-    "THUERINGEN": 3,
-    "RHEINLAND_PFALZ": 3,
-    "NIEDERSACHSEN": 12,
-    "BAYERN": 12,
-    "NORDRHEIN_WESTFALEN": 11,
-    "SACHSEN": 2,
-    "BREMEN": 2,
-    "HESSEN": 2,
-    "BRANDENBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HAMBURG": 1
+    "BADEN_WUERTTEMBERG": 33,
+    "THUERINGEN": 10,
+    "RHEINLAND_PFALZ": 5,
+    "NIEDERSACHSEN": 34,
+    "BAYERN": 29,
+    "NORDRHEIN_WESTFALEN": 40,
+    "HAMBURG": 4,
+    "SACHSEN": 8,
+    "BREMEN": 4,
+    "HESSEN": 9,
+    "BRANDENBURG": 8,
+    "SACHSEN_ANHALT": 8,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "SAARLAND": 3,
+    "BERLIN": 2,
+    "MECKLENBURG_VORPOMMERN": 1
    }
   },
   {
@@ -2213,7 +2385,7 @@
    "g": "metal",
    "d": 3,
    "t": "dual",
-   "total": 625,
+   "total": 624,
    "cities": {
     "Berlin": 6,
     "Hamburg": 2,
@@ -2231,16 +2403,20 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NIEDERSACHSEN": 6,
-    "NORDRHEIN_WESTFALEN": 18,
-    "BADEN_WUERTTEMBERG": 9,
-    "BAYERN": 9,
-    "HESSEN": 4,
-    "SAARLAND": 1,
-    "THUERINGEN": 4,
-    "RHEINLAND_PFALZ": 4,
-    "BRANDENBURG": 1,
-    "SACHSEN": 4
+    "NORDRHEIN_WESTFALEN": 33,
+    "BADEN_WUERTTEMBERG": 38,
+    "SAARLAND": 2,
+    "NIEDERSACHSEN": 15,
+    "BAYERN": 45,
+    "HESSEN": 13,
+    "THUERINGEN": 13,
+    "RHEINLAND_PFALZ": 10,
+    "BRANDENBURG": 6,
+    "SACHSEN_ANHALT": 5,
+    "SACHSEN": 13,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "BERLIN": 2
    }
   },
   {
@@ -2268,15 +2444,21 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 11,
-    "HAMBURG": 2,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BADEN_WUERTTEMBERG": 15,
-    "BAYERN": 12,
-    "RHEINLAND_PFALZ": 5,
-    "NIEDERSACHSEN": 8,
-    "SACHSEN_ANHALT": 1,
-    "SONSTIGES": 1
+    "NORDRHEIN_WESTFALEN": 31,
+    "BADEN_WUERTTEMBERG": 41,
+    "HAMBURG": 3,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "BAYERN": 53,
+    "SACHSEN_ANHALT": 2,
+    "RHEINLAND_PFALZ": 7,
+    "NIEDERSACHSEN": 30,
+    "BREMEN": 2,
+    "BRANDENBURG": 1,
+    "SONSTIGES": 1,
+    "HESSEN": 10,
+    "SAARLAND": 3,
+    "SACHSEN": 2,
+    "THUERINGEN": 3
    }
   },
   {
@@ -2304,19 +2486,21 @@
     "Nürnberg": 8
    },
    "regions": {
-    "RHEINLAND_PFALZ": 4,
-    "NORDRHEIN_WESTFALEN": 14,
-    "SAARLAND": 2,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "SACHSEN_ANHALT": 3,
-    "HAMBURG": 1,
-    "BAYERN": 11,
-    "NIEDERSACHSEN": 7,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BADEN_WUERTTEMBERG": 6,
-    "BRANDENBURG": 1,
-    "HESSEN": 4,
-    "THUERINGEN": 2
+    "RHEINLAND_PFALZ": 15,
+    "BAYERN": 29,
+    "NORDRHEIN_WESTFALEN": 54,
+    "SAARLAND": 3,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "SACHSEN_ANHALT": 5,
+    "HAMBURG": 3,
+    "THUERINGEN": 8,
+    "NIEDERSACHSEN": 28,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "HESSEN": 12,
+    "BRANDENBURG": 5,
+    "BADEN_WUERTTEMBERG": 19,
+    "SACHSEN": 4,
+    "BERLIN": 3
    }
   },
   {
@@ -2344,16 +2528,22 @@
     "Nürnberg": 9
    },
    "regions": {
-    "BAYERN": 10,
-    "HESSEN": 7,
-    "NORDRHEIN_WESTFALEN": 18,
-    "HAMBURG": 2,
-    "BADEN_WUERTTEMBERG": 7,
-    "NIEDERSACHSEN": 11,
-    "RHEINLAND_PFALZ": 1,
-    "THUERINGEN": 1,
-    "SACHSEN_ANHALT": 1,
-    "BREMEN": 2
+    "SAARLAND": 5,
+    "BAYERN": 32,
+    "HESSEN": 14,
+    "NORDRHEIN_WESTFALEN": 50,
+    "NIEDERSACHSEN": 22,
+    "HAMBURG": 6,
+    "BADEN_WUERTTEMBERG": 30,
+    "RHEINLAND_PFALZ": 11,
+    "SACHSEN": 6,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "THUERINGEN": 6,
+    "SACHSEN_ANHALT": 2,
+    "BREMEN": 3,
+    "BRANDENBURG": 3,
+    "BERLIN": 3,
+    "MECKLENBURG_VORPOMMERN": 3
    }
   },
   {
@@ -2381,17 +2571,20 @@
     "Nürnberg": 8
    },
    "regions": {
-    "BAYERN": 11,
-    "BADEN_WUERTTEMBERG": 17,
-    "HESSEN": 4,
-    "NIEDERSACHSEN": 6,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NORDRHEIN_WESTFALEN": 8,
-    "RHEINLAND_PFALZ": 2,
-    "BRANDENBURG": 3,
-    "SACHSEN": 2,
-    "SACHSEN_ANHALT": 1,
-    "THUERINGEN": 3
+    "BAYERN": 38,
+    "BADEN_WUERTTEMBERG": 42,
+    "HESSEN": 9,
+    "NIEDERSACHSEN": 21,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "NORDRHEIN_WESTFALEN": 39,
+    "RHEINLAND_PFALZ": 4,
+    "BRANDENBURG": 7,
+    "SACHSEN": 8,
+    "THUERINGEN": 9,
+    "SACHSEN_ANHALT": 5,
+    "BREMEN": 3,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "BERLIN": 1
    }
   },
   {
@@ -2401,7 +2594,7 @@
    "g": "build",
    "d": 3,
    "t": "drive",
-   "total": 571,
+   "total": 572,
    "cities": {
     "Berlin": 24,
     "Hamburg": 3,
@@ -2419,19 +2612,21 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 4,
-    "NIEDERSACHSEN": 9,
-    "SACHSEN": 7,
-    "BAYERN": 7,
-    "BADEN_WUERTTEMBERG": 8,
-    "THUERINGEN": 4,
-    "SACHSEN_ANHALT": 3,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BERLIN": 2,
-    "BRANDENBURG": 8,
-    "HESSEN": 2,
+    "NORDRHEIN_WESTFALEN": 14,
+    "NIEDERSACHSEN": 16,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "SACHSEN": 25,
+    "THUERINGEN": 24,
+    "BAYERN": 32,
+    "BADEN_WUERTTEMBERG": 37,
+    "SACHSEN_ANHALT": 6,
+    "BERLIN": 5,
+    "BRANDENBURG": 14,
+    "SAARLAND": 4,
+    "HESSEN": 9,
     "BREMEN": 2,
-    "HAMBURG": 1
+    "HAMBURG": 2,
+    "RHEINLAND_PFALZ": 3
    }
   },
   {
@@ -2441,7 +2636,7 @@
    "g": "elec",
    "d": 3,
    "t": "dual",
-   "total": 555,
+   "total": 554,
    "cities": {
     "Berlin": 6,
     "Hamburg": 6,
@@ -2459,20 +2654,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 2,
-    "BAYERN": 8,
-    "SACHSEN": 3,
-    "NIEDERSACHSEN": 4,
-    "BRANDENBURG": 2,
-    "HESSEN": 7,
-    "RHEINLAND_PFALZ": 7,
-    "SAARLAND": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "NORDRHEIN_WESTFALEN": 15,
-    "SACHSEN_ANHALT": 2,
-    "THUERINGEN": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BREMEN": 1
+    "BADEN_WUERTTEMBERG": 20,
+    "BAYERN": 35,
+    "SACHSEN": 9,
+    "NIEDERSACHSEN": 22,
+    "BRANDENBURG": 6,
+    "HESSEN": 13,
+    "RHEINLAND_PFALZ": 17,
+    "NORDRHEIN_WESTFALEN": 42,
+    "SAARLAND": 9,
+    "HAMBURG": 2,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "SACHSEN_ANHALT": 5,
+    "THUERINGEN": 6,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "BREMEN": 1,
+    "BERLIN": 2
    }
   },
   {
@@ -2500,21 +2697,21 @@
     "Nürnberg": 6
    },
    "regions": {
-    "BREMEN": 2,
-    "BERLIN": 1,
-    "SACHSEN": 3,
-    "NIEDERSACHSEN": 10,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BRANDENBURG": 3,
-    "NORDRHEIN_WESTFALEN": 5,
-    "SACHSEN_ANHALT": 6,
-    "THUERINGEN": 2,
-    "RHEINLAND_PFALZ": 2,
-    "HESSEN": 1,
-    "BAYERN": 8,
-    "BADEN_WUERTTEMBERG": 8,
-    "HAMBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "BREMEN": 4,
+    "BERLIN": 7,
+    "SACHSEN": 8,
+    "BAYERN": 31,
+    "NIEDERSACHSEN": 36,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "BRANDENBURG": 11,
+    "SACHSEN_ANHALT": 16,
+    "NORDRHEIN_WESTFALEN": 30,
+    "HESSEN": 7,
+    "THUERINGEN": 7,
+    "RHEINLAND_PFALZ": 9,
+    "BADEN_WUERTTEMBERG": 13,
+    "HAMBURG": 3,
+    "MECKLENBURG_VORPOMMERN": 6
    }
   },
   {
@@ -2524,7 +2721,7 @@
    "g": "health",
    "d": 3,
    "t": "school",
-   "total": 534,
+   "total": 535,
    "cities": {
     "Berlin": 9,
     "Hamburg": 3,
@@ -2542,15 +2739,18 @@
     "Nürnberg": 4
    },
    "regions": {
-    "BAYERN": 2,
-    "RHEINLAND_PFALZ": 7,
-    "NORDRHEIN_WESTFALEN": 21,
-    "BADEN_WUERTTEMBERG": 12,
-    "BRANDENBURG": 2,
+    "HESSEN": 17,
+    "SAARLAND": 8,
+    "NORDRHEIN_WESTFALEN": 70,
+    "BAYERN": 23,
+    "RHEINLAND_PFALZ": 18,
+    "BADEN_WUERTTEMBERG": 43,
+    "BRANDENBURG": 3,
     "MECKLENBURG_VORPOMMERN": 1,
-    "SCHLESWIG_HOLSTEIN": 7,
-    "HESSEN": 6,
-    "SACHSEN": 2
+    "SCHLESWIG_HOLSTEIN": 10,
+    "BERLIN": 3,
+    "SACHSEN": 2,
+    "NIEDERSACHSEN": 2
    }
   },
   {
@@ -2578,18 +2778,21 @@
     "Nürnberg": 3
    },
    "regions": {
-    "BERLIN": 8,
-    "BAYERN": 7,
-    "NIEDERSACHSEN": 10,
-    "SACHSEN": 2,
-    "RHEINLAND_PFALZ": 2,
-    "BRANDENBURG": 2,
-    "BADEN_WUERTTEMBERG": 11,
-    "NORDRHEIN_WESTFALEN": 9,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "HESSEN": 3,
-    "THUERINGEN": 2,
-    "SCHLESWIG_HOLSTEIN": 1
+    "BERLIN": 11,
+    "BAYERN": 33,
+    "NIEDERSACHSEN": 37,
+    "SACHSEN": 5,
+    "RHEINLAND_PFALZ": 6,
+    "NORDRHEIN_WESTFALEN": 30,
+    "BRANDENBURG": 7,
+    "BADEN_WUERTTEMBERG": 31,
+    "BREMEN": 5,
+    "MECKLENBURG_VORPOMMERN": 12,
+    "HESSEN": 13,
+    "THUERINGEN": 3,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "SONSTIGES": 1,
+    "SAARLAND": 1
    }
   },
   {
@@ -2617,19 +2820,22 @@
     "Nürnberg": 8
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 8,
-    "BAYERN": 7,
-    "BRANDENBURG": 2,
-    "NIEDERSACHSEN": 6,
-    "BERLIN": 3,
+    "RHEINLAND_PFALZ": 9,
+    "BADEN_WUERTTEMBERG": 18,
+    "BAYERN": 39,
+    "BRANDENBURG": 5,
+    "NIEDERSACHSEN": 25,
+    "BERLIN": 8,
+    "THUERINGEN": 10,
+    "HESSEN": 10,
     "SAARLAND": 1,
-    "NORDRHEIN_WESTFALEN": 5,
+    "NORDRHEIN_WESTFALEN": 27,
     "MECKLENBURG_VORPOMMERN": 2,
-    "HAMBURG": 2,
-    "SCHLESWIG_HOLSTEIN": 19,
-    "RHEINLAND_PFALZ": 3,
-    "HESSEN": 1,
-    "THUERINGEN": 1
+    "HAMBURG": 3,
+    "SACHSEN_ANHALT": 10,
+    "SCHLESWIG_HOLSTEIN": 26,
+    "SACHSEN": 5,
+    "BREMEN": 2
    }
   },
   {
@@ -2657,21 +2863,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 9,
-    "SACHSEN_ANHALT": 1,
-    "HAMBURG": 3,
-    "NORDRHEIN_WESTFALEN": 21,
-    "BERLIN": 2,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BREMEN": 3,
-    "NIEDERSACHSEN": 4,
-    "HESSEN": 1,
-    "BAYERN": 6,
-    "RHEINLAND_PFALZ": 3,
-    "SAARLAND": 1,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "THUERINGEN": 1,
-    "BRANDENBURG": 1
+    "BADEN_WUERTTEMBERG": 29,
+    "SACHSEN_ANHALT": 5,
+    "HAMBURG": 7,
+    "NORDRHEIN_WESTFALEN": 45,
+    "BERLIN": 8,
+    "THUERINGEN": 3,
+    "HESSEN": 7,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BREMEN": 5,
+    "NIEDERSACHSEN": 29,
+    "BAYERN": 24,
+    "RHEINLAND_PFALZ": 9,
+    "SAARLAND": 3,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "BRANDENBURG": 9,
+    "SACHSEN": 2
    }
   },
   {
@@ -2681,7 +2888,7 @@
    "g": "health",
    "d": 2,
    "t": "help",
-   "total": 461,
+   "total": 460,
    "cities": {
     "Berlin": 25,
     "Hamburg": 5,
@@ -2699,21 +2906,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "SACHSEN": 14,
-    "BAYERN": 7,
-    "SACHSEN_ANHALT": 3,
-    "NORDRHEIN_WESTFALEN": 14,
-    "THUERINGEN": 5,
+    "SACHSEN": 37,
+    "BAYERN": 18,
+    "SACHSEN_ANHALT": 12,
+    "NORDRHEIN_WESTFALEN": 54,
+    "THUERINGEN": 9,
     "MECKLENBURG_VORPOMMERN": 1,
-    "HESSEN": 4,
-    "NIEDERSACHSEN": 4,
+    "SAARLAND": 19,
+    "HESSEN": 11,
+    "NIEDERSACHSEN": 13,
     "BREMEN": 2,
-    "BERLIN": 1,
-    "SAARLAND": 1,
-    "BRANDENBURG": 1,
+    "BERLIN": 8,
+    "BRANDENBURG": 2,
     "HAMBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "RHEINLAND_PFALZ": 1
+    "SCHLESWIG_HOLSTEIN": 4,
+    "RHEINLAND_PFALZ": 4,
+    "BADEN_WUERTTEMBERG": 5
    }
   },
   {
@@ -2741,17 +2949,19 @@
     "Nürnberg": 3
    },
    "regions": {
-    "THUERINGEN": 4,
-    "BAYERN": 8,
-    "BADEN_WUERTTEMBERG": 5,
-    "NIEDERSACHSEN": 9,
-    "NORDRHEIN_WESTFALEN": 11,
-    "RHEINLAND_PFALZ": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "HESSEN": 4,
-    "BRANDENBURG": 11,
-    "SACHSEN_ANHALT": 1,
-    "SCHLESWIG_HOLSTEIN": 3
+    "NORDRHEIN_WESTFALEN": 32,
+    "NIEDERSACHSEN": 22,
+    "BADEN_WUERTTEMBERG": 25,
+    "THUERINGEN": 12,
+    "BAYERN": 29,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "RHEINLAND_PFALZ": 7,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "HESSEN": 12,
+    "BRANDENBURG": 32,
+    "SACHSEN_ANHALT": 6,
+    "SACHSEN": 6,
+    "SAARLAND": 2
    }
   },
   {
@@ -2761,7 +2971,7 @@
    "g": "health",
    "d": 1,
    "t": "help",
-   "total": 446,
+   "total": 445,
    "cities": {
     "Berlin": 2,
     "Hamburg": 6,
@@ -2779,17 +2989,18 @@
     "Nürnberg": 3
    },
    "regions": {
-    "RHEINLAND_PFALZ": 7,
-    "HESSEN": 5,
-    "SCHLESWIG_HOLSTEIN": 6,
+    "RHEINLAND_PFALZ": 40,
+    "BAYERN": 31,
+    "HESSEN": 16,
+    "MECKLENBURG_VORPOMMERN": 13,
+    "SCHLESWIG_HOLSTEIN": 7,
     "HAMBURG": 2,
-    "BAYERN": 17,
-    "SACHSEN_ANHALT": 3,
-    "THUERINGEN": 1,
-    "NORDRHEIN_WESTFALEN": 2,
-    "BADEN_WUERTTEMBERG": 14,
-    "BRANDENBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "BADEN_WUERTTEMBERG": 48,
+    "SACHSEN_ANHALT": 15,
+    "NORDRHEIN_WESTFALEN": 18,
+    "BRANDENBURG": 3,
+    "THUERINGEN": 5,
+    "SACHSEN": 2
    }
   },
   {
@@ -2817,18 +3028,21 @@
     "Nürnberg": 6
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 16,
-    "NORDRHEIN_WESTFALEN": 13,
-    "HESSEN": 6,
-    "THUERINGEN": 2,
-    "NIEDERSACHSEN": 4,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BAYERN": 7,
-    "HAMBURG": 1,
-    "RHEINLAND_PFALZ": 4,
-    "SACHSEN": 2,
-    "BERLIN": 1,
-    "BREMEN": 1
+    "BADEN_WUERTTEMBERG": 31,
+    "NORDRHEIN_WESTFALEN": 56,
+    "HESSEN": 13,
+    "BREMEN": 9,
+    "THUERINGEN": 5,
+    "NIEDERSACHSEN": 19,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "BAYERN": 24,
+    "HAMBURG": 5,
+    "RHEINLAND_PFALZ": 17,
+    "BRANDENBURG": 1,
+    "BERLIN": 6,
+    "SACHSEN": 3,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "SAARLAND": 1
    }
   },
   {
@@ -2856,19 +3070,22 @@
     "Nürnberg": 11
    },
    "regions": {
-    "BREMEN": 5,
-    "BRANDENBURG": 4,
-    "HAMBURG": 6,
-    "NORDRHEIN_WESTFALEN": 14,
-    "BAYERN": 13,
-    "RHEINLAND_PFALZ": 3,
-    "BADEN_WUERTTEMBERG": 8,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "HESSEN": 2,
-    "SACHSEN": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "NIEDERSACHSEN": 1,
-    "SACHSEN_ANHALT": 1
+    "BREMEN": 10,
+    "BRANDENBURG": 5,
+    "HAMBURG": 15,
+    "NORDRHEIN_WESTFALEN": 30,
+    "BAYERN": 32,
+    "THUERINGEN": 2,
+    "NIEDERSACHSEN": 23,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "RHEINLAND_PFALZ": 5,
+    "BERLIN": 2,
+    "BADEN_WUERTTEMBERG": 49,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "HESSEN": 7,
+    "SACHSEN": 3,
+    "SACHSEN_ANHALT": 2,
+    "SAARLAND": 1
    }
   },
   {
@@ -2896,18 +3113,22 @@
     "Nürnberg": 8
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 23,
-    "NIEDERSACHSEN": 11,
-    "BADEN_WUERTTEMBERG": 7,
-    "HESSEN": 2,
-    "RHEINLAND_PFALZ": 1,
-    "BREMEN": 2,
-    "BAYERN": 7,
-    "BERLIN": 1,
-    "SACHSEN_ANHALT": 1,
-    "SACHSEN": 2,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SCHLESWIG_HOLSTEIN": 2
+    "NORDRHEIN_WESTFALEN": 47,
+    "NIEDERSACHSEN": 31,
+    "BADEN_WUERTTEMBERG": 16,
+    "HESSEN": 12,
+    "SAARLAND": 5,
+    "BAYERN": 21,
+    "RHEINLAND_PFALZ": 13,
+    "SACHSEN_ANHALT": 6,
+    "BREMEN": 3,
+    "BERLIN": 6,
+    "THUERINGEN": 8,
+    "SACHSEN": 12,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "BRANDENBURG": 3,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "HAMBURG": 1
    }
   },
   {
@@ -2935,17 +3156,22 @@
     "Nürnberg": 5
    },
    "regions": {
-    "NIEDERSACHSEN": 13,
-    "BAYERN": 7,
-    "BRANDENBURG": 5,
-    "NORDRHEIN_WESTFALEN": 13,
-    "BADEN_WUERTTEMBERG": 11,
-    "RHEINLAND_PFALZ": 1,
-    "HESSEN": 4,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "THUERINGEN": 1,
-    "SAARLAND": 1,
-    "SACHSEN": 1
+    "NIEDERSACHSEN": 37,
+    "BAYERN": 20,
+    "BRANDENBURG": 9,
+    "NORDRHEIN_WESTFALEN": 40,
+    "BADEN_WUERTTEMBERG": 31,
+    "RHEINLAND_PFALZ": 5,
+    "HESSEN": 12,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "MECKLENBURG_VORPOMMERN": 11,
+    "THUERINGEN": 3,
+    "SAARLAND": 4,
+    "SACHSEN": 8,
+    "SACHSEN_ANHALT": 8,
+    "BREMEN": 3,
+    "HAMBURG": 2,
+    "BERLIN": 2
    }
   },
   {
@@ -2974,17 +3200,21 @@
    },
    "regions": {
     "BREMEN": 5,
-    "BADEN_WUERTTEMBERG": 12,
-    "SACHSEN": 1,
+    "BADEN_WUERTTEMBERG": 26,
+    "BAYERN": 39,
+    "NIEDERSACHSEN": 37,
+    "SACHSEN_ANHALT": 2,
+    "SACHSEN": 6,
+    "MECKLENBURG_VORPOMMERN": 5,
     "BERLIN": 3,
-    "NIEDERSACHSEN": 9,
-    "BAYERN": 8,
-    "NORDRHEIN_WESTFALEN": 13,
-    "HESSEN": 3,
+    "NORDRHEIN_WESTFALEN": 42,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "HESSEN": 8,
     "HAMBURG": 2,
-    "SAARLAND": 1,
-    "RHEINLAND_PFALZ": 2,
-    "SCHLESWIG_HOLSTEIN": 1
+    "THUERINGEN": 2,
+    "BRANDENBURG": 5,
+    "SAARLAND": 2,
+    "RHEINLAND_PFALZ": 9
    }
   },
   {
@@ -3012,21 +3242,22 @@
     "Nürnberg": 6
    },
    "regions": {
-    "HAMBURG": 4,
-    "NORDRHEIN_WESTFALEN": 16,
-    "SACHSEN": 3,
-    "THUERINGEN": 4,
-    "HESSEN": 3,
-    "BAYERN": 7,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN_ANHALT": 1,
-    "BADEN_WUERTTEMBERG": 3,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "RHEINLAND_PFALZ": 2,
-    "BERLIN": 3,
-    "BREMEN": 1,
-    "BRANDENBURG": 3
+    "HAMBURG": 5,
+    "NIEDERSACHSEN": 16,
+    "THUERINGEN": 10,
+    "NORDRHEIN_WESTFALEN": 47,
+    "HESSEN": 10,
+    "SACHSEN": 10,
+    "BAYERN": 33,
+    "MECKLENBURG_VORPOMMERN": 8,
+    "SACHSEN_ANHALT": 4,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "BADEN_WUERTTEMBERG": 25,
+    "RHEINLAND_PFALZ": 12,
+    "BERLIN": 7,
+    "BRANDENBURG": 6,
+    "SAARLAND": 3,
+    "BREMEN": 1
    }
   },
   {
@@ -3036,7 +3267,7 @@
    "g": "office",
    "d": 3,
    "t": "dual",
-   "total": 389,
+   "total": 388,
    "cities": {
     "Berlin": 20,
     "Hamburg": 8,
@@ -3054,20 +3285,22 @@
     "Nürnberg": 4
    },
    "regions": {
-    "SACHSEN": 5,
-    "NIEDERSACHSEN": 7,
-    "NORDRHEIN_WESTFALEN": 22,
-    "BAYERN": 3,
-    "SACHSEN_ANHALT": 3,
-    "HESSEN": 5,
-    "BREMEN": 1,
-    "BRANDENBURG": 2,
-    "BADEN_WUERTTEMBERG": 4,
-    "BERLIN": 2,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "SAARLAND": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "THUERINGEN": 1
+    "SACHSEN": 11,
+    "NIEDERSACHSEN": 23,
+    "NORDRHEIN_WESTFALEN": 51,
+    "BAYERN": 18,
+    "SACHSEN_ANHALT": 6,
+    "HESSEN": 15,
+    "BERLIN": 16,
+    "BREMEN": 6,
+    "BRANDENBURG": 7,
+    "BADEN_WUERTTEMBERG": 20,
+    "RHEINLAND_PFALZ": 3,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "SAARLAND": 3,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "THUERINGEN": 6,
+    "HAMBURG": 2
    }
   },
   {
@@ -3095,18 +3328,22 @@
     "Nürnberg": 14
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 16,
-    "RHEINLAND_PFALZ": 4,
-    "NIEDERSACHSEN": 4,
-    "BAYERN": 7,
-    "HAMBURG": 9,
-    "SAARLAND": 5,
-    "BADEN_WUERTTEMBERG": 9,
-    "THUERINGEN": 1,
-    "HESSEN": 1,
-    "SACHSEN_ANHALT": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SACHSEN": 1
+    "NORDRHEIN_WESTFALEN": 52,
+    "BAYERN": 37,
+    "RHEINLAND_PFALZ": 14,
+    "NIEDERSACHSEN": 15,
+    "HAMBURG": 12,
+    "SAARLAND": 6,
+    "BADEN_WUERTTEMBERG": 33,
+    "SACHSEN_ANHALT": 6,
+    "THUERINGEN": 2,
+    "HESSEN": 10,
+    "BREMEN": 1,
+    "BRANDENBURG": 2,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "SACHSEN": 2,
+    "BERLIN": 1,
+    "SCHLESWIG_HOLSTEIN": 3
    }
   },
   {
@@ -3134,18 +3371,20 @@
     "Nürnberg": 4
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 18,
-    "NIEDERSACHSEN": 6,
-    "BADEN_WUERTTEMBERG": 5,
-    "RHEINLAND_PFALZ": 1,
-    "BAYERN": 18,
-    "HESSEN": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "BRANDENBURG": 1,
-    "BERLIN": 2,
-    "SAARLAND": 4,
-    "HAMBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "BAYERN": 60,
+    "NORDRHEIN_WESTFALEN": 49,
+    "NIEDERSACHSEN": 20,
+    "BADEN_WUERTTEMBERG": 27,
+    "RHEINLAND_PFALZ": 11,
+    "HAMBURG": 4,
+    "HESSEN": 4,
+    "SAARLAND": 10,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "SACHSEN": 1,
+    "BRANDENBURG": 2,
+    "BERLIN": 3,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BREMEN": 1
    }
   },
   {
@@ -3155,7 +3394,7 @@
    "g": "it",
    "d": 3,
    "t": "it",
-   "total": 379,
+   "total": 380,
    "cities": {
     "Berlin": 4,
     "Hamburg": 7,
@@ -3173,19 +3412,22 @@
     "Nürnberg": 11
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 15,
-    "BREMEN": 2,
-    "NIEDERSACHSEN": 11,
-    "BADEN_WUERTTEMBERG": 10,
-    "BAYERN": 8,
-    "THUERINGEN": 1,
-    "SACHSEN_ANHALT": 2,
-    "SACHSEN": 1,
-    "HESSEN": 6,
-    "SCHLESWIG_HOLSTEIN": 1,
+    "NIEDERSACHSEN": 26,
+    "NORDRHEIN_WESTFALEN": 60,
+    "BREMEN": 4,
+    "BADEN_WUERTTEMBERG": 29,
+    "BAYERN": 31,
+    "THUERINGEN": 2,
+    "SACHSEN_ANHALT": 6,
+    "SACHSEN": 3,
+    "HESSEN": 16,
+    "SCHLESWIG_HOLSTEIN": 6,
     "BRANDENBURG": 1,
-    "HAMBURG": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "HAMBURG": 5,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "SAARLAND": 1,
+    "RHEINLAND_PFALZ": 5,
+    "BERLIN": 3
    }
   },
   {
@@ -3213,17 +3455,19 @@
     "Nürnberg": 0
    },
    "regions": {
-    "BRANDENBURG": 3,
-    "SACHSEN_ANHALT": 11,
-    "SACHSEN": 12,
-    "BAYERN": 3,
-    "THUERINGEN": 7,
-    "NIEDERSACHSEN": 5,
-    "NORDRHEIN_WESTFALEN": 3,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BADEN_WUERTTEMBERG": 3,
-    "MECKLENBURG_VORPOMMERN": 6,
-    "HESSEN": 2
+    "BRANDENBURG": 35,
+    "THUERINGEN": 23,
+    "SACHSEN_ANHALT": 24,
+    "RHEINLAND_PFALZ": 3,
+    "HESSEN": 10,
+    "SACHSEN": 30,
+    "BAYERN": 6,
+    "NORDRHEIN_WESTFALEN": 11,
+    "MECKLENBURG_VORPOMMERN": 20,
+    "NIEDERSACHSEN": 16,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "BADEN_WUERTTEMBERG": 9,
+    "SONSTIGES": 2
    }
   },
   {
@@ -3251,15 +3495,20 @@
     "Nürnberg": 5
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 14,
-    "BAYERN": 10,
-    "BERLIN": 5,
+    "NORDRHEIN_WESTFALEN": 48,
+    "BAYERN": 14,
+    "BERLIN": 12,
     "SCHLESWIG_HOLSTEIN": 1,
+    "NIEDERSACHSEN": 13,
+    "THUERINGEN": 18,
+    "SACHSEN": 29,
     "SAARLAND": 3,
     "RHEINLAND_PFALZ": 7,
     "HESSEN": 11,
-    "BADEN_WUERTTEMBERG": 6,
-    "MECKLENBURG_VORPOMMERN": 3
+    "BADEN_WUERTTEMBERG": 7,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "BRANDENBURG": 14,
+    "SACHSEN_ANHALT": 17
    }
   },
   {
@@ -3287,17 +3536,21 @@
     "Nürnberg": 9
    },
    "regions": {
-    "BAYERN": 26,
-    "BADEN_WUERTTEMBERG": 21,
-    "HAMBURG": 1,
-    "BRANDENBURG": 2,
-    "HESSEN": 2,
+    "BAYERN": 93,
+    "BADEN_WUERTTEMBERG": 52,
+    "BERLIN": 7,
+    "HAMBURG": 5,
+    "BRANDENBURG": 4,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "HESSEN": 7,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "NORDRHEIN_WESTFALEN": 4,
+    "THUERINGEN": 5,
     "RHEINLAND_PFALZ": 1,
     "SAARLAND": 1,
-    "SACHSEN": 2,
-    "BERLIN": 2,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "NIEDERSACHSEN": 3,
+    "SACHSEN": 10,
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -3307,7 +3560,7 @@
    "g": "build",
    "d": 2,
    "t": "dual",
-   "total": 356,
+   "total": 357,
    "cities": {
     "Berlin": 16,
     "Hamburg": 12,
@@ -3325,19 +3578,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "NIEDERSACHSEN": 7,
-    "BAYERN": 7,
-    "SACHSEN": 2,
-    "NORDRHEIN_WESTFALEN": 15,
-    "BRANDENBURG": 3,
-    "THUERINGEN": 3,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "SCHLESWIG_HOLSTEIN": 10,
-    "HAMBURG": 1,
-    "BREMEN": 1,
-    "SACHSEN_ANHALT": 6,
-    "HESSEN": 1,
-    "BERLIN": 2
+    "NORDRHEIN_WESTFALEN": 30,
+    "NIEDERSACHSEN": 26,
+    "BAYERN": 18,
+    "SACHSEN": 13,
+    "SAARLAND": 3,
+    "BRANDENBURG": 9,
+    "MECKLENBURG_VORPOMMERN": 13,
+    "THUERINGEN": 14,
+    "SCHLESWIG_HOLSTEIN": 18,
+    "HAMBURG": 2,
+    "BREMEN": 2,
+    "SACHSEN_ANHALT": 16,
+    "HESSEN": 7,
+    "BERLIN": 7,
+    "BADEN_WUERTTEMBERG": 14,
+    "RHEINLAND_PFALZ": 8
    }
   },
   {
@@ -3347,7 +3603,7 @@
    "g": "metal",
    "d": 3.5,
    "t": "dual",
-   "total": 349,
+   "total": 350,
    "cities": {
     "Berlin": 10,
     "Hamburg": 10,
@@ -3365,19 +3621,22 @@
     "Nürnberg": 6
    },
    "regions": {
-    "NIEDERSACHSEN": 11,
-    "BADEN_WUERTTEMBERG": 8,
-    "NORDRHEIN_WESTFALEN": 10,
-    "HESSEN": 3,
-    "BRANDENBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "BAYERN": 12,
-    "SACHSEN": 3,
-    "RHEINLAND_PFALZ": 2,
-    "THUERINGEN": 1,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BERLIN": 2,
-    "SACHSEN_ANHALT": 2
+    "NIEDERSACHSEN": 22,
+    "BADEN_WUERTTEMBERG": 26,
+    "NORDRHEIN_WESTFALEN": 36,
+    "HESSEN": 6,
+    "BRANDENBURG": 6,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "THUERINGEN": 5,
+    "BAYERN": 38,
+    "RHEINLAND_PFALZ": 7,
+    "SAARLAND": 5,
+    "SACHSEN": 8,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "SACHSEN_ANHALT": 12,
+    "HAMBURG": 7,
+    "BERLIN": 7,
+    "BREMEN": 2
    }
   },
   {
@@ -3405,18 +3664,20 @@
     "Nürnberg": 11
    },
    "regions": {
-    "NIEDERSACHSEN": 4,
-    "HESSEN": 15,
-    "BRANDENBURG": 6,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BERLIN": 4,
-    "RHEINLAND_PFALZ": 3,
-    "HAMBURG": 1,
-    "NORDRHEIN_WESTFALEN": 10,
-    "BADEN_WUERTTEMBERG": 6,
-    "BAYERN": 4,
-    "SACHSEN": 2,
-    "BREMEN": 2
+    "NIEDERSACHSEN": 11,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "HESSEN": 54,
+    "HAMBURG": 5,
+    "NORDRHEIN_WESTFALEN": 29,
+    "BRANDENBURG": 9,
+    "BERLIN": 10,
+    "BREMEN": 7,
+    "RHEINLAND_PFALZ": 7,
+    "BAYERN": 24,
+    "BADEN_WUERTTEMBERG": 31,
+    "SAARLAND": 1,
+    "SACHSEN": 3,
+    "THUERINGEN": 2
    }
   },
   {
@@ -3444,19 +3705,20 @@
     "Nürnberg": 2
    },
    "regions": {
-    "NIEDERSACHSEN": 5,
-    "NORDRHEIN_WESTFALEN": 19,
-    "BADEN_WUERTTEMBERG": 7,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "BAYERN": 8,
+    "NIEDERSACHSEN": 25,
+    "NORDRHEIN_WESTFALEN": 47,
+    "BADEN_WUERTTEMBERG": 17,
+    "BAYERN": 33,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "SAARLAND": 1,
     "SACHSEN_ANHALT": 4,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HESSEN": 6,
-    "SACHSEN": 4,
-    "RHEINLAND_PFALZ": 1,
-    "BRANDENBURG": 2,
-    "THUERINGEN": 1,
-    "BERLIN": 1
+    "SCHLESWIG_HOLSTEIN": 7,
+    "SACHSEN": 18,
+    "HESSEN": 17,
+    "THUERINGEN": 6,
+    "RHEINLAND_PFALZ": 7,
+    "BERLIN": 6,
+    "BRANDENBURG": 7
    }
   },
   {
@@ -3484,20 +3746,21 @@
     "Nürnberg": 5
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 7,
-    "SAARLAND": 4,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BAYERN": 6,
-    "SACHSEN": 3,
-    "BERLIN": 4,
-    "BRANDENBURG": 2,
-    "NIEDERSACHSEN": 6,
-    "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 5,
-    "HESSEN": 4,
-    "SCHLESWIG_HOLSTEIN": 4,
+    "BADEN_WUERTTEMBERG": 23,
+    "SAARLAND": 5,
+    "NORDRHEIN_WESTFALEN": 52,
+    "BAYERN": 40,
+    "SACHSEN": 6,
+    "BERLIN": 6,
+    "BRANDENBURG": 8,
+    "HESSEN": 12,
+    "NIEDERSACHSEN": 16,
+    "THUERINGEN": 4,
+    "SACHSEN_ANHALT": 4,
+    "RHEINLAND_PFALZ": 11,
+    "SCHLESWIG_HOLSTEIN": 9,
     "HAMBURG": 1,
-    "THUERINGEN": 1
+    "MECKLENBURG_VORPOMMERN": 3
    }
   },
   {
@@ -3525,17 +3788,22 @@
     "Nürnberg": 5
    },
    "regions": {
-    "THUERINGEN": 4,
-    "NIEDERSACHSEN": 8,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "NORDRHEIN_WESTFALEN": 11,
-    "BAYERN": 14,
-    "BADEN_WUERTTEMBERG": 15,
-    "RHEINLAND_PFALZ": 1,
+    "BADEN_WUERTTEMBERG": 42,
+    "THUERINGEN": 10,
+    "NIEDERSACHSEN": 20,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "NORDRHEIN_WESTFALEN": 29,
+    "BREMEN": 2,
+    "BAYERN": 48,
+    "RHEINLAND_PFALZ": 7,
+    "BRANDENBURG": 7,
+    "BERLIN": 2,
     "SAARLAND": 1,
-    "BERLIN": 1,
-    "HESSEN": 1,
-    "SACHSEN_ANHALT": 2
+    "HESSEN": 11,
+    "SACHSEN_ANHALT": 3,
+    "SACHSEN": 6,
+    "SONSTIGES": 1,
+    "SCHLESWIG_HOLSTEIN": 2
    }
   },
   {
@@ -3563,17 +3831,20 @@
     "Nürnberg": 2
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 22,
-    "NIEDERSACHSEN": 3,
-    "BAYERN": 5,
-    "THUERINGEN": 5,
-    "BADEN_WUERTTEMBERG": 10,
-    "HESSEN": 4,
-    "RHEINLAND_PFALZ": 5,
-    "SACHSEN": 1,
-    "BERLIN": 3,
-    "BREMEN": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "NORDRHEIN_WESTFALEN": 57,
+    "RHEINLAND_PFALZ": 7,
+    "BAYERN": 35,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "NIEDERSACHSEN": 19,
+    "BADEN_WUERTTEMBERG": 31,
+    "SCHLESWIG_HOLSTEIN": 8,
+    "HESSEN": 15,
+    "SACHSEN_ANHALT": 1,
+    "BRANDENBURG": 3,
+    "THUERINGEN": 6,
+    "SACHSEN": 2,
+    "BERLIN": 9,
+    "BREMEN": 1
    }
   },
   {
@@ -3601,19 +3872,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 10,
-    "HESSEN": 7,
-    "BAYERN": 6,
-    "RHEINLAND_PFALZ": 4,
-    "NORDRHEIN_WESTFALEN": 13,
-    "HAMBURG": 2,
-    "SACHSEN_ANHALT": 4,
-    "NIEDERSACHSEN": 7,
-    "SCHLESWIG_HOLSTEIN": 2,
+    "BADEN_WUERTTEMBERG": 24,
+    "HESSEN": 10,
+    "SAARLAND": 1,
+    "BAYERN": 25,
+    "SACHSEN_ANHALT": 25,
+    "THUERINGEN": 4,
+    "NIEDERSACHSEN": 28,
+    "RHEINLAND_PFALZ": 11,
+    "NORDRHEIN_WESTFALEN": 46,
+    "HAMBURG": 8,
+    "BRANDENBURG": 4,
+    "SCHLESWIG_HOLSTEIN": 6,
     "MECKLENBURG_VORPOMMERN": 2,
-    "BRANDENBURG": 1,
     "BREMEN": 1,
-    "BERLIN": 1
+    "BERLIN": 1,
+    "SACHSEN": 4
    }
   },
   {
@@ -3641,18 +3915,22 @@
     "Nürnberg": 0
    },
    "regions": {
-    "BAYERN": 8,
-    "BRANDENBURG": 1,
-    "HESSEN": 15,
-    "RHEINLAND_PFALZ": 7,
-    "NIEDERSACHSEN": 6,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BADEN_WUERTTEMBERG": 3,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "HAMBURG": 1,
-    "BERLIN": 1,
-    "SACHSEN": 2,
-    "BREMEN": 1
+    "SCHLESWIG_HOLSTEIN": 13,
+    "HAMBURG": 8,
+    "NIEDERSACHSEN": 16,
+    "BADEN_WUERTTEMBERG": 20,
+    "NORDRHEIN_WESTFALEN": 34,
+    "SACHSEN_ANHALT": 6,
+    "BAYERN": 32,
+    "HESSEN": 23,
+    "BERLIN": 8,
+    "BRANDENBURG": 6,
+    "RHEINLAND_PFALZ": 8,
+    "SACHSEN": 9,
+    "THUERINGEN": 6,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "BREMEN": 5,
+    "SAARLAND": 2
    }
   },
   {
@@ -3680,20 +3958,22 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NIEDERSACHSEN": 14,
-    "NORDRHEIN_WESTFALEN": 10,
-    "BAYERN": 7,
-    "HAMBURG": 2,
-    "THUERINGEN": 4,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BADEN_WUERTTEMBERG": 4,
-    "BERLIN": 2,
-    "RHEINLAND_PFALZ": 2,
-    "SAARLAND": 2,
-    "BREMEN": 1,
-    "SACHSEN_ANHALT": 2,
-    "BRANDENBURG": 1,
-    "HESSEN": 4
+    "SCHLESWIG_HOLSTEIN": 10,
+    "THUERINGEN": 11,
+    "NIEDERSACHSEN": 26,
+    "NORDRHEIN_WESTFALEN": 44,
+    "BAYERN": 28,
+    "RHEINLAND_PFALZ": 12,
+    "HAMBURG": 6,
+    "SACHSEN": 9,
+    "BADEN_WUERTTEMBERG": 17,
+    "BERLIN": 9,
+    "SAARLAND": 3,
+    "BREMEN": 4,
+    "HESSEN": 12,
+    "SACHSEN_ANHALT": 4,
+    "BRANDENBURG": 4,
+    "SONSTIGES": 1
    }
   },
   {
@@ -3721,20 +4001,21 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 10,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "NIEDERSACHSEN": 11,
-    "NORDRHEIN_WESTFALEN": 6,
-    "BAYERN": 6,
-    "SACHSEN_ANHALT": 3,
-    "THUERINGEN": 3,
-    "RHEINLAND_PFALZ": 4,
-    "SACHSEN": 3,
-    "HESSEN": 2,
-    "BRANDENBURG": 4,
+    "BADEN_WUERTTEMBERG": 36,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "SACHSEN": 12,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "NIEDERSACHSEN": 29,
+    "NORDRHEIN_WESTFALEN": 30,
+    "BAYERN": 34,
+    "SACHSEN_ANHALT": 4,
+    "THUERINGEN": 8,
+    "HESSEN": 7,
+    "RHEINLAND_PFALZ": 9,
+    "BRANDENBURG": 9,
     "BERLIN": 2,
-    "BREMEN": 1
+    "BREMEN": 1,
+    "SAARLAND": 4
    }
   },
   {
@@ -3762,20 +4043,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "RHEINLAND_PFALZ": 4,
-    "NIEDERSACHSEN": 7,
-    "HESSEN": 4,
-    "HAMBURG": 2,
-    "BERLIN": 2,
-    "BAYERN": 11,
-    "NORDRHEIN_WESTFALEN": 9,
-    "BRANDENBURG": 5,
-    "THUERINGEN": 1,
-    "BADEN_WUERTTEMBERG": 8,
-    "SACHSEN_ANHALT": 2,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "SAARLAND": 2,
-    "SACHSEN": 1
+    "RHEINLAND_PFALZ": 9,
+    "BAYERN": 42,
+    "NIEDERSACHSEN": 24,
+    "HESSEN": 15,
+    "HAMBURG": 4,
+    "BERLIN": 6,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "NORDRHEIN_WESTFALEN": 33,
+    "BRANDENBURG": 12,
+    "BADEN_WUERTTEMBERG": 19,
+    "SACHSEN": 13,
+    "THUERINGEN": 2,
+    "SACHSEN_ANHALT": 3,
+    "MECKLENBURG_VORPOMMERN": 8,
+    "SAARLAND": 5,
+    "BREMEN": 2
    }
   },
   {
@@ -3803,14 +4086,14 @@
     "Nürnberg": 0
    },
    "regions": {
-    "SACHSEN": 7,
-    "RHEINLAND_PFALZ": 11,
-    "NIEDERSACHSEN": 3,
-    "BADEN_WUERTTEMBERG": 11,
-    "SAARLAND": 2,
-    "NORDRHEIN_WESTFALEN": 16,
-    "BAYERN": 6,
-    "HESSEN": 2,
+    "SACHSEN": 9,
+    "BAYERN": 28,
+    "RHEINLAND_PFALZ": 24,
+    "SAARLAND": 5,
+    "NORDRHEIN_WESTFALEN": 75,
+    "BADEN_WUERTTEMBERG": 32,
+    "NIEDERSACHSEN": 7,
+    "HESSEN": 18,
     "BREMEN": 1,
     "MECKLENBURG_VORPOMMERN": 1
    }
@@ -3840,18 +4123,22 @@
     "Nürnberg": 1
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 5,
-    "NIEDERSACHSEN": 6,
-    "RHEINLAND_PFALZ": 7,
-    "HESSEN": 6,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BRANDENBURG": 3,
-    "BAYERN": 9,
-    "SACHSEN": 5,
-    "BADEN_WUERTTEMBERG": 3,
+    "SCHLESWIG_HOLSTEIN": 12,
+    "NIEDERSACHSEN": 32,
+    "NORDRHEIN_WESTFALEN": 36,
+    "RHEINLAND_PFALZ": 16,
+    "HESSEN": 16,
+    "BADEN_WUERTTEMBERG": 20,
+    "BAYERN": 27,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "THUERINGEN": 7,
+    "BRANDENBURG": 9,
+    "SACHSEN": 12,
+    "SACHSEN_ANHALT": 6,
     "SAARLAND": 1,
     "HAMBURG": 1,
-    "THUERINGEN": 1
+    "BERLIN": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -3861,7 +4148,7 @@
    "g": "health",
    "d": 1.5,
    "t": "help",
-   "total": 267,
+   "total": 269,
    "cities": {
     "Berlin": 7,
     "Hamburg": 1,
@@ -3879,15 +4166,20 @@
     "Nürnberg": 9
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 13,
-    "BERLIN": 2,
-    "NIEDERSACHSEN": 3,
-    "HESSEN": 9,
-    "BRANDENBURG": 3,
+    "NORDRHEIN_WESTFALEN": 40,
+    "BERLIN": 5,
+    "BAYERN": 47,
+    "HESSEN": 36,
+    "NIEDERSACHSEN": 6,
+    "SACHSEN": 28,
+    "BRANDENBURG": 12,
+    "RHEINLAND_PFALZ": 2,
+    "THUERINGEN": 15,
     "SCHLESWIG_HOLSTEIN": 2,
-    "BAYERN": 18,
-    "THUERINGEN": 3,
-    "SACHSEN": 7
+    "SONSTIGES": 1,
+    "SACHSEN_ANHALT": 2,
+    "BADEN_WUERTTEMBERG": 3,
+    "MECKLENBURG_VORPOMMERN": 1
    }
   },
   {
@@ -3915,19 +4207,21 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 6,
-    "BAYERN": 8,
-    "NIEDERSACHSEN": 9,
-    "BERLIN": 2,
-    "NORDRHEIN_WESTFALEN": 6,
-    "HESSEN": 6,
-    "SACHSEN": 5,
-    "BRANDENBURG": 7,
-    "SACHSEN_ANHALT": 2,
-    "RHEINLAND_PFALZ": 3,
-    "THUERINGEN": 1,
+    "BADEN_WUERTTEMBERG": 22,
+    "BAYERN": 31,
+    "NIEDERSACHSEN": 18,
+    "BERLIN": 5,
+    "NORDRHEIN_WESTFALEN": 27,
+    "HESSEN": 14,
+    "SACHSEN": 20,
+    "BRANDENBURG": 15,
+    "SACHSEN_ANHALT": 11,
+    "RHEINLAND_PFALZ": 11,
+    "THUERINGEN": 11,
+    "SCHLESWIG_HOLSTEIN": 2,
     "HAMBURG": 1,
-    "MECKLENBURG_VORPOMMERN": 4
+    "MECKLENBURG_VORPOMMERN": 10,
+    "SAARLAND": 1
    }
   },
   {
@@ -3955,21 +4249,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "THUERINGEN": 4,
-    "BERLIN": 2,
-    "SACHSEN": 4,
-    "BADEN_WUERTTEMBERG": 9,
-    "BRANDENBURG": 3,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NIEDERSACHSEN": 5,
+    "THUERINGEN": 11,
+    "BERLIN": 12,
+    "SACHSEN": 13,
+    "BADEN_WUERTTEMBERG": 26,
+    "BRANDENBURG": 14,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "NIEDERSACHSEN": 25,
     "BREMEN": 2,
-    "BAYERN": 3,
-    "NORDRHEIN_WESTFALEN": 10,
-    "RHEINLAND_PFALZ": 2,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "HESSEN": 4,
-    "SACHSEN_ANHALT": 5,
-    "SAARLAND": 3
+    "BAYERN": 15,
+    "NORDRHEIN_WESTFALEN": 37,
+    "SACHSEN_ANHALT": 10,
+    "RHEINLAND_PFALZ": 5,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "HESSEN": 10,
+    "SAARLAND": 8,
+    "HAMBURG": 3
    }
   },
   {
@@ -3979,9 +4274,9 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 245,
+   "total": 244,
    "cities": {
-    "Berlin": 13,
+    "Berlin": 12,
     "Hamburg": 3,
     "München": 6,
     "Köln": 3,
@@ -3997,20 +4292,21 @@
     "Nürnberg": 8
    },
    "regions": {
-    "BAYERN": 5,
-    "NORDRHEIN_WESTFALEN": 14,
-    "SACHSEN": 12,
-    "BRANDENBURG": 5,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HESSEN": 1,
-    "BADEN_WUERTTEMBERG": 5,
-    "THUERINGEN": 2,
-    "SACHSEN_ANHALT": 4,
-    "BERLIN": 3,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "NIEDERSACHSEN": 3,
-    "HAMBURG": 2,
-    "RHEINLAND_PFALZ": 1
+    "BAYERN": 41,
+    "NORDRHEIN_WESTFALEN": 34,
+    "BERLIN": 8,
+    "SACHSEN": 24,
+    "SAARLAND": 1,
+    "THUERINGEN": 12,
+    "BRANDENBURG": 12,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "HESSEN": 15,
+    "SACHSEN_ANHALT": 12,
+    "NIEDERSACHSEN": 10,
+    "RHEINLAND_PFALZ": 5,
+    "BADEN_WUERTTEMBERG": 13,
+    "MECKLENBURG_VORPOMMERN": 8,
+    "HAMBURG": 3
    }
   },
   {
@@ -4038,20 +4334,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "NIEDERSACHSEN": 7,
-    "NORDRHEIN_WESTFALEN": 7,
-    "SACHSEN": 7,
-    "SACHSEN_ANHALT": 7,
-    "BADEN_WUERTTEMBERG": 7,
-    "BAYERN": 3,
+    "SACHSEN": 33,
+    "NIEDERSACHSEN": 17,
+    "NORDRHEIN_WESTFALEN": 33,
+    "SAARLAND": 5,
+    "BRANDENBURG": 11,
+    "HESSEN": 7,
+    "THUERINGEN": 22,
+    "BADEN_WUERTTEMBERG": 11,
+    "SACHSEN_ANHALT": 13,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BAYERN": 21,
     "HAMBURG": 2,
-    "RHEINLAND_PFALZ": 2,
-    "HESSEN": 2,
-    "BRANDENBURG": 5,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "THUERINGEN": 7,
-    "BERLIN": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "RHEINLAND_PFALZ": 12,
+    "BREMEN": 2,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "BERLIN": 1
    }
   },
   {
@@ -4061,7 +4359,7 @@
    "g": "elec",
    "d": 3.5,
    "t": "dual",
-   "total": 243,
+   "total": 242,
    "cities": {
     "Berlin": 6,
     "Hamburg": 3,
@@ -4079,18 +4377,20 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BAYERN": 15,
-    "RHEINLAND_PFALZ": 1,
-    "HESSEN": 9,
-    "NIEDERSACHSEN": 7,
-    "BADEN_WUERTTEMBERG": 8,
-    "NORDRHEIN_WESTFALEN": 9,
-    "SAARLAND": 1,
-    "HAMBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 2,
+    "BAYERN": 57,
+    "NORDRHEIN_WESTFALEN": 34,
+    "BADEN_WUERTTEMBERG": 35,
+    "BRANDENBURG": 5,
+    "RHEINLAND_PFALZ": 4,
+    "HESSEN": 16,
+    "NIEDERSACHSEN": 25,
+    "SAARLAND": 2,
+    "HAMBURG": 3,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "SCHLESWIG_HOLSTEIN": 5,
     "BERLIN": 3,
-    "SACHSEN_ANHALT": 3,
-    "BRANDENBURG": 1
+    "SACHSEN": 4,
+    "SACHSEN_ANHALT": 6
    }
   },
   {
@@ -4118,20 +4418,20 @@
     "Nürnberg": 4
    },
    "regions": {
-    "SACHSEN_ANHALT": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "NORDRHEIN_WESTFALEN": 16,
-    "BADEN_WUERTTEMBERG": 6,
-    "HESSEN": 6,
-    "NIEDERSACHSEN": 5,
-    "SAARLAND": 1,
-    "BERLIN": 2,
-    "BRANDENBURG": 3,
-    "RHEINLAND_PFALZ": 3,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "THUERINGEN": 4,
-    "SACHSEN": 2,
-    "BAYERN": 8,
+    "NORDRHEIN_WESTFALEN": 38,
+    "BAYERN": 36,
+    "SACHSEN_ANHALT": 4,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "BADEN_WUERTTEMBERG": 29,
+    "NIEDERSACHSEN": 23,
+    "SAARLAND": 5,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "HESSEN": 15,
+    "RHEINLAND_PFALZ": 13,
+    "THUERINGEN": 8,
+    "BERLIN": 4,
+    "BRANDENBURG": 4,
+    "SACHSEN": 13,
     "HAMBURG": 1
    }
   },
@@ -4160,21 +4460,22 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 9,
-    "BAYERN": 16,
-    "HESSEN": 8,
+    "NORDRHEIN_WESTFALEN": 38,
+    "BAYERN": 57,
+    "HESSEN": 18,
     "HAMBURG": 1,
-    "BERLIN": 2,
-    "SACHSEN": 3,
-    "THUERINGEN": 1,
-    "BRANDENBURG": 1,
-    "NIEDERSACHSEN": 4,
-    "BREMEN": 1,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BADEN_WUERTTEMBERG": 4,
+    "BERLIN": 3,
+    "SACHSEN": 7,
+    "BADEN_WUERTTEMBERG": 18,
+    "THUERINGEN": 4,
+    "BRANDENBURG": 7,
+    "NIEDERSACHSEN": 18,
+    "BREMEN": 2,
+    "MECKLENBURG_VORPOMMERN": 6,
     "SAARLAND": 2,
-    "RHEINLAND_PFALZ": 2,
-    "SACHSEN_ANHALT": 3
+    "RHEINLAND_PFALZ": 11,
+    "SACHSEN_ANHALT": 5,
+    "SCHLESWIG_HOLSTEIN": 3
    }
   },
   {
@@ -4184,7 +4485,7 @@
    "g": "build",
    "d": 3,
    "t": "dual",
-   "total": 236,
+   "total": 234,
    "cities": {
     "Berlin": 3,
     "Hamburg": 0,
@@ -4202,13 +4503,15 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BAYERN": 8,
-    "BADEN_WUERTTEMBERG": 44,
-    "SAARLAND": 3,
-    "RHEINLAND_PFALZ": 1,
-    "BERLIN": 1,
-    "SACHSEN": 1,
-    "NORDRHEIN_WESTFALEN": 2
+    "BAYERN": 22,
+    "BADEN_WUERTTEMBERG": 125,
+    "SAARLAND": 9,
+    "NORDRHEIN_WESTFALEN": 17,
+    "RHEINLAND_PFALZ": 12,
+    "SACHSEN": 9,
+    "BERLIN": 2,
+    "HESSEN": 3,
+    "BRANDENBURG": 1
    }
   },
   {
@@ -4236,17 +4539,20 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 12,
-    "NIEDERSACHSEN": 8,
-    "HAMBURG": 1,
-    "HESSEN": 11,
-    "BADEN_WUERTTEMBERG": 11,
-    "BAYERN": 12,
-    "BREMEN": 1,
-    "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 1,
-    "SACHSEN": 1,
-    "THUERINGEN": 1
+    "NORDRHEIN_WESTFALEN": 50,
+    "NIEDERSACHSEN": 23,
+    "HAMBURG": 3,
+    "HESSEN": 21,
+    "BADEN_WUERTTEMBERG": 34,
+    "THUERINGEN": 5,
+    "BAYERN": 48,
+    "BREMEN": 2,
+    "SCHLESWIG_HOLSTEIN": 1,
+    "RHEINLAND_PFALZ": 5,
+    "SACHSEN_ANHALT": 2,
+    "SACHSEN": 2,
+    "BRANDENBURG": 2,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -4274,12 +4580,13 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 19,
-    "NIEDERSACHSEN": 14,
-    "HESSEN": 7,
-    "SCHLESWIG_HOLSTEIN": 15,
+    "NORDRHEIN_WESTFALEN": 71,
+    "NIEDERSACHSEN": 74,
+    "HESSEN": 24,
+    "SCHLESWIG_HOLSTEIN": 21,
+    "BREMEN": 6,
     "BERLIN": 2,
-    "BREMEN": 3
+    "BAYERN": 2
    }
   },
   {
@@ -4307,20 +4614,20 @@
     "Nürnberg": 3
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 7,
-    "MECKLENBURG_VORPOMMERN": 4,
-    "HESSEN": 6,
-    "NORDRHEIN_WESTFALEN": 5,
+    "THUERINGEN": 9,
+    "BAYERN": 21,
+    "HESSEN": 17,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "NORDRHEIN_WESTFALEN": 24,
+    "BADEN_WUERTTEMBERG": 26,
+    "MECKLENBURG_VORPOMMERN": 7,
     "HAMBURG": 1,
-    "BERLIN": 1,
-    "RHEINLAND_PFALZ": 2,
-    "BADEN_WUERTTEMBERG": 7,
-    "SACHSEN": 5,
-    "BRANDENBURG": 4,
-    "SACHSEN_ANHALT": 4,
-    "THUERINGEN": 4,
-    "BAYERN": 4,
-    "NIEDERSACHSEN": 4,
+    "BERLIN": 3,
+    "RHEINLAND_PFALZ": 8,
+    "NIEDERSACHSEN": 25,
+    "SACHSEN": 23,
+    "BRANDENBURG": 17,
+    "SACHSEN_ANHALT": 6,
     "SAARLAND": 2
    }
   },
@@ -4349,18 +4656,22 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 11,
-    "NORDRHEIN_WESTFALEN": 12,
-    "NIEDERSACHSEN": 8,
-    "BREMEN": 1,
-    "SACHSEN": 7,
-    "RHEINLAND_PFALZ": 2,
-    "BAYERN": 2,
-    "THUERINGEN": 8,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "HAMBURG": 1,
+    "BADEN_WUERTTEMBERG": 35,
+    "NORDRHEIN_WESTFALEN": 50,
+    "BAYERN": 24,
+    "NIEDERSACHSEN": 24,
+    "BREMEN": 5,
+    "SACHSEN": 15,
+    "RHEINLAND_PFALZ": 5,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "HESSEN": 4,
+    "THUERINGEN": 15,
+    "HAMBURG": 3,
+    "BERLIN": 2,
+    "BRANDENBURG": 8,
     "SONSTIGES": 1,
-    "BRANDENBURG": 4
+    "SACHSEN_ANHALT": 1,
+    "SCHLESWIG_HOLSTEIN": 1
    }
   },
   {
@@ -4389,20 +4700,21 @@
    },
    "regions": {
     "BREMEN": 1,
-    "SACHSEN": 4,
-    "BRANDENBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 7,
-    "HESSEN": 5,
-    "BADEN_WUERTTEMBERG": 12,
-    "NIEDERSACHSEN": 10,
-    "BAYERN": 9,
-    "RHEINLAND_PFALZ": 2,
-    "THUERINGEN": 1,
-    "HAMBURG": 1,
-    "SACHSEN_ANHALT": 1,
-    "NORDRHEIN_WESTFALEN": 1,
-    "BERLIN": 1,
-    "SCHLESWIG_HOLSTEIN": 2
+    "SACHSEN": 14,
+    "BADEN_WUERTTEMBERG": 39,
+    "BAYERN": 38,
+    "BRANDENBURG": 4,
+    "MECKLENBURG_VORPOMMERN": 17,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "NORDRHEIN_WESTFALEN": 14,
+    "HESSEN": 15,
+    "NIEDERSACHSEN": 29,
+    "RHEINLAND_PFALZ": 6,
+    "THUERINGEN": 6,
+    "HAMBURG": 2,
+    "SACHSEN_ANHALT": 6,
+    "BERLIN": 2,
+    "SONSTIGES": 1
    }
   },
   {
@@ -4430,20 +4742,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 12,
-    "NIEDERSACHSEN": 14,
-    "BAYERN": 3,
-    "BRANDENBURG": 4,
-    "THUERINGEN": 3,
-    "SACHSEN_ANHALT": 8,
-    "SACHSEN": 2,
-    "BADEN_WUERTTEMBERG": 3,
+    "NORDRHEIN_WESTFALEN": 28,
+    "NIEDERSACHSEN": 17,
+    "BRANDENBURG": 11,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "SAARLAND": 1,
+    "RHEINLAND_PFALZ": 9,
+    "BAYERN": 39,
+    "HESSEN": 12,
+    "SACHSEN_ANHALT": 21,
+    "SACHSEN": 15,
+    "BADEN_WUERTTEMBERG": 21,
+    "THUERINGEN": 10,
+    "BERLIN": 5,
+    "HAMBURG": 3,
     "BREMEN": 3,
-    "HESSEN": 1,
-    "RHEINLAND_PFALZ": 1,
-    "BERLIN": 2,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "HAMBURG": 1
+    "SCHLESWIG_HOLSTEIN": 1
    }
   },
   {
@@ -4453,7 +4767,7 @@
    "g": "service",
    "d": 3,
    "t": "dual",
-   "total": 222,
+   "total": 223,
    "cities": {
     "Berlin": 18,
     "Hamburg": 4,
@@ -4471,20 +4785,22 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 18,
-    "RHEINLAND_PFALZ": 2,
-    "THUERINGEN": 1,
-    "NIEDERSACHSEN": 5,
-    "BADEN_WUERTTEMBERG": 5,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BREMEN": 1,
-    "SACHSEN_ANHALT": 3,
-    "BERLIN": 6,
-    "BRANDENBURG": 2,
-    "MECKLENBURG_VORPOMMERN": 3,
+    "NORDRHEIN_WESTFALEN": 69,
+    "BERLIN": 16,
+    "RHEINLAND_PFALZ": 10,
+    "THUERINGEN": 7,
+    "BREMEN": 4,
+    "NIEDERSACHSEN": 14,
+    "BAYERN": 12,
+    "SACHSEN": 3,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "BADEN_WUERTTEMBERG": 17,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "SACHSEN_ANHALT": 9,
+    "SAARLAND": 1,
+    "BRANDENBURG": 8,
     "HAMBURG": 4,
-    "HESSEN": 1,
-    "BAYERN": 6
+    "HESSEN": 13
    }
   },
   {
@@ -4512,18 +4828,22 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 8,
-    "BAYERN": 27,
-    "NIEDERSACHSEN": 5,
-    "HESSEN": 3,
-    "NORDRHEIN_WESTFALEN": 8,
-    "THUERINGEN": 1,
-    "BRANDENBURG": 2,
-    "BERLIN": 2,
-    "BREMEN": 1,
-    "HAMBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "SACHSEN": 1
+    "BAYERN": 73,
+    "BADEN_WUERTTEMBERG": 29,
+    "RHEINLAND_PFALZ": 4,
+    "SAARLAND": 1,
+    "NIEDERSACHSEN": 14,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "HAMBURG": 4,
+    "HESSEN": 11,
+    "NORDRHEIN_WESTFALEN": 34,
+    "THUERINGEN": 2,
+    "BRANDENBURG": 7,
+    "BERLIN": 7,
+    "BREMEN": 3,
+    "SACHSEN": 6,
+    "SACHSEN_ANHALT": 2,
+    "SONSTIGES": 1
    }
   },
   {
@@ -4551,17 +4871,22 @@
     "Nürnberg": 1
    },
    "regions": {
-    "HAMBURG": 5,
-    "BADEN_WUERTTEMBERG": 5,
-    "HESSEN": 5,
-    "NORDRHEIN_WESTFALEN": 17,
-    "BAYERN": 6,
-    "NIEDERSACHSEN": 7,
-    "BRANDENBURG": 3,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "SACHSEN": 2,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "RHEINLAND_PFALZ": 1
+    "HAMBURG": 11,
+    "BADEN_WUERTTEMBERG": 38,
+    "BAYERN": 24,
+    "HESSEN": 12,
+    "NORDRHEIN_WESTFALEN": 58,
+    "NIEDERSACHSEN": 14,
+    "THUERINGEN": 1,
+    "SAARLAND": 1,
+    "RHEINLAND_PFALZ": 4,
+    "BRANDENBURG": 7,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "SACHSEN": 3,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "SACHSEN_ANHALT": 4,
+    "BERLIN": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -4589,18 +4914,20 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BAYERN": 6,
-    "BADEN_WUERTTEMBERG": 9,
-    "NIEDERSACHSEN": 10,
-    "NORDRHEIN_WESTFALEN": 13,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "SAARLAND": 3,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "RHEINLAND_PFALZ": 5,
-    "HESSEN": 2,
-    "SACHSEN": 3,
-    "THUERINGEN": 1,
-    "BRANDENBURG": 2
+    "BAYERN": 37,
+    "BADEN_WUERTTEMBERG": 29,
+    "NIEDERSACHSEN": 34,
+    "NORDRHEIN_WESTFALEN": 44,
+    "HESSEN": 6,
+    "SCHLESWIG_HOLSTEIN": 13,
+    "RHEINLAND_PFALZ": 11,
+    "THUERINGEN": 4,
+    "SAARLAND": 4,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "SACHSEN": 6,
+    "BRANDENBURG": 5,
+    "BERLIN": 2,
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -4628,18 +4955,21 @@
     "Nürnberg": 5
    },
    "regions": {
-    "NIEDERSACHSEN": 20,
-    "BADEN_WUERTTEMBERG": 4,
-    "THUERINGEN": 2,
-    "NORDRHEIN_WESTFALEN": 6,
-    "MECKLENBURG_VORPOMMERN": 5,
-    "BREMEN": 2,
-    "BAYERN": 8,
-    "SACHSEN_ANHALT": 4,
-    "BRANDENBURG": 1,
-    "SACHSEN": 6,
-    "BERLIN": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "HAMBURG": 2,
+    "SACHSEN": 15,
+    "THUERINGEN": 9,
+    "BAYERN": 33,
+    "NIEDERSACHSEN": 47,
+    "BADEN_WUERTTEMBERG": 19,
+    "NORDRHEIN_WESTFALEN": 19,
+    "MECKLENBURG_VORPOMMERN": 9,
+    "BERLIN": 4,
+    "BREMEN": 5,
+    "SACHSEN_ANHALT": 15,
+    "BRANDENBURG": 4,
+    "SCHLESWIG_HOLSTEIN": 13,
+    "RHEINLAND_PFALZ": 3,
+    "HESSEN": 3
    }
   },
   {
@@ -4667,19 +4997,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 20,
-    "BERLIN": 3,
+    "NORDRHEIN_WESTFALEN": 48,
+    "BERLIN": 8,
     "BREMEN": 3,
-    "BAYERN": 6,
-    "NIEDERSACHSEN": 6,
-    "BADEN_WUERTTEMBERG": 6,
-    "SACHSEN_ANHALT": 2,
-    "SACHSEN": 2,
-    "HESSEN": 7,
+    "HESSEN": 23,
+    "NIEDERSACHSEN": 24,
+    "THUERINGEN": 3,
+    "BADEN_WUERTTEMBERG": 19,
+    "BAYERN": 30,
+    "SACHSEN_ANHALT": 4,
+    "SACHSEN": 8,
+    "BRANDENBURG": 11,
     "HAMBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BRANDENBURG": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "SCHLESWIG_HOLSTEIN": 3,
+    "RHEINLAND_PFALZ": 9,
+    "SAARLAND": 1,
+    "MECKLENBURG_VORPOMMERN": 4
    }
   },
   {
@@ -4707,18 +5040,20 @@
     "Nürnberg": 3
    },
    "regions": {
-    "SACHSEN": 7,
-    "NORDRHEIN_WESTFALEN": 15,
-    "BAYERN": 4,
-    "HESSEN": 4,
-    "BADEN_WUERTTEMBERG": 12,
-    "NIEDERSACHSEN": 4,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "SACHSEN_ANHALT": 2,
-    "THUERINGEN": 4,
-    "BRANDENBURG": 3,
-    "RHEINLAND_PFALZ": 1,
-    "MECKLENBURG_VORPOMMERN": 1
+    "SACHSEN": 16,
+    "BADEN_WUERTTEMBERG": 41,
+    "NORDRHEIN_WESTFALEN": 47,
+    "BAYERN": 25,
+    "RHEINLAND_PFALZ": 10,
+    "BERLIN": 2,
+    "THUERINGEN": 8,
+    "HESSEN": 13,
+    "NIEDERSACHSEN": 17,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "SAARLAND": 3,
+    "SACHSEN_ANHALT": 3,
+    "BRANDENBURG": 6,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -4746,20 +5081,21 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BAYERN": 10,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BADEN_WUERTTEMBERG": 8,
-    "SACHSEN": 3,
-    "RHEINLAND_PFALZ": 3,
-    "HAMBURG": 3,
-    "HESSEN": 9,
-    "BERLIN": 4,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "THUERINGEN": 2,
+    "HAMBURG": 7,
+    "BAYERN": 30,
+    "BADEN_WUERTTEMBERG": 44,
+    "NORDRHEIN_WESTFALEN": 44,
+    "SACHSEN": 5,
+    "NIEDERSACHSEN": 13,
+    "THUERINGEN": 4,
+    "RHEINLAND_PFALZ": 9,
+    "HESSEN": 20,
+    "BERLIN": 8,
+    "BREMEN": 2,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "BRANDENBURG": 3,
     "SAARLAND": 1,
-    "BRANDENBURG": 1,
-    "NIEDERSACHSEN": 2,
-    "SACHSEN_ANHALT": 1
+    "SACHSEN_ANHALT": 5
    }
   },
   {
@@ -4787,17 +5123,18 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NIEDERSACHSEN": 11,
-    "BAYERN": 11,
-    "NORDRHEIN_WESTFALEN": 10,
-    "BADEN_WUERTTEMBERG": 9,
-    "BRANDENBURG": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 3,
-    "SACHSEN": 5,
-    "THUERINGEN": 4,
-    "MECKLENBURG_VORPOMMERN": 1
+    "NORDRHEIN_WESTFALEN": 38,
+    "SACHSEN": 14,
+    "NIEDERSACHSEN": 23,
+    "BAYERN": 49,
+    "BADEN_WUERTTEMBERG": 21,
+    "THUERINGEN": 12,
+    "HESSEN": 15,
+    "RHEINLAND_PFALZ": 10,
+    "BRANDENBURG": 4,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "SACHSEN_ANHALT": 2,
+    "MECKLENBURG_VORPOMMERN": 3
    }
   },
   {
@@ -4825,18 +5162,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 9,
-    "RHEINLAND_PFALZ": 5,
-    "BAYERN": 12,
-    "NIEDERSACHSEN": 6,
-    "NORDRHEIN_WESTFALEN": 6,
-    "BRANDENBURG": 8,
-    "SACHSEN": 3,
-    "HESSEN": 3,
-    "BERLIN": 1,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BREMEN": 2,
-    "MECKLENBURG_VORPOMMERN": 2
+    "BADEN_WUERTTEMBERG": 29,
+    "RHEINLAND_PFALZ": 12,
+    "BAYERN": 36,
+    "NIEDERSACHSEN": 15,
+    "NORDRHEIN_WESTFALEN": 22,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "BRANDENBURG": 15,
+    "SACHSEN": 16,
+    "HESSEN": 9,
+    "BERLIN": 7,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "BREMEN": 3,
+    "THUERINGEN": 8,
+    "HAMBURG": 2,
+    "SACHSEN_ANHALT": 7,
+    "SAARLAND": 1
    }
   },
   {
@@ -4864,17 +5205,23 @@
     "Nürnberg": 2
    },
    "regions": {
-    "NIEDERSACHSEN": 7,
-    "BAYERN": 16,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "HAMBURG": 3,
-    "BRANDENBURG": 2,
-    "NORDRHEIN_WESTFALEN": 10,
-    "BERLIN": 2,
-    "SACHSEN": 3,
-    "BADEN_WUERTTEMBERG": 11,
-    "HESSEN": 2,
-    "MECKLENBURG_VORPOMMERN": 1
+    "SACHSEN": 11,
+    "NIEDERSACHSEN": 19,
+    "SACHSEN_ANHALT": 4,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "NORDRHEIN_WESTFALEN": 25,
+    "BADEN_WUERTTEMBERG": 35,
+    "BAYERN": 36,
+    "HAMBURG": 8,
+    "HESSEN": 11,
+    "BRANDENBURG": 5,
+    "THUERINGEN": 3,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "SAARLAND": 1,
+    "BERLIN": 5,
+    "RHEINLAND_PFALZ": 2,
+    "BREMEN": 5,
+    "SONSTIGES": 1
    }
   },
   {
@@ -4884,7 +5231,7 @@
    "g": "food",
    "d": 2,
    "t": "dual",
-   "total": 182,
+   "total": 181,
    "cities": {
     "Berlin": 2,
     "Hamburg": 5,
@@ -4902,21 +5249,22 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NIEDERSACHSEN": 6,
-    "SCHLESWIG_HOLSTEIN": 5,
-    "BRANDENBURG": 4,
-    "HESSEN": 3,
-    "SACHSEN_ANHALT": 5,
-    "THUERINGEN": 6,
-    "NORDRHEIN_WESTFALEN": 8,
-    "RHEINLAND_PFALZ": 3,
-    "BAYERN": 6,
-    "SACHSEN": 2,
-    "MECKLENBURG_VORPOMMERN": 3,
+    "NIEDERSACHSEN": 26,
+    "BREMEN": 2,
+    "NORDRHEIN_WESTFALEN": 28,
+    "SCHLESWIG_HOLSTEIN": 13,
+    "BRANDENBURG": 6,
+    "HESSEN": 7,
+    "SACHSEN_ANHALT": 12,
+    "THUERINGEN": 12,
+    "BAYERN": 28,
+    "SACHSEN": 10,
+    "RHEINLAND_PFALZ": 11,
+    "BADEN_WUERTTEMBERG": 11,
+    "MECKLENBURG_VORPOMMERN": 6,
+    "SAARLAND": 2,
     "HAMBURG": 2,
-    "BERLIN": 1,
-    "BADEN_WUERTTEMBERG": 3,
-    "BREMEN": 1
+    "BERLIN": 1
    }
   },
   {
@@ -4944,21 +5292,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 1,
-    "BREMEN": 2,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BAYERN": 6,
-    "BRANDENBURG": 1,
-    "NORDRHEIN_WESTFALEN": 16,
-    "BADEN_WUERTTEMBERG": 6,
+    "SCHLESWIG_HOLSTEIN": 5,
+    "BREMEN": 3,
+    "MECKLENBURG_VORPOMMERN": 7,
+    "BAYERN": 20,
+    "BRANDENBURG": 3,
+    "NORDRHEIN_WESTFALEN": 48,
+    "BADEN_WUERTTEMBERG": 20,
+    "NIEDERSACHSEN": 32,
     "SAARLAND": 2,
-    "HAMBURG": 3,
-    "HESSEN": 3,
-    "BERLIN": 5,
-    "NIEDERSACHSEN": 9,
-    "RHEINLAND_PFALZ": 2,
-    "SACHSEN": 1,
-    "SACHSEN_ANHALT": 1
+    "HAMBURG": 6,
+    "HESSEN": 12,
+    "BERLIN": 6,
+    "SACHSEN": 4,
+    "RHEINLAND_PFALZ": 5,
+    "SACHSEN_ANHALT": 8,
+    "THUERINGEN": 2
    }
   },
   {
@@ -4986,17 +5335,19 @@
     "Nürnberg": 2
    },
    "regions": {
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BADEN_WUERTTEMBERG": 10,
-    "BAYERN": 5,
-    "BREMEN": 1,
-    "NORDRHEIN_WESTFALEN": 19,
-    "HAMBURG": 4,
-    "RHEINLAND_PFALZ": 5,
-    "HESSEN": 3,
-    "BERLIN": 3,
-    "NIEDERSACHSEN": 5,
-    "MECKLENBURG_VORPOMMERN": 2,
+    "BAYERN": 32,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "BADEN_WUERTTEMBERG": 23,
+    "NORDRHEIN_WESTFALEN": 50,
+    "SACHSEN": 5,
+    "BREMEN": 6,
+    "HAMBURG": 7,
+    "BERLIN": 5,
+    "RHEINLAND_PFALZ": 12,
+    "HESSEN": 8,
+    "NIEDERSACHSEN": 22,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "BRANDENBURG": 1,
     "SAARLAND": 1
    }
   },
@@ -5025,18 +5376,22 @@
     "Nürnberg": 10
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 18,
-    "BADEN_WUERTTEMBERG": 8,
-    "SACHSEN_ANHALT": 8,
-    "SACHSEN": 3,
-    "RHEINLAND_PFALZ": 3,
-    "BAYERN": 8,
-    "HESSEN": 1,
-    "SAARLAND": 4,
-    "NIEDERSACHSEN": 3,
-    "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "BERLIN": 1
+    "NORDRHEIN_WESTFALEN": 41,
+    "BADEN_WUERTTEMBERG": 15,
+    "BAYERN": 40,
+    "SACHSEN_ANHALT": 13,
+    "SACHSEN": 10,
+    "HESSEN": 9,
+    "SAARLAND": 9,
+    "RHEINLAND_PFALZ": 14,
+    "THUERINGEN": 5,
+    "BERLIN": 4,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "NIEDERSACHSEN": 10,
+    "HAMBURG": 2,
+    "SCHLESWIG_HOLSTEIN": 2,
+    "BRANDENBURG": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -5064,17 +5419,17 @@
     "Nürnberg": 3
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 13,
-    "THUERINGEN": 12,
-    "HESSEN": 5,
-    "SACHSEN_ANHALT": 2,
-    "BAYERN": 8,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "BADEN_WUERTTEMBERG": 10,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "SACHSEN": 5,
-    "RHEINLAND_PFALZ": 1,
-    "NIEDERSACHSEN": 1
+    "NORDRHEIN_WESTFALEN": 28,
+    "THUERINGEN": 24,
+    "HESSEN": 12,
+    "SACHSEN_ANHALT": 4,
+    "BAYERN": 26,
+    "SACHSEN": 22,
+    "RHEINLAND_PFALZ": 11,
+    "BADEN_WUERTTEMBERG": 34,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "NIEDERSACHSEN": 8,
+    "MECKLENBURG_VORPOMMERN": 4
    }
   },
   {
@@ -5102,17 +5457,21 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 13,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "BADEN_WUERTTEMBERG": 12,
-    "NIEDERSACHSEN": 10,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "BAYERN": 6,
-    "SACHSEN": 3,
-    "HESSEN": 1,
-    "SACHSEN_ANHALT": 1,
+    "SACHSEN": 9,
+    "NORDRHEIN_WESTFALEN": 27,
+    "BAYERN": 36,
+    "HESSEN": 10,
+    "MECKLENBURG_VORPOMMERN": 4,
+    "BADEN_WUERTTEMBERG": 31,
+    "NIEDERSACHSEN": 30,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "THUERINGEN": 3,
+    "RHEINLAND_PFALZ": 9,
+    "SACHSEN_ANHALT": 2,
     "BERLIN": 1,
-    "BRANDENBURG": 1
+    "HAMBURG": 1,
+    "BRANDENBURG": 3,
+    "SONSTIGES": 1
    }
   },
   {
@@ -5140,18 +5499,20 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BAYERN": 13,
+    "BAYERN": 49,
     "SAARLAND": 2,
-    "NORDRHEIN_WESTFALEN": 15,
-    "NIEDERSACHSEN": 10,
+    "NORDRHEIN_WESTFALEN": 34,
+    "NIEDERSACHSEN": 20,
+    "BADEN_WUERTTEMBERG": 21,
+    "THUERINGEN": 5,
+    "SACHSEN_ANHALT": 6,
     "BREMEN": 1,
-    "BADEN_WUERTTEMBERG": 5,
-    "SACHSEN": 2,
-    "HESSEN": 5,
-    "SCHLESWIG_HOLSTEIN": 1,
+    "SACHSEN": 11,
+    "HESSEN": 13,
+    "SCHLESWIG_HOLSTEIN": 3,
     "BRANDENBURG": 2,
-    "SACHSEN_ANHALT": 2,
-    "RHEINLAND_PFALZ": 1
+    "RHEINLAND_PFALZ": 9,
+    "MECKLENBURG_VORPOMMERN": 1
    }
   },
   {
@@ -5179,19 +5540,20 @@
     "Nürnberg": 0
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 12,
-    "BAYERN": 16,
-    "NORDRHEIN_WESTFALEN": 6,
-    "HESSEN": 6,
+    "BADEN_WUERTTEMBERG": 44,
+    "BAYERN": 55,
+    "RHEINLAND_PFALZ": 4,
+    "NORDRHEIN_WESTFALEN": 19,
+    "NIEDERSACHSEN": 10,
+    "HESSEN": 14,
+    "THUERINGEN": 10,
     "SCHLESWIG_HOLSTEIN": 2,
     "SACHSEN_ANHALT": 3,
-    "THUERINGEN": 4,
-    "RHEINLAND_PFALZ": 1,
+    "SACHSEN": 3,
     "SONSTIGES": 1,
-    "NIEDERSACHSEN": 5,
-    "BREMEN": 1,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "SACHSEN": 2
+    "BRANDENBURG": 4,
+    "BREMEN": 2,
+    "MECKLENBURG_VORPOMMERN": 2
    }
   },
   {
@@ -5219,18 +5581,20 @@
     "Nürnberg": 3
    },
    "regions": {
-    "SACHSEN_ANHALT": 14,
-    "BADEN_WUERTTEMBERG": 9,
-    "NORDRHEIN_WESTFALEN": 9,
-    "BAYERN": 8,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "SACHSEN": 3,
-    "BRANDENBURG": 1,
-    "HESSEN": 1,
+    "SACHSEN_ANHALT": 17,
+    "SACHSEN": 18,
+    "BADEN_WUERTTEMBERG": 24,
+    "NORDRHEIN_WESTFALEN": 15,
+    "MECKLENBURG_VORPOMMERN": 13,
+    "BAYERN": 40,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "RHEINLAND_PFALZ": 20,
+    "HAMBURG": 5,
+    "BRANDENBURG": 2,
+    "HESSEN": 8,
     "THUERINGEN": 1,
-    "MECKLENBURG_VORPOMMERN": 7,
     "BERLIN": 1,
-    "RHEINLAND_PFALZ": 4
+    "NIEDERSACHSEN": 1
    }
   },
   {
@@ -5258,18 +5622,19 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 13,
-    "BAYERN": 10,
-    "BRANDENBURG": 1,
-    "BERLIN": 2,
-    "NIEDERSACHSEN": 4,
-    "NORDRHEIN_WESTFALEN": 14,
-    "BREMEN": 1,
-    "THUERINGEN": 4,
-    "HESSEN": 4,
-    "SACHSEN": 5,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "RHEINLAND_PFALZ": 1
+    "HESSEN": 8,
+    "BAYERN": 39,
+    "RHEINLAND_PFALZ": 8,
+    "BADEN_WUERTTEMBERG": 40,
+    "NORDRHEIN_WESTFALEN": 29,
+    "THUERINGEN": 9,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "BRANDENBURG": 2,
+    "BERLIN": 3,
+    "NIEDERSACHSEN": 8,
+    "SACHSEN": 14,
+    "BREMEN": 2,
+    "HAMBURG": 1
    }
   },
   {
@@ -5297,17 +5662,19 @@
     "Nürnberg": 2
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 13,
-    "NORDRHEIN_WESTFALEN": 7,
+    "BRANDENBURG": 6,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BADEN_WUERTTEMBERG": 37,
+    "BAYERN": 44,
+    "NORDRHEIN_WESTFALEN": 19,
+    "SACHSEN": 3,
     "SACHSEN_ANHALT": 3,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "NIEDERSACHSEN": 13,
-    "MECKLENBURG_VORPOMMERN": 3,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "NIEDERSACHSEN": 25,
+    "HESSEN": 7,
     "RHEINLAND_PFALZ": 1,
-    "BAYERN": 11,
-    "SACHSEN": 1,
-    "THUERINGEN": 1,
-    "HESSEN": 4
+    "THUERINGEN": 9,
+    "BERLIN": 1
    }
   },
   {
@@ -5335,16 +5702,22 @@
     "Nürnberg": 2
    },
    "regions": {
-    "RHEINLAND_PFALZ": 5,
-    "SACHSEN": 1,
-    "HAMBURG": 2,
-    "BADEN_WUERTTEMBERG": 25,
-    "NORDRHEIN_WESTFALEN": 10,
-    "NIEDERSACHSEN": 5,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "HESSEN": 3,
-    "BAYERN": 6,
-    "BERLIN": 1
+    "RHEINLAND_PFALZ": 9,
+    "SACHSEN": 4,
+    "HESSEN": 8,
+    "BAYERN": 31,
+    "HAMBURG": 4,
+    "BADEN_WUERTTEMBERG": 48,
+    "NORDRHEIN_WESTFALEN": 30,
+    "NIEDERSACHSEN": 18,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "THUERINGEN": 1,
+    "BERLIN": 1,
+    "BREMEN": 1,
+    "SAARLAND": 2,
+    "SONSTIGES": 1,
+    "SACHSEN_ANHALT": 1,
+    "MECKLENBURG_VORPOMMERN": 1
    }
   },
   {
@@ -5372,21 +5745,22 @@
     "Nürnberg": 6
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 6,
-    "SACHSEN_ANHALT": 8,
-    "BRANDENBURG": 4,
-    "BAYERN": 4,
-    "NIEDERSACHSEN": 4,
-    "HESSEN": 6,
-    "BADEN_WUERTTEMBERG": 12,
-    "SAARLAND": 3,
-    "RHEINLAND_PFALZ": 3,
+    "NORDRHEIN_WESTFALEN": 18,
+    "BERLIN": 10,
+    "BAYERN": 41,
+    "SACHSEN_ANHALT": 14,
+    "SAARLAND": 5,
+    "BRANDENBURG": 10,
+    "NIEDERSACHSEN": 6,
+    "HESSEN": 11,
+    "BADEN_WUERTTEMBERG": 26,
+    "RHEINLAND_PFALZ": 8,
     "THUERINGEN": 1,
-    "SACHSEN": 3,
-    "BERLIN": 3,
-    "SCHLESWIG_HOLSTEIN": 1,
-    "HAMBURG": 1,
-    "BREMEN": 1
+    "SACHSEN": 5,
+    "BREMEN": 2,
+    "SCHLESWIG_HOLSTEIN": 3,
+    "MECKLENBURG_VORPOMMERN": 1,
+    "HAMBURG": 1
    }
   },
   {
@@ -5414,18 +5788,21 @@
     "Nürnberg": 4
    },
    "regions": {
-    "NIEDERSACHSEN": 7,
-    "NORDRHEIN_WESTFALEN": 14,
-    "BAYERN": 11,
-    "SCHLESWIG_HOLSTEIN": 7,
-    "BADEN_WUERTTEMBERG": 6,
-    "HESSEN": 3,
-    "HAMBURG": 2,
-    "BERLIN": 2,
-    "THUERINGEN": 2,
+    "NIEDERSACHSEN": 27,
+    "NORDRHEIN_WESTFALEN": 37,
+    "SAARLAND": 4,
+    "BADEN_WUERTTEMBERG": 22,
+    "BAYERN": 27,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "SACHSEN": 2,
+    "HESSEN": 9,
+    "RHEINLAND_PFALZ": 7,
+    "HAMBURG": 4,
+    "BERLIN": 7,
+    "THUERINGEN": 3,
     "BRANDENBURG": 1,
-    "SAARLAND": 2,
-    "RHEINLAND_PFALZ": 3
+    "BREMEN": 1,
+    "SACHSEN_ANHALT": 1
    }
   },
   {
@@ -5453,20 +5830,21 @@
     "Nürnberg": 0
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 15,
-    "THUERINGEN": 2,
-    "RHEINLAND_PFALZ": 4,
-    "BADEN_WUERTTEMBERG": 8,
-    "NIEDERSACHSEN": 8,
-    "BERLIN": 2,
-    "SACHSEN_ANHALT": 3,
-    "MECKLENBURG_VORPOMMERN": 4,
-    "BAYERN": 5,
-    "HESSEN": 4,
-    "SACHSEN": 1,
-    "BREMEN": 1,
-    "BRANDENBURG": 1,
-    "SCHLESWIG_HOLSTEIN": 1
+    "HESSEN": 12,
+    "BADEN_WUERTTEMBERG": 24,
+    "NORDRHEIN_WESTFALEN": 34,
+    "THUERINGEN": 7,
+    "RHEINLAND_PFALZ": 13,
+    "BAYERN": 14,
+    "SACHSEN": 6,
+    "MECKLENBURG_VORPOMMERN": 11,
+    "NIEDERSACHSEN": 18,
+    "BRANDENBURG": 2,
+    "BERLIN": 3,
+    "SACHSEN_ANHALT": 6,
+    "SCHLESWIG_HOLSTEIN": 9,
+    "HAMBURG": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -5494,16 +5872,19 @@
     "Nürnberg": 0
    },
    "regions": {
-    "SAARLAND": 2,
-    "BADEN_WUERTTEMBERG": 10,
-    "BAYERN": 3,
-    "NORDRHEIN_WESTFALEN": 22,
-    "NIEDERSACHSEN": 11,
-    "HESSEN": 6,
-    "SCHLESWIG_HOLSTEIN": 2,
+    "NIEDERSACHSEN": 26,
+    "SAARLAND": 4,
+    "BADEN_WUERTTEMBERG": 20,
+    "BAYERN": 20,
+    "NORDRHEIN_WESTFALEN": 53,
+    "RHEINLAND_PFALZ": 9,
+    "BRANDENBURG": 3,
+    "HESSEN": 14,
+    "SCHLESWIG_HOLSTEIN": 7,
     "BERLIN": 2,
     "SACHSEN": 1,
-    "RHEINLAND_PFALZ": 1
+    "SACHSEN_ANHALT": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -5531,17 +5912,18 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 8,
-    "NORDRHEIN_WESTFALEN": 17,
-    "HESSEN": 3,
-    "BAYERN": 7,
-    "SACHSEN_ANHALT": 4,
-    "BRANDENBURG": 2,
-    "NIEDERSACHSEN": 5,
-    "RHEINLAND_PFALZ": 3,
-    "THUERINGEN": 4,
-    "SACHSEN": 3,
-    "SCHLESWIG_HOLSTEIN": 2
+    "BAYERN": 40,
+    "BADEN_WUERTTEMBERG": 17,
+    "NORDRHEIN_WESTFALEN": 42,
+    "NIEDERSACHSEN": 19,
+    "HESSEN": 4,
+    "SACHSEN": 6,
+    "SACHSEN_ANHALT": 6,
+    "BRANDENBURG": 3,
+    "RHEINLAND_PFALZ": 8,
+    "THUERINGEN": 6,
+    "BERLIN": 1,
+    "SCHLESWIG_HOLSTEIN": 3
    }
   },
   {
@@ -5569,20 +5951,20 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 8,
-    "BAYERN": 7,
+    "THUERINGEN": 2,
+    "BADEN_WUERTTEMBERG": 42,
+    "NORDRHEIN_WESTFALEN": 19,
+    "BAYERN": 24,
     "BRANDENBURG": 2,
-    "SAARLAND": 1,
-    "BADEN_WUERTTEMBERG": 13,
-    "HESSEN": 7,
-    "BREMEN": 3,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "SACHSEN": 3,
-    "RHEINLAND_PFALZ": 4,
-    "NIEDERSACHSEN": 6,
+    "RHEINLAND_PFALZ": 14,
+    "SAARLAND": 2,
+    "SCHLESWIG_HOLSTEIN": 11,
+    "HESSEN": 11,
+    "BREMEN": 4,
+    "NIEDERSACHSEN": 15,
+    "SACHSEN": 7,
     "MECKLENBURG_VORPOMMERN": 1,
-    "BERLIN": 1,
-    "THUERINGEN": 1
+    "BERLIN": 1
    }
   },
   {
@@ -5610,17 +5992,22 @@
     "Nürnberg": 3
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 12,
-    "BRANDENBURG": 1,
-    "BAYERN": 13,
+    "NORDRHEIN_WESTFALEN": 31,
+    "BRANDENBURG": 5,
+    "BAYERN": 23,
+    "SCHLESWIG_HOLSTEIN": 7,
+    "BADEN_WUERTTEMBERG": 19,
     "THUERINGEN": 4,
-    "SACHSEN_ANHALT": 3,
-    "BERLIN": 1,
-    "RHEINLAND_PFALZ": 4,
-    "MECKLENBURG_VORPOMMERN": 3,
-    "SACHSEN": 5,
-    "HESSEN": 11,
-    "NIEDERSACHSEN": 3
+    "SACHSEN_ANHALT": 4,
+    "NIEDERSACHSEN": 14,
+    "BERLIN": 3,
+    "RHEINLAND_PFALZ": 8,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "SACHSEN": 11,
+    "HESSEN": 16,
+    "SAARLAND": 1,
+    "HAMBURG": 1,
+    "BREMEN": 1
    }
   },
   {
@@ -5648,16 +6035,19 @@
     "Nürnberg": 3
    },
    "regions": {
-    "THUERINGEN": 2,
-    "NORDRHEIN_WESTFALEN": 14,
-    "NIEDERSACHSEN": 4,
-    "SCHLESWIG_HOLSTEIN": 3,
-    "HESSEN": 6,
-    "BADEN_WUERTTEMBERG": 10,
-    "BAYERN": 16,
-    "SACHSEN": 2,
+    "THUERINGEN": 6,
+    "BADEN_WUERTTEMBERG": 23,
+    "NORDRHEIN_WESTFALEN": 33,
+    "NIEDERSACHSEN": 11,
+    "SCHLESWIG_HOLSTEIN": 10,
+    "BAYERN": 39,
+    "HESSEN": 13,
+    "SACHSEN": 6,
+    "MECKLENBURG_VORPOMMERN": 2,
     "SACHSEN_ANHALT": 1,
-    "RHEINLAND_PFALZ": 2
+    "RHEINLAND_PFALZ": 5,
+    "BRANDENBURG": 1,
+    "SAARLAND": 3
    }
   },
   {
@@ -5685,16 +6075,17 @@
     "Nürnberg": 14
    },
    "regions": {
-    "HESSEN": 1,
-    "NORDRHEIN_WESTFALEN": 18,
-    "BAYERN": 28,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "RHEINLAND_PFALZ": 6,
+    "BAYERN": 72,
+    "HESSEN": 3,
+    "NORDRHEIN_WESTFALEN": 28,
+    "MECKLENBURG_VORPOMMERN": 5,
+    "BADEN_WUERTTEMBERG": 16,
+    "RHEINLAND_PFALZ": 18,
     "BRANDENBURG": 1,
-    "BADEN_WUERTTEMBERG": 1,
     "SAARLAND": 2,
-    "BERLIN": 1,
-    "HAMBURG": 1
+    "BERLIN": 3,
+    "HAMBURG": 2,
+    "SACHSEN": 2
    }
   },
   {
@@ -5722,15 +6113,17 @@
     "Nürnberg": 5
    },
    "regions": {
-    "NIEDERSACHSEN": 5,
-    "NORDRHEIN_WESTFALEN": 20,
-    "BADEN_WUERTTEMBERG": 13,
-    "HAMBURG": 2,
-    "BERLIN": 6,
-    "SCHLESWIG_HOLSTEIN": 2,
-    "BAYERN": 6,
-    "HESSEN": 4,
-    "RHEINLAND_PFALZ": 2
+    "NIEDERSACHSEN": 16,
+    "NORDRHEIN_WESTFALEN": 40,
+    "BADEN_WUERTTEMBERG": 28,
+    "BAYERN": 25,
+    "HAMBURG": 3,
+    "HESSEN": 16,
+    "BERLIN": 7,
+    "SCHLESWIG_HOLSTEIN": 4,
+    "RHEINLAND_PFALZ": 7,
+    "BREMEN": 2,
+    "THUERINGEN": 1
    }
   },
   {
@@ -5758,19 +6151,20 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 11,
-    "BAYERN": 12,
-    "SAARLAND": 1,
-    "MECKLENBURG_VORPOMMERN": 2,
-    "THUERINGEN": 3,
-    "BADEN_WUERTTEMBERG": 8,
-    "RHEINLAND_PFALZ": 2,
-    "HESSEN": 5,
-    "NIEDERSACHSEN": 9,
-    "SACHSEN": 1,
-    "BRANDENBURG": 3,
+    "BADEN_WUERTTEMBERG": 22,
+    "NORDRHEIN_WESTFALEN": 18,
+    "BAYERN": 55,
+    "SAARLAND": 3,
+    "MECKLENBURG_VORPOMMERN": 3,
+    "THUERINGEN": 4,
+    "SACHSEN": 5,
+    "RHEINLAND_PFALZ": 3,
+    "HESSEN": 15,
+    "NIEDERSACHSEN": 11,
+    "BERLIN": 1,
+    "BRANDENBURG": 4,
     "HAMBURG": 1,
-    "SACHSEN_ANHALT": 2
+    "SACHSEN_ANHALT": 4
    }
   },
   {
@@ -5798,16 +6192,21 @@
     "Nürnberg": 5
    },
    "regions": {
-    "BAYERN": 13,
-    "NIEDERSACHSEN": 11,
-    "BADEN_WUERTTEMBERG": 12,
-    "NORDRHEIN_WESTFALEN": 12,
-    "HESSEN": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
+    "BAYERN": 34,
+    "NIEDERSACHSEN": 28,
+    "BADEN_WUERTTEMBERG": 26,
+    "NORDRHEIN_WESTFALEN": 35,
+    "SCHLESWIG_HOLSTEIN": 6,
+    "HESSEN": 5,
+    "SAARLAND": 1,
     "SACHSEN_ANHALT": 2,
+    "THUERINGEN": 1,
     "BRANDENBURG": 2,
+    "SACHSEN": 3,
+    "BERLIN": 1,
     "HAMBURG": 1,
-    "BREMEN": 1,
+    "BREMEN": 2,
+    "RHEINLAND_PFALZ": 2,
     "MECKLENBURG_VORPOMMERN": 1
    }
   },
@@ -5836,18 +6235,21 @@
     "Nürnberg": 1
    },
    "regions": {
-    "BADEN_WUERTTEMBERG": 17,
-    "NORDRHEIN_WESTFALEN": 12,
-    "BAYERN": 12,
-    "NIEDERSACHSEN": 3,
-    "MECKLENBURG_VORPOMMERN": 1,
-    "THUERINGEN": 3,
-    "SACHSEN": 3,
-    "HESSEN": 3,
-    "RHEINLAND_PFALZ": 2,
+    "BADEN_WUERTTEMBERG": 31,
+    "NORDRHEIN_WESTFALEN": 39,
+    "THUERINGEN": 9,
+    "SAARLAND": 1,
+    "BAYERN": 24,
+    "NIEDERSACHSEN": 8,
+    "MECKLENBURG_VORPOMMERN": 2,
+    "HESSEN": 8,
+    "SACHSEN": 8,
+    "RHEINLAND_PFALZ": 6,
     "SACHSEN_ANHALT": 1,
+    "SCHLESWIG_HOLSTEIN": 1,
     "BRANDENBURG": 2,
-    "HAMBURG": 1
+    "HAMBURG": 2,
+    "BERLIN": 1
    }
   },
   {
@@ -5875,16 +6277,19 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NORDRHEIN_WESTFALEN": 10,
-    "HESSEN": 3,
-    "SACHSEN_ANHALT": 8,
-    "SACHSEN": 6,
-    "NIEDERSACHSEN": 4,
-    "THUERINGEN": 5,
-    "BRANDENBURG": 10,
-    "BAYERN": 7,
-    "RHEINLAND_PFALZ": 3,
-    "MECKLENBURG_VORPOMMERN": 4
+    "NORDRHEIN_WESTFALEN": 27,
+    "SACHSEN": 18,
+    "HESSEN": 5,
+    "SACHSEN_ANHALT": 11,
+    "NIEDERSACHSEN": 10,
+    "BRANDENBURG": 12,
+    "BADEN_WUERTTEMBERG": 10,
+    "MECKLENBURG_VORPOMMERN": 11,
+    "THUERINGEN": 9,
+    "BAYERN": 18,
+    "RHEINLAND_PFALZ": 6,
+    "BERLIN": 2,
+    "SAARLAND": 1
    }
   },
   {
@@ -5912,25 +6317,26 @@
     "Nürnberg": 1
    },
    "regions": {
-    "NIEDERSACHSEN": 5,
-    "RHEINLAND_PFALZ": 3,
-    "BAYERN": 8,
-    "BADEN_WUERTTEMBERG": 6,
-    "NORDRHEIN_WESTFALEN": 18,
-    "SACHSEN": 5,
-    "SACHSEN_ANHALT": 5,
-    "THUERINGEN": 3,
-    "HESSEN": 3,
-    "SCHLESWIG_HOLSTEIN": 2,
+    "NIEDERSACHSEN": 8,
+    "BADEN_WUERTTEMBERG": 24,
+    "BAYERN": 21,
+    "RHEINLAND_PFALZ": 6,
+    "NORDRHEIN_WESTFALEN": 43,
+    "HESSEN": 9,
+    "SACHSEN": 12,
+    "SACHSEN_ANHALT": 6,
+    "THUERINGEN": 5,
+    "SCHLESWIG_HOLSTEIN": 3,
     "MECKLENBURG_VORPOMMERN": 1,
-    "HAMBURG": 1
+    "HAMBURG": 1,
+    "BRANDENBURG": 2
    }
   }
  ],
  "history": [
   {
    "day": "2026-11-24",
-   "total": 200456
+   "total": 200950
   }
  ]
 }
