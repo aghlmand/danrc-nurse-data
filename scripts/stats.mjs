@@ -89,7 +89,7 @@ const out = {
 // salary stated in ads (scripts/salary.mjs): median monthly gross per job, only with >= 3 ads
 const sal = await rd('salary/' + kind + '.json', null);
 if (sal && sal.items) {
-  const list = Object.values(sal.items).filter(x => x.n >= 3).sort((a, b) => b.median - a.median);
+  const list = Object.values(sal.items).filter(x => x.n >= 5).sort((a, b) => b.median - a.median);
   out.salary = list.slice(0, 12).map(x => [x.fa, x.median, x.n, x.p25, x.p75]);
   out.salaryLow = list.slice(-3).reverse().map(x => [x.fa, x.median, x.n]);
   out.salaryAds = Object.values(sal.items).reduce((a, x) => a + x.n, 0);
