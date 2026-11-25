@@ -1,0 +1,43 @@
+name: Telegram daily new-ads message
+
+on:
+  schedule:
+    - cron: '30 5 * * *'   # 09:00 Tehran (data chain is finished by then)
+    - cron: '30 7 * * *'   # 11:00 Tehran backup - sends only if 09:00 did not
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only print the message (1) or send it (0)'
+        default: '1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build and send the message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          # TELEGRAM_MODE (repository variable): "review" = send to TELEGRAM_REVIEW_CHAT_ID (your private chat), "channel" = send to TELEGRAM_CHAT_ID
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_MODE == 'channel' && secrets.TELEGRAM_CHAT_ID || secrets.TELEGRAM_REVIEW_CHAT_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '0' }}
+        run: node scripts/telegram-daily.mjs
+      - name: Remember the sent day
+        if: success()
+        run: |
+          git config user.name "danrc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/telegram 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "telegram daily: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 15; done
