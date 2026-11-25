@@ -544,14 +544,6 @@
 "t": "help"
 },
 {
-"key": "verwaltungsfachangestellter-kommunalverw",
-"beruf": "Verwaltungsfachangestellte/r - Kommunalverwaltung",
-"fa": "کارمند شهرداری و اداره‌ی محلی",
-"g": "office",
-"d": 3,
-"t": "dual"
-},
-{
 "key": "altenpflegehelfer",
 "beruf": "Altenpflegehelfer/in",
 "fa": "کمک‌پرستار سالمندان",
@@ -677,14 +669,6 @@
 "fa": "آزمایشگاه شیمی",
 "g": "metal",
 "d": 3.5,
-"t": "dual"
-},
-{
-"key": "sozialversicherungsfachangestellter-allg",
-"beruf": "Sozialversicherungsfachangestellte/r - allgemeine Krankenversicherung",
-"fa": "کارمند بیمه‌ی درمانی",
-"g": "office",
-"d": 3,
 "t": "dual"
 },
 {
@@ -1128,14 +1112,6 @@
 "t": "dual"
 },
 {
-"key": "fachangestellter-arbeitsmarktdienstleist",
-"beruf": "Fachangestellte/r - Arbeitsmarktdienstleistungen",
-"fa": "کارمند اداره‌ی کار",
-"g": "office",
-"d": 3,
-"t": "dual"
-},
-{
 "key": "orthopaedieschuhmacher",
 "beruf": "Orthopädieschuhmacher/in",
 "fa": "کفش طبی",
@@ -1331,14 +1307,6 @@
 "key": "schornsteinfeger",
 "beruf": "Schornsteinfeger/in",
 "fa": "دودکش‌بانی و بازرسی گرمایش",
-"g": "build",
-"d": 3,
-"t": "dual"
-},
-{
-"key": "wasserbauer",
-"beruf": "Wasserbauer/in",
-"fa": "سازه‌های آبی",
 "g": "build",
 "d": 3,
 "t": "dual"
@@ -1656,22 +1624,6 @@
 "t": "dual"
 },
 {
-"key": "mikrotechnologe",
-"beruf": "Mikrotechnologe/-technologin",
-"fa": "میکروفناوری",
-"g": "elec",
-"d": 3,
-"t": "dual"
-},
-{
-"key": "fluggeraetmechaniker-instandhaltungstechnik",
-"beruf": "Fluggerätmechaniker/in - Instandhaltungstechnik",
-"fa": "تعمیر و نگهداری هواپیما",
-"g": "elec",
-"d": 3.5,
-"t": "dual"
-},
-{
 "key": "fachinformatiker-digitale-vernetzung",
 "beruf": "Fachinformatiker/in - Digitale Vernetzung",
 "fa": "فناوری اطلاعات (شبکه‌های دیجیتال)",
@@ -1712,14 +1664,6 @@
 "t": "dual"
 },
 {
-"key": "assistent-informatik",
-"beruf": "Assistent/in - Informatik (Wirtschaftsinformatik)",
-"fa": "دستیار انفورماتیک اقتصادی",
-"g": "it",
-"d": 2,
-"t": "school"
-},
-{
 "key": "orthopaedietechnik-mechaniker",
 "beruf": "Orthopädietechnik-Mechaniker/in",
 "fa": "ارتوپدی فنی",
@@ -1757,46 +1701,6 @@
 "fa": "کاردرمانی",
 "g": "health",
 "d": 3,
-"t": "school"
-},
-{
-"key": "heilerziehungspflegeassistent",
-"beruf": "Heilerziehungspflegeassistent/in",
-"fa": "دستیار مراقبت از افراد دارای معلولیت",
-"g": "health",
-"d": 2,
-"t": "school"
-},
-{
-"key": "logopaede",
-"beruf": "Logopäde/Logopädin (Ausbildung)",
-"fa": "گفتاردرمانی",
-"g": "health",
-"d": 3,
-"t": "school"
-},
-{
-"key": "pharmazeutisch-technische-assistent",
-"beruf": "Pharmazeutisch-technische/r Assistent/in",
-"fa": "دستیار فنی داروخانه (PTA)",
-"g": "health",
-"d": 2.5,
-"t": "school"
-},
-{
-"key": "sozialpaedagogische-assistent-kinderpfleger",
-"beruf": "Sozialpädagogische/r Assistent/in / Kinderpfleger/in",
-"fa": "دستیار مربی کودک",
-"g": "service",
-"d": 2,
-"t": "school"
-},
-{
-"key": "sozialassistent",
-"beruf": "Sozialassistent/in",
-"fa": "دستیار امور اجتماعی",
-"g": "service",
-"d": 2,
 "t": "school"
 },
 {
@@ -1896,30 +1800,6 @@
 "t": "dual"
 },
 {
-"key": "fachkraft-hafenlogistik",
-"beruf": "Fachkraft - Hafenlogistik",
-"fa": "لجستیک بندر",
-"g": "trans",
-"d": 3,
-"t": "dual"
-},
-{
-"key": "servicefahrer",
-"beruf": "Servicefahrer/in",
-"fa": "رانندگی خدماتی",
-"g": "trans",
-"d": 2,
-"t": "drive"
-},
-{
-"key": "fachkraft-schutz-und-sicherheit",
-"beruf": "Fachkraft - Schutz und Sicherheit",
-"fa": "امنیت و حفاظت",
-"g": "service",
-"d": 3,
-"t": "dual"
-},
-{
 "key": "tierwirt-rinderhaltung",
 "beruf": "Tierwirt/in - Rinderhaltung",
 "fa": "دامپروری (گاو)",
@@ -1997,6 +1877,126 @@
 "fa": "مدیریت پسماند و بازیافت",
 "g": "service",
 "d": 3,
+"t": "dual"
+},
+{
+"key": "kanalbauer-infrastrukturtechnik",
+"beruf": "Kanalbauer/in - Infrastrukturtechnik",
+"fa": "کانال‌کشی زیرساخت شهری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tiefbaufacharbeiter-leitungsbauarbeiten-fuer-inf",
+"beruf": "Tiefbaufacharbeiter/in - Leitungsbauarbeiten für Infrastrukturtechnik",
+"fa": "کارگر فنی خطوط زیرساخت",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "milchwirtschaftliche-laborant",
+"beruf": "Milchwirtschaftliche/r Laborant/in",
+"fa": "آزمایشگاه لبنیات",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hochbaufacharbeiter-beton-und-stahlbetonarbeiten",
+"beruf": "Hochbaufacharbeiter/in - Beton- und Stahlbetonarbeiten",
+"fa": "کارگر فنی بتن‌ریزی",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "ofen-und-luftheizungsbauer",
+"beruf": "Ofen- und Luftheizungsbauer/in",
+"fa": "ساخت بخاری و گرمایش هوا",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "aufbereitungsmechaniker-naturstein",
+"beruf": "Aufbereitungsmechaniker/in - Naturstein",
+"fa": "فرآوری سنگ",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "verfahrensmechaniker-glastechnik",
+"beruf": "Verfahrensmechaniker/in - Glastechnik",
+"fa": "تولید صنعتی شیشه",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "lacklaborant",
+"beruf": "Lacklaborant/in",
+"fa": "آزمایشگاه رنگ و لاک",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "spezialtiefbauer",
+"beruf": "Spezialtiefbauer/in",
+"fa": "حفاری و پی‌سازی ویژه",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tiefbaufacharbeiter-rohrleitungsbauarbeiten",
+"beruf": "Tiefbaufacharbeiter/in - Rohrleitungsbauarbeiten",
+"fa": "کارگر فنی لوله‌گذاری",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "feinoptiker",
+"beruf": "Feinoptiker/in",
+"fa": "اپتیک دقیق",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "mechaniker-reifen-und-vulkanisationstechnik-vulk",
+"beruf": "Mechaniker/in - Reifen- und Vulkanisationstechnik - Vulkanisationstechnik",
+"fa": "لاستیک و ولکانیزه",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "naturwerksteinmechaniker-maschinenbearbeitungste",
+"beruf": "Naturwerksteinmechaniker/in - Maschinenbearbeitungstechnik",
+"fa": "سنگ‌بری ماشینی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "textillaborant",
+"beruf": "Textillaborant/in",
+"fa": "آزمایشگاه نساجی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-metalltechnik-umform-und-drahttechnik",
+"beruf": "Fachkraft - Metalltechnik - Umform- und Drahttechnik",
+"fa": "فلزکاری: فرم‌دهی و سیم (دوساله)",
+"g": "metal",
+"d": 2,
 "t": "dual"
 }
 ]
