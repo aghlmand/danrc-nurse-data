@@ -1,8 +1,12 @@
 name: Update Ausbildung data (/ausbildung)
 
 on:
+  workflow_run:            # chained: starts as soon as the jobs update finishes
+    workflows: ["Update jobs data (/jobs)"]
+    types: [completed]
   schedule:
-    - cron: '30 2 * * *'  # 02:30 UTC = 06:00 Tehran
+    - cron: '27 2 * * *'   # backup 05:57 Tehran - runs only if today's data is missing
+    - cron: '27 5 * * *'   # backup 08:57 Tehran
   workflow_dispatch:
 
 permissions:
@@ -21,17 +25,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Skip if today's data already exists (manual runs always update)
+        id: chk
+        run: |
+          TODAY=$(TZ=Asia/Tehran date +%F)
+          DAY=$(node -e "try{console.log(require('./data/ausbildung/summary.json').day||'')}catch(e){console.log('')}")
+          echo "today=$TODAY data=$DAY event=${{ github.event_name }}"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$DAY" = "$TODAY" ]; then echo "skip=true" >> $GITHUB_OUTPUT; echo "Already updated today - skipping"; else echo "skip=false" >> $GITHUB_OUTPUT; fi
       - name: Ausbildung data
+        if: steps.chk.outputs.skip != 'true'
         run: node scripts/update-ausbildung.mjs
       - name: Salary sample (stated salaries in new ads)
-        if: always()
+        if: always() && steps.chk.outputs.skip != 'true'
         run: node scripts/salary.mjs ausbildung
       - name: Daily statistics
-        if: always()
+        if: always() && steps.chk.outputs.skip != 'true'
         run: node scripts/stats.mjs ausbildung
       # always commit what was written (failed items keep yesterday's data); a red step above still e-mails the owner
       - name: Commit data
-        if: always()
+        if: always() && steps.chk.outputs.skip != 'true'
         run: |
           git config user.name "danrc-bot"
           git config user.email "actions@users.noreply.github.com"
