@@ -1198,5 +1198,805 @@
 "g": "metal",
 "d": 3.5,
 "t": "dual"
+},
+{
+"key": "baustoffpruefer",
+"beruf": "Baustoffprüfer/in",
+"fa": "آزمایشگر مصالح ساختمانی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "trockenbaumonteur",
+"beruf": "Trockenbaumonteur/in",
+"fa": "کناف‌کاری و دیوار خشک",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "rohrleitungsbauer",
+"beruf": "Rohrleitungsbauer/in",
+"fa": "لوله‌گذاری شبکه‌های شهری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "glaser-fenster-und-glasfassadenbau",
+"beruf": "Glaser/in - Fenster- und Glasfassadenbau",
+"fa": "شیشه‌بری و نمای شیشه‌ای",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "bautechnische-konstrukteur-ingenieurbau",
+"beruf": "Bautechnische/r Konstrukteur/in - Ingenieurbau",
+"fa": "نقشه‌کشی فنی سازه",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "strassenwaerter",
+"beruf": "Straßenwärter/in",
+"fa": "راهداری و نگهداری جاده",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "bautechnische-konstrukteur-tief-verkehrswege-und",
+"beruf": "Bautechnische/r Konstrukteur/in - Tief-, Verkehrswege- und Landschaftsbau",
+"fa": "نقشه‌کشی فنی راه و ابنیه",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "rollladen-und-sonnenschutzmechatroniker",
+"beruf": "Rollladen- und Sonnenschutzmechatroniker/in",
+"fa": "نصب کرکره و سایبان",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kanalbauer",
+"beruf": "Kanalbauer/in",
+"fa": "کانال‌کشی و فاضلاب شهری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hochbaufacharbeiter",
+"beruf": "Hochbaufacharbeiter/in (ohne Angabe des Schwerpunkts)",
+"fa": "کارگر فنی ساختمان",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "glaser-verglasung-und-glasbau",
+"beruf": "Glaser/in - Verglasung und Glasbau",
+"fa": "شیشه‌کاری ساختمان",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "bautechnische-konstrukteur-architektur",
+"beruf": "Bautechnische/r Konstrukteur/in - Architektur",
+"fa": "نقشه‌کشی فنی معماری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "hochbaufacharbeiter-maurerarbeiten",
+"beruf": "Hochbaufacharbeiter/in - Maurerarbeiten",
+"fa": "کارگر فنی بنایی",
+"g": "build",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "bauzeichner",
+"beruf": "Bauzeichner/in",
+"fa": "نقشه‌کشی ساختمان",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "betonfertigteilbauer",
+"beruf": "Betonfertigteilbauer/in",
+"fa": "ساخت قطعات پیش‌ساخته‌ی بتنی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "waerme-kaelte-und-schallschutzisolierer",
+"beruf": "Wärme-, Kälte- und Schallschutzisolierer/in",
+"fa": "عایق‌کاری حرارتی و صوتی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "schornsteinfeger",
+"beruf": "Schornsteinfeger/in",
+"fa": "دودکش‌بانی و بازرسی گرمایش",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "wasserbauer",
+"beruf": "Wasserbauer/in",
+"fa": "سازه‌های آبی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "brunnenbauer",
+"beruf": "Brunnenbauer/in",
+"fa": "حفر و ساخت چاه",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "estrichleger",
+"beruf": "Estrichleger/in",
+"fa": "کف‌سازی (اِشتریش)",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "geomatiker",
+"beruf": "Geomatiker/in",
+"fa": "ژئوماتیک و نقشه‌برداری",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maler-und-lackierer-ausbautechnik-und-oberflaech",
+"beruf": "Maler/in und Lackierer/in - Ausbautechnik und Oberflächengestaltung",
+"fa": "نقاشی ساختمان و تزئینات داخلی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "umwelttechnologe-rohrleitungsnetze-und-industrie",
+"beruf": "Umwelttechnologe/-technologin - Rohrleitungsnetze und Industrieanlagen",
+"fa": "شبکه‌ی لوله و تأسیسات صنعتی",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "umwelttechnologe-wasserversorgung",
+"beruf": "Umwelttechnologe/-technologin - Wasserversorgung",
+"fa": "تأمین و توزیع آب",
+"g": "build",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "holzmechaniker-herstellen-von-moebeln-und-innena",
+"beruf": "Holzmechaniker/in - Herstellen von Möbeln und Innenausbauteilen",
+"fa": "ساخت صنعتی مبلمان",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "werkstoffpruefer-metalltechnik",
+"beruf": "Werkstoffprüfer/in - Metalltechnik",
+"fa": "آزمایش مواد فلزی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "produktionsfachkraft-chemie",
+"beruf": "Produktionsfachkraft Chemie",
+"fa": "تولید صنایع شیمیایی",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fertigungsmechaniker",
+"beruf": "Fertigungsmechaniker/in",
+"fa": "مکانیک خط تولید",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medientechnologe-druckverarbeitung",
+"beruf": "Medientechnologe/-technologin Druckverarbeitung",
+"fa": "صحافی و تکمیل چاپ",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "schilder-und-lichtreklamehersteller",
+"beruf": "Schilder- und Lichtreklamehersteller/in",
+"fa": "تابلوسازی و تبلیغات نوری",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "flachglastechnologe",
+"beruf": "Flachglastechnologe/-technologin",
+"fa": "فناوری شیشه‌ی تخت",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "papiertechnologe",
+"beruf": "Papiertechnologe/-technologin",
+"fa": "فناوری کاغذ",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "maschinen-und-anlagenfuehrer-textiltechnik",
+"beruf": "Maschinen- und Anlagenführer/in - Textiltechnik",
+"fa": "اپراتور ماشین‌های نساجی",
+"g": "metal",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "produktionsmechaniker-textil",
+"beruf": "Produktionsmechaniker/in - Textil",
+"fa": "مکانیک تولید نساجی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pharmakant",
+"beruf": "Pharmakant/in",
+"fa": "تولید صنعتی دارو",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "produktionstechnologe",
+"beruf": "Produktionstechnologe/-technologin",
+"fa": "فناوری تولید",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "holzmechaniker-herstellen-von-bauelementen-holzp",
+"beruf": "Holzmechaniker/in - Herstellen von Bauelementen, Holzpackmitteln und Rahmen",
+"fa": "ساخت قطعات و قاب چوبی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "verfahrenstechnologe-metall-stahlumformung",
+"beruf": "Verfahrenstechnologe/-technologin Metall - Stahlumformung",
+"fa": "فرم‌دهی فولاد",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "technische-konfektionaer",
+"beruf": "Technische/r Konfektionär/in",
+"fa": "دوخت فنی و صنعتی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medientechnologe-siebdruck",
+"beruf": "Medientechnologe/-technologin Siebdruck",
+"fa": "چاپ سیلک",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "metallbauer-nutzfahrzeugbau",
+"beruf": "Metallbauer/in - Nutzfahrzeugbau",
+"fa": "ساخت بدنه‌ی خودروی تجاری",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "technische-modellbauer-giesserei",
+"beruf": "Technische/r Modellbauer/in - Gießerei",
+"fa": "مدل‌سازی ریخته‌گری",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "stanz-und-umformmechaniker",
+"beruf": "Stanz- und Umformmechaniker/in",
+"fa": "پرس‌کاری و فرم‌دهی فلز",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "verfahrensmechaniker-steine-und-erdenindustrie-b",
+"beruf": "Verfahrensmechaniker/in - Steine- und Erdenindustrie - Baustoffe",
+"fa": "تولید مصالح ساختمانی",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "behaelter-und-apparatebauer",
+"beruf": "Behälter- und Apparatebauer/in",
+"fa": "ساخت مخزن و دستگاه صنعتی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "biologielaborant",
+"beruf": "Biologielaborant/in",
+"fa": "آزمایشگاه زیست‌شناسی",
+"g": "metal",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "polsterer",
+"beruf": "Polsterer/Polsterin",
+"fa": "رویه‌کوبی مبل",
+"g": "metal",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kraftfahrzeugmechatroniker-karosserietechnik",
+"beruf": "Kraftfahrzeugmechatroniker/in - Karosserietechnik",
+"fa": "مکاترونیک خودرو (بدنه)",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-automatisierungs-und-systemtechnik",
+"beruf": "Elektroniker/in - Automatisierungs- und Systemtechnik",
+"fa": "الکترونیک اتوماسیون",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-antriebstechnik-hwo",
+"beruf": "Elektroniker/in - Maschinen und Antriebstechnik (HwO)",
+"fa": "الکترونیک ماشین و موتور (کارگاهی)",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "industrieelektriker-geraete-und-systeme",
+"beruf": "Industrieelektriker/in - Geräte und Systeme",
+"fa": "برق صنعتی (دستگاه‌ها)",
+"g": "elec",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "elektroniker-gebaeudesystemintegration",
+"beruf": "Elektroniker/in - Gebäudesystemintegration",
+"fa": "الکترونیک ساختمان هوشمند",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-antriebstechnik-bbig",
+"beruf": "Elektroniker/in - Maschinen und Antriebstechnik (BBiG)",
+"fa": "الکترونیک ماشین و موتور (صنعتی)",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroanlagenmonteur",
+"beruf": "Elektroanlagenmonteur/in",
+"fa": "نصب تأسیسات برقی",
+"g": "elec",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "elektroniker-gebaeude-und-infrastruktursysteme",
+"beruf": "Elektroniker/in - Gebäude- und Infrastruktursysteme",
+"fa": "الکترونیک ساختمان و زیرساخت",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "elektroniker-informations-und-systemtechnik",
+"beruf": "Elektroniker/in - Informations- und Systemtechnik",
+"fa": "الکترونیک سیستم‌های اطلاعاتی",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "zweiradmechatroniker-motorradtechnik",
+"beruf": "Zweiradmechatroniker/in - Motorradtechnik",
+"fa": "مکاترونیک موتورسیکلت",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "mikrotechnologe",
+"beruf": "Mikrotechnologe/-technologin",
+"fa": "میکروفناوری",
+"g": "elec",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fluggeraetmechaniker-instandhaltungstechnik",
+"beruf": "Fluggerätmechaniker/in - Instandhaltungstechnik",
+"fa": "تعمیر و نگهداری هواپیما",
+"g": "elec",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "fachinformatiker-digitale-vernetzung",
+"beruf": "Fachinformatiker/in - Digitale Vernetzung",
+"fa": "فناوری اطلاعات (شبکه‌های دیجیتال)",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "mathematisch-technische-softwareentwickler",
+"beruf": "Mathematisch-technische/r Softwareentwickler/in",
+"fa": "برنامه‌نویسی ریاضی-فنی",
+"g": "it",
+"d": 3,
+"t": "it"
+},
+{
+"key": "mediengestalter-digital-und-print-printmedien",
+"beruf": "Mediengestalter/in Digital und Print - Printmedien",
+"fa": "طراحی گرافیک (چاپ)",
+"g": "it",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "mediengestalter-digital-und-print-digitalmedien",
+"beruf": "Mediengestalter/in Digital und Print - Digitalmedien",
+"fa": "طراحی گرافیک (دیجیتال)",
+"g": "it",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "mediengestalter-bild-und-ton",
+"beruf": "Mediengestalter/in - Bild und Ton",
+"fa": "تولید تصویر و صدا",
+"g": "it",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "assistent-informatik",
+"beruf": "Assistent/in - Informatik (Wirtschaftsinformatik)",
+"fa": "دستیار انفورماتیک اقتصادی",
+"g": "it",
+"d": 2,
+"t": "school"
+},
+{
+"key": "orthopaedietechnik-mechaniker",
+"beruf": "Orthopädietechnik-Mechaniker/in",
+"fa": "ارتوپدی فنی",
+"g": "health",
+"d": 3.5,
+"t": "dual"
+},
+{
+"key": "notfallsanitaeter",
+"beruf": "Notfallsanitäter/in",
+"fa": "امدادگر اورژانس",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "physiotherapeut",
+"beruf": "Physiotherapeut/in (Ausbildung)",
+"fa": "فیزیوتراپی",
+"g": "health",
+"d": 3,
+"t": "school"
+},
+{
+"key": "medizinische-technologe-laboratoriumsanalytik",
+"beruf": "Medizinische/r Technologe/Technologin - Laboratoriumsanalytik",
+"fa": "علوم آزمایشگاهی پزشکی",
+"g": "health",
+"d": 3,
+"t": "care"
+},
+{
+"key": "ergotherapeut",
+"beruf": "Ergotherapeut/in (Ausbildung)",
+"fa": "کاردرمانی",
+"g": "health",
+"d": 3,
+"t": "school"
+},
+{
+"key": "heilerziehungspflegeassistent",
+"beruf": "Heilerziehungspflegeassistent/in",
+"fa": "دستیار مراقبت از افراد دارای معلولیت",
+"g": "health",
+"d": 2,
+"t": "school"
+},
+{
+"key": "logopaede",
+"beruf": "Logopäde/Logopädin (Ausbildung)",
+"fa": "گفتاردرمانی",
+"g": "health",
+"d": 3,
+"t": "school"
+},
+{
+"key": "pharmazeutisch-technische-assistent",
+"beruf": "Pharmazeutisch-technische/r Assistent/in",
+"fa": "دستیار فنی داروخانه (PTA)",
+"g": "health",
+"d": 2.5,
+"t": "school"
+},
+{
+"key": "sozialpaedagogische-assistent-kinderpfleger",
+"beruf": "Sozialpädagogische/r Assistent/in / Kinderpfleger/in",
+"fa": "دستیار مربی کودک",
+"g": "service",
+"d": 2,
+"t": "school"
+},
+{
+"key": "sozialassistent",
+"beruf": "Sozialassistent/in",
+"fa": "دستیار امور اجتماعی",
+"g": "service",
+"d": 2,
+"t": "school"
+},
+{
+"key": "kaufmann-versicherungen-und-finanzen-versicherun",
+"beruf": "Kaufmann/-frau - Versicherungen und Finanzen - Versicherung",
+"fa": "بیمه و خدمات مالی",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "medienkaufmann-digital-und-print",
+"beruf": "Medienkaufmann/-frau Digital und Print",
+"fa": "بازرگانی رسانه",
+"g": "office",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pharmazeutisch-kaufmaennische-angestellte",
+"beruf": "Pharmazeutisch-kaufmännische/r Angestellte/r",
+"fa": "کارمند بازرگانی داروخانه",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gestalter-visuelles-marketing",
+"beruf": "Gestalter/in - visuelles Marketing",
+"fa": "ویترین‌آرایی و بازاریابی تصویری",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachverkaeufer-konditorei",
+"beruf": "Fachverkäufer/in - Lebensmittelhandwerk (Konditorei)",
+"fa": "فروشندگی قنادی",
+"g": "sales",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "milchtechnologe",
+"beruf": "Milchtechnologe/-technologin",
+"fa": "فناوری لبنیات",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "verfahrenstechnologe-muehlen-und-getreidewirtsch",
+"beruf": "Verfahrenstechnologe/-technologin - Mühlen- und Getreidewirtschaft - Müllerei",
+"fa": "آسیابانی و فرآوری غلات",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "suesswarentechnologe",
+"beruf": "Süßwarentechnologe/-technologin",
+"fa": "تولید صنعتی شیرینی و شکلات",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kaufmann-hotelmanagement",
+"beruf": "Kaufmann/-frau - Hotelmanagement",
+"fa": "مدیریت هتل",
+"g": "food",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-restaurantservice",
+"beruf": "Fachkraft - Gastronomie (Restaurantservice)",
+"fa": "خدمات رستوران (دوساله)",
+"g": "food",
+"d": 2,
+"t": "dual"
+},
+{
+"key": "fachkraft-fahrbetrieb",
+"beruf": "Fachkraft - Fahrbetrieb",
+"fa": "رانندگی حمل‌ونقل عمومی",
+"g": "trans",
+"d": 3,
+"t": "drive"
+},
+{
+"key": "kaufmann-mobilitaet-und-verkehrsservice",
+"beruf": "Kaufmann/-frau - Mobilität und Verkehrsservice",
+"fa": "خدمات مسافری و حمل‌ونقل",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-hafenlogistik",
+"beruf": "Fachkraft - Hafenlogistik",
+"fa": "لجستیک بندر",
+"g": "trans",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "servicefahrer",
+"beruf": "Servicefahrer/in",
+"fa": "رانندگی خدماتی",
+"g": "trans",
+"d": 2,
+"t": "drive"
+},
+{
+"key": "fachkraft-schutz-und-sicherheit",
+"beruf": "Fachkraft - Schutz und Sicherheit",
+"fa": "امنیت و حفاظت",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tierwirt-rinderhaltung",
+"beruf": "Tierwirt/in - Rinderhaltung",
+"fa": "دامپروری (گاو)",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gaertner-zierpflanzenbau",
+"beruf": "Gärtner/in - Zierpflanzenbau",
+"fa": "پرورش گل و گیاه زینتی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "gaertner-baumschule",
+"beruf": "Gärtner/in - Baumschule",
+"fa": "نهالستان و پرورش درخت",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "fachkraft-agrarservice",
+"beruf": "Fachkraft - Agrarservice",
+"fa": "خدمات ماشین‌آلات کشاورزی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "forstwirt",
+"beruf": "Forstwirt/in",
+"fa": "جنگلداری",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "textilreiniger",
+"beruf": "Textilreiniger/in",
+"fa": "خشکشویی صنعتی",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "pferdewirt-pferdehaltung-und-service",
+"beruf": "Pferdewirt/in - Pferdehaltung und Service",
+"fa": "پرورش و نگهداری اسب",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "kosmetiker",
+"beruf": "Kosmetiker/in (duale Ausbildung)",
+"fa": "آرایش و زیبایی (کاسمتیک)",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "tierpfleger-forschung-und-klinik",
+"beruf": "Tierpfleger/in - Forschung und Klinik",
+"fa": "مراقبت از حیوانات (آزمایشگاه و کلینیک)",
+"g": "service",
+"d": 3,
+"t": "dual"
+},
+{
+"key": "umwelttechnologe-kreislauf-und-abfallwirtschaft",
+"beruf": "Umwelttechnologe/-technologin - Kreislauf- und Abfallwirtschaft",
+"fa": "مدیریت پسماند و بازیافت",
+"g": "service",
+"d": 3,
+"t": "dual"
 }
 ]
