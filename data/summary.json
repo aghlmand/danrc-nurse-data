@@ -1,49 +1,49 @@
 {
- "day": "2026-11-25",
- "updated": "2026-11-25T05:00:04.484Z",
+ "day": "2026-11-26",
+ "updated": "2026-11-26T04:12:02.159Z",
  "source": "Bundesagentur für Arbeit – Jobsuche",
  "counts": {
-  "spec:Pflegefachkraft": 23025,
-  "spec:Gesundheits- und Krankenpfleger": 16428,
-  "spec:Altenpfleger": 17592,
-  "spec:Intensivpflege": 3361,
-  "spec:OP-Pflege": 961,
-  "spec:Kinderkrankenpfleger": 3936,
-  "spec:Pflegehelfer": 3315,
-  "spec:Hebamme": 165,
-  "all": 23025,
-  "city:Berlin": 1239,
-  "city:Hamburg": 771,
-  "city:München": 444,
-  "city:Köln": 635,
-  "city:Frankfurt am Main": 458,
-  "city:Stuttgart": 562,
-  "city:Düsseldorf": 875,
-  "city:Leipzig": 295,
-  "city:Dortmund": 680,
-  "city:Essen": 913,
+  "spec:Pflegefachkraft": 23024,
+  "spec:Gesundheits- und Krankenpfleger": 16416,
+  "spec:Altenpfleger": 17539,
+  "spec:Intensivpflege": 3369,
+  "spec:OP-Pflege": 966,
+  "spec:Kinderkrankenpfleger": 3922,
+  "spec:Pflegehelfer": 3337,
+  "spec:Hebamme": 164,
+  "all": 23024,
+  "city:Berlin": 1226,
+  "city:Hamburg": 780,
+  "city:München": 451,
+  "city:Köln": 636,
+  "city:Frankfurt am Main": 459,
+  "city:Stuttgart": 558,
+  "city:Düsseldorf": 874,
+  "city:Leipzig": 306,
+  "city:Dortmund": 685,
+  "city:Essen": 917,
   "city:Bremen": 403,
-  "city:Dresden": 449,
-  "city:Hannover": 391,
-  "city:Nürnberg": 396,
-  "anerkennung": 1094
+  "city:Dresden": 426,
+  "city:Hannover": 382,
+  "city:Nürnberg": 391,
+  "anerkennung": 1093
  },
  "regions": [
   {
    "region": "NORDRHEIN_WESTFALEN",
-   "n": 198
+   "n": 196
   },
   {
    "region": "BADEN_WUERTTEMBERG",
-   "n": 142
-  },
-  {
-   "region": "NIEDERSACHSEN",
-   "n": 118
+   "n": 141
   },
   {
    "region": "BAYERN",
-   "n": 118
+   "n": 120
+  },
+  {
+   "region": "NIEDERSACHSEN",
+   "n": 117
   },
   {
    "region": "SACHSEN",
@@ -59,7 +59,7 @@
   },
   {
    "region": "BRANDENBURG",
-   "n": 54
+   "n": 53
   },
   {
    "region": "RHEINLAND_PFALZ",
@@ -67,19 +67,19 @@
   },
   {
    "region": "SCHLESWIG_HOLSTEIN",
-   "n": 40
-  },
-  {
-   "region": "THUERINGEN",
-   "n": 36
+   "n": 41
   },
   {
    "region": "SACHSEN_ANHALT",
+   "n": 36
+  },
+  {
+   "region": "THUERINGEN",
    "n": 35
   },
   {
    "region": "MECKLENBURG_VORPOMMERN",
-   "n": 26
+   "n": 28
   },
   {
    "region": "HAMBURG",
@@ -94,7 +94,7 @@
    "n": 3
   }
  ],
- "newToday": 11,
+ "newToday": 12,
  "history": [
   {
    "day": "2026-11-23",
@@ -116,6 +116,13 @@
    "anerkennung": 1094,
    "active": 1093,
    "new": 11
+  },
+  {
+   "day": "2026-11-26",
+   "all": 23024,
+   "anerkennung": 1093,
+   "active": 1092,
+   "new": 12
   }
  ]
 }
