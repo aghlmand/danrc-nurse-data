@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: '27 2 * * *'   # backup 05:57 Tehran - runs only if today's data is missing
     - cron: '27 5 * * *'   # backup 08:57 Tehran
+    - cron: '31 23 * * *'  # backup 03:01 Tehran
+    - cron: '33 3 * * *'   # backup 07:03 Tehran
+    - cron: '1 5 * * *'    # backup 08:31 Tehran
   workflow_dispatch:
 
 permissions:

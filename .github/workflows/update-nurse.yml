@@ -2,9 +2,20 @@ name: Update nurse data (/nurse)
 
 on:
   schedule:
-    - cron: '17 22 * * *'  # main: 01:47 Tehran (off-peak minute; GitHub delays/drops :00/:30 crons)
-    - cron: '47 0 * * *'   # backup 04:17 Tehran - runs only if today's data is missing
-    - cron: '47 3 * * *'   # backup 07:17 Tehran
+    # GitHub often delays or drops scheduled runs, so there are many tries spread over the night.
+    # Every run after the first successful one skips in a few seconds (see the chk step).
+    - cron: '43 20 * * *'  # 00:13 Tehran (first try of the new Tehran day)
+    - cron: '17 22 * * *'  # 01:47 Tehran (main)
+    - cron: '53 22 * * *'  # 02:23 Tehran
+    - cron: '29 23 * * *'  # 02:59 Tehran
+    - cron: '7 0 * * *'    # 03:37 Tehran
+    - cron: '47 0 * * *'   # 04:17 Tehran
+    - cron: '23 1 * * *'   # 04:53 Tehran
+    - cron: '59 1 * * *'   # 05:29 Tehran
+    - cron: '41 2 * * *'   # 06:11 Tehran
+    - cron: '13 3 * * *'   # 06:43 Tehran
+    - cron: '47 3 * * *'   # 07:17 Tehran
+    - cron: '19 4 * * *'   # 07:49 Tehran (last try)
   workflow_dispatch:
 
 permissions:
